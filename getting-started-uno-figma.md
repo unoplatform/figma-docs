@@ -23,7 +23,7 @@ Next: [build a simple login page with the Uno Figma plugin](designers/simple-log
 5. Pick the second tab (the "PLAY ICON") called `Preview`.
 6. Click the Refresh button at the button of the plugin.
 7. After few seconds, a XAML rendered version of the selected page should be displayed.
-8. Pick the third tab called `Xaml`. An editor will display the generated XAML. An `export XAML` button at the bottom right of the plugin will copy the XAML into the clipboard, which can be used to create a XAML Page in VisualStudio.
+8. Pick the third tab called `Xaml`. An editor will display the generated XAML. An `export XAML` button at the bottom right of the plugin will copy the XAML into the clipboard, which can be used to create a XAML Page in Visual Studio.
 ### Tips for developers
 * The XAML exported using the `Export XAML` button is different than the XAML presented in the editor. The version presented in the editor is simplified and doesn't specify XML namespaces. The Export will contain everything required to compile the markup, including the `<Page>` root declaration and the `x:Class` clause.
 * It is possible to change the namespace of the application in the first tab called `Properties`. By default a namespace will be created from the document's name. The same namespace is used for the whole Figma document.
