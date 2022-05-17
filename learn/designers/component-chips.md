@@ -1,8 +1,6 @@
 # How to use Chips
 
- 
-
-Chips are used to either : make selections, filter content, or trigger actions. They should always should appear as a group of interactive elements. There are four types of chips to choose from: assist, filter, input, and suggestion. You can produce their respective appearances using the variants of the Chip component.
+ Chips are used to either : make selections, filter content, or trigger actions. They should always should appear as a group of interactive elements. There are four types of chips to choose from: assist, filter, input, and suggestion. You can produce their respective appearances using the variants of the Chip component.
 
 Chips can be found in the *Assets* panel in the *Basic Input* group of components.
 
