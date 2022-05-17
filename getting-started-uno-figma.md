@@ -1,6 +1,7 @@
 # Design and Build Uno Platform Applications With Figma
 It is now possible to use Figma to design and build Uno Platform applications. Designers can use the highly collaborative Figma environment to fine-tune the User Experience (UX) while putting in place building blocks of an application following the Material Design language.
 Using the [Uno Platform Figma Plugin](https://www.figma.com/community/plugin/1045528009520465828/Uno-Platform), it is possible to visualize how the application will render and export actual XAML to use in Visual Studio for the application. This application is also ready for localization, ready for accessibility and can optionally use of [Uno Extensions](https://github.com/unoplatform/uno.extensions) (Reactive, Navigation...).
+
 ## Designer's Side
 
 ### Quick Start
@@ -24,6 +25,7 @@ Next: [build a simple login page with the Uno Figma plugin](designers/simple-log
 6. Click the Refresh button at the button of the plugin.
 7. After few seconds, a XAML rendered version of the selected page should be displayed.
 8. Pick the third tab called `Xaml`. An editor will display the generated XAML. An `export XAML` button at the bottom right of the plugin will copy the XAML into the clipboard, which can be used to create a XAML Page in VisualStudio.
+
 ### Tips for developers
 * The XAML exported using the `Export XAML` button is different than the XAML presented in the editor. The version presented in the editor is simplified and doesn't specify XML namespaces. The Export will contain everything required to compile the markup, including the `<Page>` root declaration and the `x:Class` clause.
 * It is possible to change the namespace of the application in the first tab called `Properties`. By default a namespace will be created from the document's name. The same namespace is used for the whole Figma document.

@@ -1,6 +1,54 @@
-- name: Getting Started with Uno Figma
+- name: Overview
   href: getting-started-uno-figma.md
-- name: Uno Figma for designers
   items:
-  - name: Building a simple login page
-    href: designers/simple-login-page.md
+
+- name: Learn
+  items:
+  - name: Uno Figma for designers
+    items:
+
+    # ******************* Designer stuff *******************
+    - name: Building a simple login page
+      href: designers/simple-login-page.md # TO MOVE
+
+    - name: Starting a New Design and General Tips
+      href: learn/designers/starting-new-design.md
+
+    - name: Colors
+      href: learn/designers/colors.md
+
+    - name: Semantic Fonts
+      href: learn/designers/semantic-fonts.md
+
+    - name: Images
+      href: learn/designers/images.md
+
+    - name: Page Templates
+      href: learn/designers/page-templates.md
+
+    - name: Components
+      topicHref: learn/designers/components.md
+      items:
+
+      - name: Lists
+        href: learn/designers/component-lists.md
+
+      - name: Chips
+        href: learn/designers/component-chips.md
+
+      - name: Tabs
+        href: learn/designers/component-tabs.md
+
+    - name: Exporting Assets
+      href: learn/designers/exporting-assets.md
+
+  - name: Uno Figma for developers
+    items:
+
+    # ******************* Developper stuff *******************
+
+    - name: Uno Figma Plugin
+      href: learn/developers/plugin.md
+
+- name: Reference
+  items:
