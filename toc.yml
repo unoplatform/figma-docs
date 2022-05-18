@@ -1,6 +1,9 @@
 - name: Overview
-  href: getting-started-uno-figma.md
+  topicHref: overview/getting-started-uno-figma.md
   items:
+
+  - name: Download & Tools
+    href: download.md
 
 - name: Learn
   items:
@@ -48,7 +51,27 @@
     # ******************* Developper stuff *******************
 
     - name: Uno Figma Plugin
-      href: learn/developers/plugin.md
+      topicHref: learn/developers/plugin.md
+      items:
+
+      - name: Properties Tab
+        href: learn/designers/properties-tab.md
+
+      - name: Preview Tab
+        href: learn/designers/preview-tab.md
+
+      - name: XAML Tab
+        href: learn/designers/xaml-tab.md
+
+      - name: Themes Tab
+        href: learn/designers/themes-tab.md
+
+      - name: DataContext Tab
+        href: learn/designers/datacontext-tab.md
+
+      - name: Settings Tab
+        href: learn/designers/settings-tab.md
+
 
 - name: Reference
   items:

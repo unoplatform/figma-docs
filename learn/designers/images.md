@@ -2,9 +2,9 @@
 
 ## How to Use Images
 
-Images are a key feature in most modern applications. This release changes the way we handle images in the Uno Figma plugin and offers more flexibility to designers and developers when using images through the Toolkit. It is no longer required to use the Image component from earlier versions of the Toolkit, you may now use images directly into your designs and they will be represented in the plugin’s Preview and code tabs.
+Images are a key feature in most modern applications. This release changes the way we handle images in the Uno Figma plugin and offers more flexibility to designers and developers when using images through the Toolkit. It is no longer required to use the Image component from earlier versions of the Toolkit: images can be used directly in designs and they will be represented in the plugin’s Preview and code tabs.
 
-### New features
+### New Features
 * Previewing placed images no longer requires using Image components which will be deprecated;
 * Plugin preview in actual size;
 * Set independent corner radius for each image frame corner;
