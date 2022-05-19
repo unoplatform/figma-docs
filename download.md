@@ -12,7 +12,7 @@ It can be installed directly from the Figma Community using this url: [Uno Platf
 
 ## External 3rd party Tools
 
-Some 3rd party tools could be used to improve the experience. They are totally optional.
+Some 3rd party tools could be used to improve the experience. However, they are not necessary.
 
 ### Atlas Theme Manager Plugin
 

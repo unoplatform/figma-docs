@@ -2,7 +2,7 @@
 
 ## Links
 
-The plugin is required to follow instructions in this section. Installation instruction is available in the [download page](../../download.md).
+The plugin is required to follow instructions in this section. Installation instructions are available in the [download page](../../download.md).
 
 ## Overview
 
@@ -25,7 +25,6 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
 - Properties, Themes, Data Context and Settings tabs all require saving changes before they can be applied.
 
 > [!NOTE]
->
 > The generation of the XAML and the preview of it is a resource expensive operation and can take some time to complete.
 
 ## About the Layout (Auto Layouts)
@@ -42,7 +41,6 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
   
 
 > [!TIP]
->
-> It is possible to resive the plugin by dragging the lower right corner of its window. Simply hover the corner and drag it when the cursor changes for a double *resize* arrow.
+> It is possible to resize the plugin by dragging the lower right corner of its window. Simply hover the corner and drag it when the cursor changes for a double *resize* arrow.
 
  

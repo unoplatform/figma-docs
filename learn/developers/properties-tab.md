@@ -13,7 +13,6 @@ Any changes in the properties tab must be saved, via the button at the bottom of
 - *Content Field* allows to set Bindings for the selected component instance.
 
   > [!INFO]
-  >
   > The format for the binding is `{BindingExpression}`. For example, setting the value `{Name}` on a Text Element in Figma will be translated into XAML like this:
   > ``` xml
   > <TextBlock Text="{Binding Name}" />
@@ -21,12 +20,11 @@ Any changes in the properties tab must be saved, via the button at the bottom of
 
 - Mode:
 
-  - *Defaultc* mode: this means the data will be present directly in the DataContext of the generated page;
+  - *Default* mode: this means the data will be present directly in the DataContext of the generated page;
 
   - *Reactive* mode: this means the `Feeds` of Uno.Extensions.Reactive will be used to manage the availability of the content.
 
     > [!NOTE]
-    >
     > When using _Reactive_ mode, the `<FeedView>` component will be present in exported XAML, but never in the preview.
     >
     > The corresponding setting must be turned on for this generation to contains the FeedView control.

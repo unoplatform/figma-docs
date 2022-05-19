@@ -21,14 +21,13 @@ To render properly, List requires specific settings to be enabled in the plugin:
 
 1. Select the *List Items* component in the layout;
 2. Launch plugin;
-3. Form the *Properties* tab of the plugin (first from the left) select *Layout type* and set it to *List* then click the *Save* button (bottom left);
-4. Form the *Settings* Tab (far right) Toggle *Binding* to *On* and click the *Save* button (scroll all the way down to find it).
-5. Click the *Preview* Tab (Second from the left) to render the results. It may be required to click the *refresh* button.
+3. From the *Properties* tab of the plugin (first from the left) select *Layout type* and set it to *List* then click the *Save* button (bottom left);
+4. From the *Settings* Tab (far right), toggle *Binding* to *On* and click the *Save* button (scroll all the way down to find it).
+5. Return to the *Preview* Tab (Second from the left) and click the *refresh* button to render the results.
 
 
 >[!NOTE]
->
->Only the first item (usually a *List Item*) at the top of the list will be used to create the template in the generated XAML ouput by the Uno Plugin.
+>Only the first item (usually a *List Item*) at the top of the list will be used to create the template in the generated XAML output by the Uno Plugin.
 
 ### Lists with Swipeable Content
 
@@ -49,4 +48,4 @@ To render properly, Swipeable List requires specific settings to be enabled in t
 1. Select *Swipe Control: Preset Product List* component in the layout;
 2. Launch plugin;
 3. From the [*Properties* tab](../developers/properties-tab.md) of the plugin (first from the left) select *Layout type* and set it to either *Default or Scrollable* then click the *Save* button (bottom left);
-4. Click the *Preview* Tab (Second from the left) to render the results, It may be required to click the *refresh* button.
+4. Return to the *Preview* Tab (second from the left) and click the *refresh* button to render the results.

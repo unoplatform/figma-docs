@@ -3,7 +3,6 @@
 This tab allows to change various settings for the Plugin.
 
 > [!CAUTION]
->
 > Don't forget to save your settings!
 
 ## Versioning
@@ -22,14 +21,16 @@ At the top of the settings tab, you can see various versioning:
   * *Auto Sync*: when set, preview tab is updated each time a new selection is done in Figma.
 
     > [!CAUTION]
-    >
     > Using this feature is resource expensive.
 
 * General
 
   * *Bindings*: Defines if the generation of _bindings_ should be in generated XAML;
   * *Localization*: Defines is the generation of `x:Uid` should be in generated XAML;
-  * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML.
+  * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML
+
+  > [!NOTE]
+  > All options here, except _Bindings_ won't changed the XAML generated in the preview and will only be present in the exported version.
 
 * Extensions
 
@@ -44,6 +45,18 @@ At the top of the settings tab, you can see various versioning:
   * *Development*: Use by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
   * *Dark mode*: Trigger dark/light mode for the plugin interface;
   * *Share usage analytics*: Opt in/out of the usage analytics to help Uno improving the plugin by gathering anonymous usage data of the plugin.
+
+## Settings for Generated XAML
+
+Not all settings will have effect on generated XAML in the same way...
+
+|       Setting | Effect in Preview | Effect on Export |
+| ------------ | ----------------- | ---------------- |
+|    `Bindings` | settings          | settings         |
+| `Localization` | false             | settings         |
+| `Accessibility` | false             | settings         |
+|    `Reactive` | false             | settings         |
+|  `Navigation` | false             | settings         |
 
 
 ## Steps to use Data Context tab

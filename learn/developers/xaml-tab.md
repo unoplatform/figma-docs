@@ -4,10 +4,9 @@
 
 The XAML tab is another powerful tool to edit and troubleshoot the design. Useful to spot issues before handoff to developers.
 
-It is possibled to edit the generated XAML to _try_ something else. By clicking the _Render_ button, the XAML won't be refreshed from the document, but only the preview will be updated from the changed XAML. Any new _Refresh_ will replace the XAML with a new one from the Figma document.
+It is possible experiment changes to generated XAML. By clicking the _Render_ button, the XAML won't be refreshed from the document, but only the preview will be re-rendered from the updated XAML. Beware that clicking _Refresh_ will discard all the changes, and replace the XAML with a new one from the Figma document.
 
 > [!NOTE]
->
 > Proper XAML generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
 
 ### Steps to Use XAML Tab

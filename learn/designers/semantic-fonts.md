@@ -1,6 +1,6 @@
 # How to Use Fonts
 
-Uno Toolkit comes pre-loaded with 19 semantic font styles that ensure your project will look great on any target platform. All the Toolkit components use these styles and the plugin can generate the necessary XAML for all of them with zero extra effort on your part.
+Uno Toolkit comes pre-loaded with 19 semantic font styles to ensure your project will look great on any target platform. All the Toolkit components use these styles and the plugin can generate the necessary XAML for all of them with zero extra effort on your part.
 
 ## General Guidelines
 
@@ -14,7 +14,7 @@ Uno will apply the proper native fonts, sizings, and spacings based on the Toolk
 - **Do not resize text styles**. When required, select one of the 19 provided. Any changes to font type, spacing, or size within a text style will be overridden by the plugin in the generated XAML;
 - Color styles can be changed;
 - Text styles can be changed;
-- Use *TextBloc* component when generating new text labels or paragraphs;
+- Use *TextBlock* component when generating new text labels or paragraphs;
 - To apply a text style to a custom layout follow the steps below.
 
 ## Steps

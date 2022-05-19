@@ -9,9 +9,9 @@ Toolkit comes preloaded with a set of semantic colors allowing project-specific 
 ![](assets/colors1.png)
 
 > [!CAUTION]
-> Colors applied outside the provided color styles provided will not generate XAML via the plugin.
+> Colors applied outside the provided color styles will not be in XAML generated via the plugin.
 
-## How to Globally Apply Colors
+## How to Apply Colors Globally
 
 ### Steps
 
@@ -30,16 +30,16 @@ Toolkit comes preloaded with a set of semantic colors allowing project-specific 
 ## How to apply Color to components
 
 1. Select the component from the *Layers* panel in Figma and expand it;
-2. Select the layer named `◇ Template/.Templst_[component name]*;`
+2. Select the layer named `◇ Template/.Templst_[component name]*`;
 3. Select the color to change in the *Color Selection* panel on the right-hand side of your monitor;
 4. Right-click on the color and choose *Edit Style*;
-5. From the Properties section choose the HEX code of the wanted color. Close all open panels, by clicking the X.
+5. From the Properties section choose the HEX code of the desired color. Close all open panels, by clicking the X.
    ![](assets/colors-apply.png)
 
 ** The top layer of a component cannot be colored.*
 
 
-## How to change color of a component’s states
+## How to Change Colors of Component States
 
 Component visual states are usually defined as an extra layer of their main color with varying degrees of opacity, changing the main color will impact all states for all component e.g. changing PrimaryColor would change all state colors for types of Buttons. It is not recommended to customize component states individually as the plugin may not generate proper XAML for this.
 
@@ -49,7 +49,7 @@ Component visual states are usually defined as an extra layer of their main colo
 2. Update colors to both: `State Layer` AND `◇ Template/.Templst_[component name]`
    ![](assets/colors-update.png)
 
-## How do I generate a color theme?
+## How to Generate Color Themes?
 
 Toolkit provides Light and Dark themes that should work for any project. They can be customized to follow to colors required by a particular project. In the case where there is no predefined color theme or simply to help fill in the gaps for an existing color theme, we recommend using a tool like the **Material theme Builder**.
 
