@@ -55,22 +55,22 @@
       items:
 
       - name: Properties Tab
-        href: learn/designers/properties-tab.md
+        href: learn/developers/properties-tab.md
 
       - name: Preview Tab
-        href: learn/designers/preview-tab.md
+        href: learn/developers/preview-tab.md
 
       - name: XAML Tab
-        href: learn/designers/xaml-tab.md
+        href: learn/developers/xaml-tab.md
 
       - name: Themes Tab
-        href: learn/designers/themes-tab.md
+        href: learn/developers/themes-tab.md
 
       - name: DataContext Tab
-        href: learn/designers/datacontext-tab.md
+        href: learn/developers/datacontext-tab.md
 
       - name: Settings Tab
-        href: learn/designers/settings-tab.md
+        href: learn/developers/settings-tab.md
 
 
 - name: Reference
