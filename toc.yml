@@ -1,9 +1,9 @@
 - name: Overview
-  topicHref: overview/getting-started-uno-figma.md
-  items:
+  href: overview/getting-started-uno-figma.md
+  #items:
 
-  - name: Download & Tools
-    href: download.md
+- name: Download & Tools
+  href: download.md
 
 - name: Learn
   items:
