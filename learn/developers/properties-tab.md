@@ -11,8 +11,7 @@ Any changes in the properties tab must be saved, via the button at the bottom of
 ### Properties notes
 
 - *Content Field* allows to set Bindings for the selected component instance.
-
-  > [!INFO]
+  > [!NOTE]
   > The format for the binding is `{BindingExpression}`. For example, setting the value `{Name}` on a Text Element in Figma will be translated into XAML like this:
   > ``` xml
   > <TextBlock Text="{Binding Name}" />
