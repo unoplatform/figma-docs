@@ -11,7 +11,7 @@ To ensure having the proper XAML and previews from the plugin, please follow the
 
 3. **Use the provided Color Styles**. Follow the *Getting Started Instructions* provided with the Toolkit to learn how to update the HEX values of the included semantic color styles.
 
-4. **Use the provided Type Styles**. Uno Toolkit does not currently support custom fonts, nor custom sizes. Custom fonts can be included in designs, of course, but the XAML for these will not be generated on export. You can, however, change the default font for Uno Material by following [this guide](/articles/external/uno.themes/doc/getting-started.html#change-default-font), and it will be applied to all Uno Material or Uno Toolkit control styles.
+4. **Use the provided Type Styles**. Uno Toolkit does not currently support custom fonts, nor custom sizes. Custom fonts can be included in designs, of course, but the XAML for these will not be generated on export. You can, however, change the default font for Uno Material by following [this guide](/docs/articles/external/uno.themes/doc/material-getting-started.html#change-default-font), and it will be applied to all Uno Material or Uno Toolkit control styles.
 
 5. **Use Page Templates**. Uno Toolkit provides handy templates that include all the proper layer structures to generate the XAML and have a preview of the designs through the plugin. Just pick the template you need from the *Assets* section in Figma, drag it to the work canvas, and *Detach the instance* to have a fully functional page ready to work with. **Page instances must always be detached from their Template Masters** to function properly with the *Uno* *Toolkit*.
 
