@@ -1,11 +1,11 @@
 # Design and Build Uno Platform Applications With Figma
 It is now possible to use Figma to design and build Uno Platform applications. Designers can use the highly collaborative Figma environment to fine-tune the User Experience (UX) while putting in place building blocks of an application following the Material Design language.
-Using the [Uno Platform Figma Plugin](https://www.figma.com/community/plugin/1045528009520465828/Uno-Platform), it is possible to visualize how the application will render and export actual XAML to use in Visual Studio for the application. This application is also ready for localization, ready for accessibility and can optionally use of [Uno Extensions](https://github.com/unoplatform/uno.extensions) (Reactive, Navigation...).
+Using the [Uno Platform Figma Plugin](../download.md), it is possible to visualize how the application will render and export actual XAML to use in Visual Studio for the application. This application is also ready for localization, ready for accessibility and can optionally use of [Uno Extensions](https://github.com/unoplatform/uno.extensions) (Reactive, Navigation...).
 
 ## Designer's Side
 
 ### Quick Start
-1. Duplicate the [Uno Platform Material Toolkit](download.md).
+1. Duplicate the [Uno Platform Material Toolkit](../download.md).
 2. Open the document and go to the _Getting started_ page. There's a lot of information there to adjust the colors, the typography, and how to start a new project.
 3. Open the _Theme_ page and **ensure that nothing is selected** in the document. On the right-hand side of Figma, there's the **Color Styles** section where it is possible to adjust colors for the styles of the application. When passing the mouse over a specific color, there's an _Edit style_ button that appears. This button allows for picking another color for the chosen style.
 4. Open the _Example app_ page. You can rename it to fit your application name or even create new ones as needed.
@@ -17,7 +17,7 @@ Using the [Uno Platform Figma Plugin](https://www.figma.com/community/plugin/104
 Next: [build a simple login page with the Uno Figma plugin](designers/simple-login-page.md)
 
 ## Developer's Side
-1. The  [Uno Platform Figma Plugin](https://www.figma.com/community/plugin/1045528009520465828/Uno-Platform) must be installed for the current user.
+1. The  [Uno Platform Figma Plugin](../download.md) must be installed for the current user.
 2. Open the document saved by the designer. Since a plugin will be used, **Edit privileges are required** by Figma to run any plugin on a document.
 3. Open the _Example app_ page (it may be renamed to something else by the designer) and right-click on a designed screen.
 4. Open the `Plugins`-> `Uno Platform`. The initialization could take few seconds.

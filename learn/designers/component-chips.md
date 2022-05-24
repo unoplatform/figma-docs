@@ -9,12 +9,13 @@ Chips can be found in the *Assets* panel in the *Basic Input* group of component
 1. Drag *Chip* component into an *Auto layout* of your design;
 2. Select variant options;
 3. Duplicate chip instance as needed (drag while holding down the option key OR copy/paste);
-4. Rename the auto Layout that contains the chips: ChipGroup;
-5. With **ChipGroup** still selected launch the Uno plugin;
-6. Under the Properties* tab select the **Group** option from the *Layout Type* drop down menu;
+4. With the *Auto layout* selected, launch the Uno plugin (can also be selected after opening the plugin);
+6. Under the *Properties* tab select the **Group** option from the *Layout Type* drop down menu;
 7. Click the save button at the bottom of the tab.
 
 ## Toolkit Variants
+
+### Assist
 
 Type: Outlined or Elevated
 
@@ -23,3 +24,34 @@ Leading icon: True or False
 Removable: True or False
 
 Selected: True or False
+
+### Input
+
+Type: Outlined or Elevated
+
+Leading icon: True or False
+
+Removable: True or False
+
+Selected: True or False
+
+### Filter
+
+Type: Outlined or Elevated
+
+Leading icon: True or False
+
+Removable: True or False
+
+Selected: True or False
+
+### Suggestion
+
+Type: Outlined or Elevated
+
+Leading icon: True or False
+
+Removable: True or False
+
+Selected: True or False
+
