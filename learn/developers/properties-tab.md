@@ -2,11 +2,12 @@
 
 ## Using the Properties Tab
 
-Properties set on components define special rules for XAML generation.
+Properties tab allows you to set metadata on Figma components used to drive to XAML generation.
 
 It could also be used to set bindings to a component that can be used when the *Bindings* is toggled to ON in the settings tab.
 
-Any changes in the properties tab must be saved, via the button at the bottom of the tab, to take effect.
+> [!NOTE]
+> Any changes in the properties tab must be saved, via the button at the bottom of the tab, to take effect.
 
 ### Properties notes
 
@@ -45,4 +46,3 @@ Any changes in the properties tab must be saved, via the button at the bottom of
 
  ![](assets/properties.png)
 
- 

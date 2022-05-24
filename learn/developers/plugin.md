@@ -31,16 +31,8 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
 
 - How AutoLayouts are translated into Uno **[Carl content please]**;
 
-## Exporting the Result Into an Application
-
-- How to copy XAML **[Carl content please]**;
-
-- Exporting XAML to applications **[Carl content please]**;
-  - Theme colors
-  - Pages
-  
 
 > [!TIP]
 > It is possible to resize the plugin by dragging the lower right corner of its window. Simply hover the corner and drag it when the cursor changes for a double *resize* arrow.
 
- 
+

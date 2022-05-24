@@ -11,10 +11,11 @@ Using the [Uno Platform Figma Plugin](../download.md), it is possible to visuali
 4. Open the _Example app_ page. You can rename it to fit your application name or even create new ones as needed.
 5. Creating a new page: Open the _Assets_ pane (at the top/left of the screen) and open the `Patterns & Templates / Page templates` section. Pick one of the templates and drag it on the design surface.
 6. Adding components to an existing page: Open the _Assets_ page (at the top/left of the screen) and open the `Components` section. Pick a desired component and drag it inside an existing page on the design surface.
+
 ### Tips for designers
 * Time should be taken to ensure the _Resizing_ section is set to appropriate values for each component. This is important to ensure proper layout of the result.
 
-Next: [build a simple login page with the Uno Figma plugin](designers/simple-login-page.md)
+Next: [build a simple login page with the Uno Figma plugin](../learn/designers/simple-login-page.md)
 
 ## Developer's Side
 1. The  [Uno Platform Figma Plugin](../download.md) must be installed for the current user.

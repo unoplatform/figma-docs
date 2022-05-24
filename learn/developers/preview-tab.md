@@ -7,7 +7,7 @@ The Preview tab is a powerful tool to troubleshoot your design and spot issues b
 ### Preview notes
 
 - Preview is dynamic, you can type into TextInputs, press buttons, and scroll through your design;
-- You can even use mock data to better test out your design [Carl content please];
+- You can even use mock data (DataContext) to better test out your design and see the result bound to data;
 - Proper XAML generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
 - Contextual controls at the bottom of the tab allow you to: set view type, refresh view, export XAML and copy XAML to pasteboard;
 - Preview does not allow navigation click through at the moment;
