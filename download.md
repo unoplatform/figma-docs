@@ -3,7 +3,7 @@
 ## Uno Toolkit for Figma Document
 The starting point is to duplicate the Uno Toolkit for Figma document.
 
-Link to [Uno Toolkit for Figma](https://www.figma.com/community/file/1045411863379988189/Uno-Platform-Material-Toolkit) document on Figma Community.
+Duplicate the [Uno Platform Material Toolkit](https://www.figma.com/community/file/1110792522046146058) from Figma Community.
 
 ## Uno Platform Plugin
 To start generating XAML from the document, the Uno Platform Plugin is required.

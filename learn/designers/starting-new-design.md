@@ -2,7 +2,7 @@
 
 To ensure having the proper XAML and previews from the plugin, please follow these guidelines:
 
-1. Duplicate the Uno Toolkit for Figma, which can be found [here](../../download.md). First, rename it and change the cover image then **work from the provided file**. Do not copy-paste elements from the toolkit into your own files as the plugin does not support your existing design files.
+1. Duplicate the Uno Platform Material Toolkit, which can be found [here](../../download.md). First, rename it and change the cover image then **work from the provided file**. Do not copy-paste elements from the toolkit into your own files as the plugin does not support your existing design files.
 
    > [!IMPORTANT]
    > **Do not use the Uno Toolkit as a Figma Library linked to a new file nor to an existing Figma file**. Referenced components and styles will not render proper code from a new file and some advanced features won't be available. Always start working within the provided file.
@@ -20,4 +20,4 @@ To ensure having the proper XAML and previews from the plugin, please follow the
 
 ## Links
 
-Duplicate the toolkit document and install the plugin from the [download](../../download.md) page.
+Duplicate the Uno Platform Material Toolkit and install the plugin from the [download](../../download.md) page.

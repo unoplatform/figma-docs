@@ -1,4 +1,4 @@
-# How to Use Uno Toolkit and Plugin
+# How to Use Uno Platform Toolkit and Plugin
 
 ## Links
 

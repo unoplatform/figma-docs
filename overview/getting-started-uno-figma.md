@@ -5,7 +5,7 @@ Using the [Uno Platform Figma Plugin](https://www.figma.com/community/plugin/104
 ## Designer's Side
 
 ### Quick Start
-1. Duplicate the [Uno Toolkit for Figma Document](download.md).
+1. Duplicate the [Uno Platform Material Toolkit](download.md).
 2. Open the document and go to the _Getting started_ page. There's a lot of information there to adjust the colors, the typography, and how to start a new project.
 3. Open the _Theme_ page and **ensure that nothing is selected** in the document. On the right-hand side of Figma, there's the **Color Styles** section where it is possible to adjust colors for the styles of the application. When passing the mouse over a specific color, there's an _Edit style_ button that appears. This button allows for picking another color for the chosen style.
 4. Open the _Example app_ page. You can rename it to fit your application name or even create new ones as needed.
