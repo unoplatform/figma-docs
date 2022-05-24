@@ -21,19 +21,13 @@ Type: Outlined or Elevated
 
 Leading icon: True or False
 
-Removable: True or False
-
-Selected: True or False
-
 ### Input
-
-Type: Outlined or Elevated
 
 Leading icon: True or False
 
 Removable: True or False
 
-Selected: True or False
+Selectable: True or False
 
 ### Filter
 
@@ -41,9 +35,7 @@ Type: Outlined or Elevated
 
 Leading icon: True or False
 
-Removable: True or False
-
-Selected: True or False
+Selectable: Always selectable
 
 ### Suggestion
 
@@ -51,7 +43,4 @@ Type: Outlined or Elevated
 
 Leading icon: True or False
 
-Removable: True or False
-
-Selected: True or False
-
+Selectable: Always selectable

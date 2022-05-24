@@ -2,9 +2,7 @@
 
 ## Using the Preview Tab
 
-The Preview tab is a powerful tool to troubleshoot your design and spot issues before handoff
-
- 
+The Preview tab is a powerful tool to troubleshoot your design and spot issues before handoff.
 
 ### Preview notes
 
@@ -12,9 +10,8 @@ The Preview tab is a powerful tool to troubleshoot your design and spot issues b
 - You can even use mock data to better test out your design [Carl content please];
 - Proper XAML generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
 - Contextual controls at the bottom of the tab allow you to: set view type, refresh view, export XAML and copy XAML to pasteboard;
-- View type allows you to **[Carl content please]**;
 - Preview does not allow navigation click through at the moment;
-- Placed images are not rendered but represented with place holder images of the corresponding dimensions, you can reset the source of these images via… **[Carl content please]**;
+- Placed images are not rendered but represented with place holder images of the corresponding dimensions;
 - Primitive shapes are not currently supported in preview.
 
 ### Steps to use Preview tab

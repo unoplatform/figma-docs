@@ -29,5 +29,4 @@ All variants are children of a *Main Component* and all of those *Main Component
    ![](assets/component-properties.png)
 
 > [!NOTE]
->
 > Drag, don’t click. Clicking the component will bring you to the Components page and you will have to navigate back to your design page.**Overview**

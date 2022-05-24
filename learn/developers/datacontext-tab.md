@@ -2,7 +2,7 @@
 
 ## Using the Data Context Tab
 
-The _Data Context_ tab is basically used to set the `DataContext` for bindings in the [*Preview*_tab](preview-tab.md).
+The _Data Context_ tab is basically used to set the `DataContext` for bindings in the [*Preview* tab](preview-tab.md).
 
 The data format is _JSON_.
 
