@@ -2,7 +2,7 @@
 
 ## Using the XAML Tab
 
-The XAML tab is another powerful tool to edit and troubleshoot the design. Useful to spot issues before handoff to developers.
+The XAML tab is another powerful tool to edit and troubleshoot the design before handoff to developers.
 
 It is possible experiment changes to generated XAML. By clicking the _Render_ button, the XAML won't be refreshed from the document, but only the preview will be re-rendered from the updated XAML. Beware that clicking _Refresh_ will discard all the changes, and replace the XAML with a new one from the Figma document.
 
@@ -12,8 +12,9 @@ It is possible experiment changes to generated XAML. By clicking the _Render_ bu
 ### Steps to Use XAML Tab
 
 1. Select the page or component to inspect or edit;
-2. From the *Plugins* menu select *Uno Platform*;
+2. From Figma's *Plugins* menu select *Uno Platform*;
 3. Click the *XAML* tab (third one from the left);
 4. Click the *Refresh* button at the bottom of the tab.
+5. Optional: Edit XAML in the plugin and click *Render* to view your changes.
 
 ![](assets/xaml.png)

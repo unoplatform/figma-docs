@@ -30,20 +30,20 @@ At the top of the settings tab, you can see various versioning:
   * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML
 
   > [!NOTE]
-  > All options here, except _Bindings_ won't changed the XAML generated in the preview and will only be present in the exported version.
+  > Options here, except _Bindings_, won't change the XAML generated in the preview, and will only be present in the exported version.
 
 * Extensions
 
   * *Reactive*: Defines if `<FeedView />` controls should be in generated XAML;
-  * *Navigation*: Defines if *Uno Navigation Extensions* instructions should be in generated XAML;
+  * *Navigation*: Defines if *Uno Navigation Extensions* instructions should be in generated XAML.
 
 * Styling: This is advanced and should not be changed.
 
 * Settings
 
-  * *Save Properties as Shared*: Defines if properties set to elements in Figma should be private or shared with othe plugins;
-  * *Development*: Use by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
-  * *Dark mode*: Trigger dark/light mode for the plugin interface;
+  * *Save Properties as Shared*: Defines if properties set to elements in Figma should be private or shared with other plugins;
+  * *Development*: Used by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
+  * *Dark mode*: Triggers dark/light mode for the plugin interface;
   * *Share usage analytics*: Opt in/out of the usage analytics to help Uno improving the plugin by gathering anonymous usage data of the plugin.
 
 ## Settings for Generated XAML
@@ -61,7 +61,7 @@ Not all settings will have effect on generated XAML in the same way...
 
 ## Steps to use Data Context tab
 
-1. From the *Plugins* menu select *Uno Platform*;
+1. From Figma's *Plugins* menu select *Uno Platform*;
 
 2. Click the *Settings* tab (sixth one from the left);
 3. Make changes;

@@ -17,7 +17,7 @@ The Preview tab is a powerful tool to troubleshoot your design and spot issues b
 ### Steps to use Preview tab
 
 1. Select the page or component you wish to preview;
-2. From the *Plugins* menu select *Uno Platform*;
+2. From Figma's *Plugins* menu select *Uno Platform*;
 3. Click the *Preview* tab (second one from the left);
 4. Click the *Refresh* button at the bottom of the tab.
 

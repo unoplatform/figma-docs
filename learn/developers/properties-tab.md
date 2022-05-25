@@ -25,9 +25,7 @@ It could also be used to set bindings to a component that can be used when the *
   - *Reactive* mode: this means the `Feeds` of Uno.Extensions.Reactive will be used to manage the availability of the content.
 
     > [!NOTE]
-    > When using _Reactive_ mode, the `<FeedView>` component will be present in exported XAML, but never in the preview.
-    >
-    > The corresponding setting must be turned on for this generation to contains the FeedView control.
+    > When using _Reactive_ mode, the `<FeedView>` component will be present in exported XAML, but never in the preview. The corresponding setting must be turned on for this generation to contains the FeedView control.
 
 - *Layout type* allows you to assign List, Scrollable and Group behaviours to components;
 
@@ -38,11 +36,11 @@ It could also be used to set bindings to a component that can be used when the *
 ### Steps to use the Properties tab
 
 1. Select the page or component you wish to assign properties to;
-2. From the *Plugins* menu select *Uno Platform*;
+2. From Figma's *Plugins* menu select *Uno Platform*;
 3. Click the Properties tab (first one from the left);
 4. Input changes;
-5. Click the save button at the bottom of the tab;
-6. (Optional) To preview the effects in the Preview or XAML tabs by clicking the desired tab and clicking the *Refresh* button at the bottom of the tab.
+5. Click the *Save* button at the bottom of the tab;
+6. (Optional) Preview the effects either in the Preview or XAML tabs by clicking the desired tab and then clicking the *Refresh* button at the bottom of the tab.
 
  ![](assets/properties.png)
 
