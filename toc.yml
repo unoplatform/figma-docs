@@ -73,5 +73,104 @@
         href: learn/developers/settings-tab.md
 
 
-#- name: Reference
-#  items:
+- name: Reference
+  items:
+
+    # ******************* Components information *******************
+
+  - name: Components
+    topicHref: components/components-list.md
+    items:
+
+    - name: Button
+      href: components/button.md
+
+    - name: RadioButton
+      href: components/radio-button.md
+      
+    - name: ComboBox
+      href: components/combo-box.md
+      
+    - name: CheckBox
+      href: components/check-box.md
+    
+    - name: FAB
+      href: components/fab.md
+          
+    - name: IconToggleButton
+      href: components/icon-toggle-button.md
+
+    - name: IconButton
+      href: components/icon-button.md
+
+    - name: HyperlinkButton
+      href: components/hyperlink-button.md
+
+    - name: Slider
+      href: components/slider.md
+      
+    - name: RatingControl
+      href: components/rating-control.md
+      
+    - name: ToggleSwitch
+      href: components/toggle-switch.md
+    
+    - name: AssistChip
+      href: components/asssist-chip.md
+          
+    - name: FilterChip
+      href: components/filter-chip.md
+
+    - name: InputChip
+      href: components/input-chip.md 
+
+    - name: SuggestionChip
+      href: components/suggestion-chip.md
+    
+    - name: Card
+      href: components/card.md
+          
+    - name: Image
+      href: components/image.md
+
+    - name: ListItem
+      href: components/list-item.md
+
+    - name: SwipeControl
+      href: components/swipe-control.md
+    
+    - name: DatePicker
+      href: components/date-picker.md
+          
+    - name: Dialog
+      href: components/dialog.md
+
+    - name: Navigation Bar
+      href: components/navigation-bar.md
+
+    - name: Bottom Navigation Bar
+      href: components/bottom-navigation-bar.md
+    
+    - name: Tab Bar
+      href: components/tab-bar.md
+          
+    - name: Divider
+      href: components/divider.md
+
+    - name: PersonPicture
+      href: components/person-picture.md
+
+    - name: Progress Ring
+      href: components/progress-ring.md
+    
+    - name: Progress Bar
+      href: components/progress-bar.md
+          
+    - name: PasswordBox
+      href: components/password-box.md
+
+    - name: TextBox
+      href: components/text-box.md          
+
+    - name: Text Block
+      href: components/text-block.md 
