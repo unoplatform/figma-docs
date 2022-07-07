@@ -27,7 +27,11 @@ At the top of the settings tab, you can see various versioning:
 
   * *Bindings*: Defines if the generation of _bindings_ should be in generated XAML;
   * *Localization*: Defines is the generation of `x:Uid` should be in generated XAML;
-  * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML
+  * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML;
+  * *Layout optimizer*: Define if the Layout optimizer should be use
+
+  > [!CAUTION]
+    > The layout optimizer is still in the experimental phase.
 
   > [!NOTE]
   > Options here, except _Bindings_, won't change the XAML generated in the preview, and will only be present in the exported version.
