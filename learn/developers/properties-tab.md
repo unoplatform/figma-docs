@@ -29,13 +29,6 @@ It could also be used to set bindings to a component that can be used when the *
 
 - *Layout type* allows you to assign List, Scrollable and Group behaviours to components;
 
-    > [!NOTE]
-    > There is another to add the scrollable feature to a component, start by going to the *Prototype tab* (in the top right of the Figma interface) and then set the **Overflow scrolling** property to one of the 4 options
-    > - No scrolling
-    > - Horizontal scrolling
-    > - Vertical scrolling
-    > - Horizontal and vertical scrolling
-
 - *Application Namespace*: this property is used to prefix the _namespace_ in the generated XAML.
 
 - Refer to Individual component documentation for their properties settings in the plugin.

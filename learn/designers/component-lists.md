@@ -39,19 +39,13 @@ To add swipeable lists to an app, use the **Swipe Control: Preset Product List**
 
 1. Place *Swipe Control: Preset Product List* inside the *Content Scrollable* layer of the page template;
 2. Select Item variants
-3. Go to the *Prototype tab* found in the top right of the Figma interface
-4. Select the *Overflow scrolling* then select one of the 4 available options :
-   - No scrolling
-   - Horizontal scrolling
-   - Vertical scrolling
-   - Horizontal and vertical scrolling
+3. Set related settings in the Uno Plugin. (See below)
 
 ### Uno Plugin Properties for Swipeable Lists
 
 To render properly, Swipeable List requires specific settings to be enabled in the plugin:
 
-1. Start after **Step 2** of the previous section
-2. Select *Swipe Control: Preset Product List* component in the layout;
-3. Launch plugin;
-4. From the [*Properties* tab](../developers/properties-tab.md) of the plugin (first from the left) select *Layout type* and set it to either *Default or Scrollable* then click the *Save* button (bottom left);
-5. Return to the *Preview* Tab (second from the left) and click the *refresh* button to render the results.
+1. Select *Swipe Control: Preset Product List* component in the layout;
+2. Launch plugin;
+3. From the [*Properties* tab](../developers/properties-tab.md) of the plugin (first from the left) select *Layout type* and set it to either *Default or Scrollable* then click the *Save* button (bottom left);
+4. Return to the *Preview* Tab (second from the left) and click the *refresh* button to render the results.
