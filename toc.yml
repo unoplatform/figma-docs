@@ -12,7 +12,7 @@
 
     # ******************* Designer stuff *******************
     - name: Building a simple login page
-      href: designers/simple-login-page.md # TO MOVE
+      href: learn/designers/simple-login-page.md
 
     - name: Starting a New Design and General Tips
       href: learn/designers/starting-new-design.md
