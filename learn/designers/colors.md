@@ -53,6 +53,26 @@ Component visual states are usually defined as an extra layer of their main colo
 
 Toolkit provides Light and Dark themes that should work for any project. They can be customized to follow to colors required by a particular project. In the case where there is no predefined color theme or simply to help fill in the gaps for an existing color theme, we recommend using a tool like the **Material theme Builder**.
 
+For all the colors outside Light and  Dark Theme, the plugin will generate a SolidBrush bonded by a custom color as below:
+
+'
+   <ResourceDictionary xmlns:uen="using:Uno.Extensions.Navigation.UI" xmlns:uer="using:Uno.Extensions.Reactive.UI" xmlns:utu="using:Uno.Toolkit.UI" xmlns:muxc="using:Microsoft.UI.Xaml.Controls" xmlns:um="using:Uno.Material" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <ResourceDictionary.ThemeDictionaries>
+    <ResourceDictionary x:Key="Light">
+      <Color x:Key="PrimaryColor">#5946D2</Color>
+      <Color x:Key="PrimaryVariantDarkColor">#0021C1</Color>
+      <Color x:Key="PrimaryVariantLightColor">#9679FF</Color>
+    </ResourceDictionary>
+    <ResourceDictionary x:Key="Dark">
+      <Color x:Key="SuperBlackColor">#000000</Color>
+    </ResourceDictionary>
+  </ResourceDictionary.ThemeDictionaries>
+  <Color x:Key="GrayPersonalColor">#FFFFFF</Color>
+  <SolidColorBrush x:Key="GrayPersonalBrush" Color="{StaticResource GrayPersonalColor}" />
+</ResourceDictionary>
+'
+
+
 You can also swap color themes in and out of the document using the **Atlas Theme Manager Plugin**.
 
 More details to get those tools on the [Download & Tools](../../download.md) page.
