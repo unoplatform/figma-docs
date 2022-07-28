@@ -29,10 +29,24 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
 
 ## About the Layout (Auto Layouts)
 
-- How AutoLayouts are translated into Uno **[Carl content please]**;
+The **Auto Layout** is the basis of the plugin. For any other components to be displayed as intended, they must be put in a **Auto Layout**.
+
+> **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *DataContext* property of the Auto Layout.
+
+
+
+| Property             | Options                       | Description                                                  |
+| -------------------- | ----------------------------- | ------------------------------------------------------------ |
+| Orientation          | `Horizontal, Vertical`        | Changes how the components in the Auto Layout will be displayed, they will be stacked horizontally or vertically. |
+| Spacing              | `<value>`                     | Sets the distance between the items. The value that will be set in the plugin will be the **Spacing between items** value. |
+| Justify              | `Stack, SpaceBetween`         | The *Stack* option will set all the items one after the other with only the **Spacing** between the items. The *SpaceBetween* option will automatically set the distance between all the items in the Auto Layout. In Figma the options will be displayed as **Packed** and **Space between** in the **Spacing mode** category. |
+| PrimaryAxisAlignment | `Start, Center, End, Stretch` | Sets how the items will be aligned in the Auto Layout. This Property is heavily affected by the *Orientation* property. For example, *Start* will align the list to the left (Horizontal Orientation) or to the top (Vertical Orientation) |
+| PrimaryAlignment     | `Auto, Stretch`               | Changes how much space an item will take. *Auto* will make the item only take the required amount of space, *Space* will make the item take all the space it can. Both options only affect the *Orientation*'s side. |
+| CounterAlignement    | `Start, Center, End, Stretch` | Acts in the same way as **PrimaryAxisAlignment**, but on the opposite *Orientation*. Only affects an item. |
+| PrimaryLength        | `<value>`                     | Sets the width OR the height of one of the items inside the Auto Layout. Depends on the **Orientation**. If the Orientation is horizontal, it will set the **Width**. if it is Vertical, is will set the **Height** . |
+| CounterLength        | `<value>`                     | Sets the width OR the height of one of the items inside the Auto Layout. Depends on the **Orientation**. If the Orientation is horizontal, it will set the **Height**. if it is Vertical, is will set the **Width** . |
 
 
 > [!TIP]
 > It is possible to resize the plugin by dragging the lower right corner of its window. Simply hover the corner and drag it when the cursor changes for a double *resize* arrow.
-
 
