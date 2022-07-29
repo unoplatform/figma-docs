@@ -40,6 +40,12 @@ Here is a list of all the components that can be used while using the Figma Plug
 ## Status and Information
 -  [Progress Ring](./progress-ring.md)
 -  [Progress bar](./progress-bar.md)
+## System Elements
+
+-  [Status Bar](./status-bar.md)
+-  [Bottom Bar](./bottom-bar.md)
+-  [Keyboard](./keyboard.md)
+
 ## Text
 -  [PasswordBox](./password-box.md)
 -  [TextBox](./text-box.md)

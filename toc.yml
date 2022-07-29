@@ -165,6 +165,15 @@
     
     - name: Progress Bar
       href: components/progress-bar.md
+
+    - name: Status Bar
+      href: components/status-bar.md
+
+    - name: Buttom Bar
+      href: components/buttom-bar.md 
+
+    - name: Keyboard
+      href: components/keyboard.md
           
     - name: PasswordBox
       href: components/password-box.md
