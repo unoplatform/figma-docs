@@ -30,3 +30,10 @@ All variants are children of a *Main Component* and all of those *Main Component
 
 > [!NOTE]
 > Drag, don’t click. Clicking the component will bring you to the Components page and you will have to navigate back to your design page.**Overview**
+
+### Overriding Component Properties
+ 
+ Besides the existent component collection has been carefully designed, users are allowed to override the value of visual properties in some components. For instance, user can choose a different color for the background of an **Instance**, since the new value already exists in the design system. The properties that are allowed to be overrided are listed in the description page of each component.
+
+> [!NOTE]
+> Changing properties not listed as available to be overritten may compromise your design and XAML output. 

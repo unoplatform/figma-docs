@@ -12,3 +12,6 @@
 
 - **Icon:** Allows you to change the icon  of the **IconButton**.
 
+### Overridable Properties
+
+- **Foreground** 

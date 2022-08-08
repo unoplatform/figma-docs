@@ -14,3 +14,8 @@
 
 - **Link:** Allows you to change the text of the **HyperlinkButton's** link.
 
+### Overridable Properties
+
+- **Background** 
+- **Foreground** 
+

@@ -18,3 +18,7 @@
 - **Checked > Icon:** Allows you to change the icon  of the **IconToggleButton** beyond the options given in **Type**. This will only affect the icon while it is **Checked** in the plugin.
 - **Unchecked > Icon:** Allows you to change the icon  of the **IconToggleButton** beyond the options given in **Type**. This will only affect the icon while it is **Unchecked** in the plugin.
 
+
+### Overridable Properties
+
+- **Foreground** 

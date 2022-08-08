@@ -18,3 +18,8 @@
 
 - **icon:** Allows you to change the icon of the **Button**. It will only be displayed if  the **Icon** property is enabled.
 - **Label:** Allows you to change the text of the **Button's** label.
+
+### Overridable Properties
+
+- **Background** 
+- **Foreground** 

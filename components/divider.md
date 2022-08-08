@@ -5,3 +5,7 @@
 | Property | Options       | Description                      |
 | -------- | ------------- | -------------------------------- |
 | Length   | `Full, Short` | Changes the width of the divider |
+
+### Overridable Properties
+
+- **Background** 

@@ -16,3 +16,8 @@
 - **LeadingIcon:** Allows you to change the icon in front of the **ComboBox**. It will only be displayed if  the **Icon** property is enabled.
 - **Label:** Allows you to change the text of the **ComboxBox's** label.
 - **TrailingIcon:** Allows you to change the icon at the back of the **ComboBox**. This modification will not affect the plugin.
+
+### Overridable Properties
+
+- **Background** 
+- **Foreground** 
