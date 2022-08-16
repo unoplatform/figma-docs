@@ -25,4 +25,6 @@
 ### Overridable Properties
 
 - **Background** 
+- **BorderBrush** 
+- **BorderThickness** 
 - **Foreground** 

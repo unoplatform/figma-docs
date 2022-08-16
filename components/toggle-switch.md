@@ -16,3 +16,8 @@
 
 - **Content:** Allows you to change the text of the **Toggle Switch's** label. It will only be displayed if  the **Label** property is enabled.
 
+
+### Overridable Properties
+
+- **Background** 
+- **Foreground** 

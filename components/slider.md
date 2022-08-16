@@ -8,3 +8,9 @@
 | Type        | `Default, with tick marks`                 | Gibes you the option to add tick marks to the slider. This option will not affect the plugin |
 | State       | `Pressed, Focus, Hover, Disabled, Enabled` | Alters the current state of the component, although it doesn't affect the plugin |
 
+
+
+### Overridable Properties
+
+- **Background** 
+- **Foreground** 
