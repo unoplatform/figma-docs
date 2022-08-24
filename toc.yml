@@ -42,6 +42,9 @@
       - name: Tabs
         href: learn/designers/component-tabs.md
 
+    - name: Overrides
+      href: learn/designers/overrides.md
+
     - name: Exporting Assets
       href: learn/designers/exporting-assets.md
 
