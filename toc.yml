@@ -39,9 +39,6 @@
       - name: Chips
         href: learn/designers/component-chips.md
 
-      - name: Navigation
-        href: learn/designers/component-navigationbar.md
-
       - name: Tabs
         href: learn/designers/component-tabs.md
 
