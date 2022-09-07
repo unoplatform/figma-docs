@@ -2,7 +2,7 @@
 
 ## Overview
 
-Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://m3.material.io/styles/color/the-color-system/color-roles). Designers using UFPMT should be intimatly familiar with the Material color system before attempting to substitute color roles through out components or they run the risk of finding nasty surprises in the XAML generated from their compositions come integration time. At least that was the case before UFPMT introduced its new *Instance* *Overrides* feature. While we still recommend you get familiar with Material color management, overrides gives you more control and flexibility in the areas of: swapping color roles and managing component borders (strokes in figma parlance).
+Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://m3.material.io/styles/color/the-color-system/color-roles). Designers using UFPMT should be intimatly familiar with the Material color system before attempting to substitute color roles through out components or they run the risk of finding nasty surprises in the XAML generated from their compositions come integration time. At least that was the case before UFPMT introduced its new *Instance* *Overrides* feature. While we still recommend you get familiar with Material color management, overrides gives you more control and flexibility in the areas of: swapping color roles and managing component borders (strokes in figma parlance). Overrides also allow you to redefine corner radius values set in Uno Toolkit components.
 
  ## How it works
 
@@ -15,27 +15,31 @@ Instance overrides works by detecting changes between a component's Editable Tem
 Foreground color usually referers to content (in Material guidelines) of a component like text and icons as well as state overlays. Background color is usually the fill color used to define the shape of the component. Border is a synonyme for stroke (in Figma) and Outline (in Material) and is a line defining the outer border of a component.
 
 ### [Button](../../components/button.md)
-| Property         | Currently supported instance overrides                       | Edit this layer in Figma  |
+| Property         | Currently supported instance overrides                       | Edit this frame in Figma  |
 | ---------------- | ------------------------------------------------------------ | ------------------------- |
-| Background color | Swap Primary and Surface fill colors with other color roles from the toolkit. | State Layer               |
+| Background color | Swap Primary and Surface fill colors with other color roles from the toolkit. | Main (Top) frame               |
 | Foreground color | Swap any colors roles assigned to button labels and icons with other color roles from the toolkit. | Label, Vector             |
-| Border           | Swap button border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Template/.Template_Button |
+| Border           | Swap button border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Main (Top) frame  |
+| Corner radius    | Define custom corner radius values. | Main (Top) frame  |
 
 
 ### [Floating Action Button (FAB)](../../components/fab.md)
 
 | Property                     | Currently supported instance overrides                       | Edit this layer in Figma  |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------- |
-| Background color             | Swap PrimaryContainer fill color with other color roles from the toolkit. | Template/.Template_FAB    |
+| Background color             | Swap PrimaryContainer fill color with other color roles from the toolkit. | Main (Top) frame    |
 | Foreground color             | Swap any colors roles assigned to FAB labels and icons with other color roles from the toolkit. | Label, Vector             |
-| Border                       | Swap FAB border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Template/.Template_Button |
+| Border                       | Swap FAB border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Main (Top) frame |
+| Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 
 ### [Icon Button](../../components/icon-button.md)
 
 | Property         | Currently supported instance overrides                       | Edit this layer in Figma        |
 | ---------------- | ------------------------------------------------------------ | ------------------------------- |
-| Background color | Not applicable                                               | n/a                             |
+| Background color | Add and edit a background fill to instances.                 | Main (Top) frame                |
 | Foreground color | Swap any colors roles assigned to ToggleButton icons with other color roles from the toolkit. | Vector (checked and unchecked)* |
+| Border  | Add button border (aka Stroke) colors from the toolkit. Add and edit border thickness to instances. | Main (Top) frame  |
+| Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 
 ### [Icon Toggle Button](../../components/icon-toggle-button.md)
 
@@ -43,6 +47,8 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | ---------------- | ------------------------------------------------------------ | ------------------------------- |
 | Background color | Not applicable                                               | n/a                             |
 | Foreground color | Swap any colors roles assigned to ToggleButton icons with other color roles from the toolkit. | Vector (checked and unchecked)* |
+| Border  | Add button border (aka Stroke) colors from the toolkit. Add and edit border thickness to instances. | Main (Top) frame  |
+| Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 
 ### [Radio Button](../../components/radio-button.md)
 
