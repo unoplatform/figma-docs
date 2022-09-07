@@ -7,7 +7,7 @@ Uno Toolkit provides handy templates that include all the proper layer structure
 ### General guidelines:
 
 - Page instances **must always be detached** from their *Main Components*;
-- **Components placed within pages must not be detached** from their *Main Components*;
+- **Components placed on pages must not be detached** from their *Main Components*;
 - The *Body* layer is where you apply background colors;
 - The *Body* layer must contain all components added to the page;
 - Scrollable content must be housed within the `Content Scrollable` layer.

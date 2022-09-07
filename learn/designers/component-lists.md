@@ -34,7 +34,7 @@ To render properly, List requires specific settings to be enabled in the plugin:
 
 ### Lists with Swipeable Content
 
-To add swipeable lists to an app, use the **Swipe Control list: Template** found in the assets panel. Any number of items can be added to the list by duplicating the `◇ SwipeControl` and `◇ Divider` layers found within the component.
+To add swipeable lists to an app, use the **Swipe Control: Preset Product List** found in the assets panel. Any number of items can be added to the list by duplicating the `◇ SwipeControl` and `◇ Divider` layers found within the component.
 
 ![](assets/lists-swipeable.png)
 
