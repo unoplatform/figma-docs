@@ -12,7 +12,7 @@ Most Toolkit Components have **Variants**. Variants are very powerful time saver
 
 
 
-All variants are children of a *Main Component* and all of those *Main Components* are children of a **Component Template**. Editing a *Component Template* will update all of it’s *Main Components* but none of their instances. Templates have a ❖(4 Diamonds icon) before their name in the *Layers* pane.
+All variants are children of a *Main Component* and all of those *Main Components* are children of an **Editable Template**. Editing an *Editable Template* will update all of it’s *Main components* and *Variants* but none of their instances. Templates have a ❖(4 Diamonds icon) before their name in the *Layers* pane.
 
 ## General Guidelines
 
