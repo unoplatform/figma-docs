@@ -27,5 +27,4 @@
 - **Background** 
 - **BorderBrush** 
 - **BorderThickness** 
-- **CornerRadius** 
-- **Foreground**
+- **Foreground** 
