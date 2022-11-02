@@ -13,9 +13,3 @@
 > To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
 
 - **Link:** Allows you to change the text of the **HyperlinkButton's** link.
-
-### Overridable Properties
-
-- **Background** 
-- **Foreground** 
-

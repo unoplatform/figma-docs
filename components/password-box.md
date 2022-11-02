@@ -17,10 +17,3 @@
 
 - **LeadingIcon:** Allows you to change the icon on the left of the **PasswordBox**. It will only be displayed if the **Leading** property is set to Icon.
 - **Label:** Allows you to change the text of the **PasswordBox's** placeholder.
-
-### Overridable Properties
-
-- **Background** 
-- **BorderBrush** 
-- **BorderThickness** 
-- **Foreground** 

@@ -21,11 +21,3 @@
 
 - **LeadingIcon:** Allows you to change the icon on the left of the **TextBox**. It will only be displayed if the **LeadingIcon** property is set to Icon.
 - **Label:** Allows you to change the text of the **TextBox's** placeholder.
-
-### Overridable Properties
-
-- **Background** 
-- **BorderBrush** 
-- **BorderThickness** 
-- **CornerRadius** 
-- **Foreground**

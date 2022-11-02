@@ -11,7 +11,3 @@
 > To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
 
 - **Icon:** Allows you to change the icon  of the **IconButton**.
-
-### Overridable Properties
-
-- **Foreground** 
