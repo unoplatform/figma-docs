@@ -4,7 +4,7 @@
 
 
 
-![bottomnavigationbar](.\images\bottomnavigationbar.png)
+![bottomnavigationbar](images/bottomnavigationbar.png)
 
 | Property | Options   | Description                                          |
 | -------- | --------- | ---------------------------------------------------- |
