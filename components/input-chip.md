@@ -4,7 +4,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
 
-![inputchip](.\images\inputchip.png)
+![inputchip](images/inputchip.png)
 
 | Property  | Options                                           | Description                                                  |
 | --------- | ------------------------------------------------- | ------------------------------------------------------------ |

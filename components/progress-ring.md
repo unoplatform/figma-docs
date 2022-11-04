@@ -2,7 +2,7 @@
 
 > **Note:** Currently the **ProgressRing** is not affected by the **Selection colors** property from Figma. In other words, the **ProgressRing** will always be the same colors in the plugin.
 
-![progressring](.\images\progressring.png)
+![progressring](images/progressring.png)
 
 | Property | Options                      | Description                                                  |
 | -------- | ---------------------------- | ------------------------------------------------------------ |

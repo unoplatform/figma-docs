@@ -2,7 +2,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *ProfilePicture* property for this component.
 
-![personpicture](.\images\personpicture.png)
+![personpicture](images/personpicture.png)
 
 | Property | Options               | Description                                                  |
 | -------- | --------------------- | ------------------------------------------------------------ |

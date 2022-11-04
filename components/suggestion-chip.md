@@ -4,7 +4,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
 
-![suggestionchip](.\images\suggestionchip.png)
+![suggestionchip](images/suggestionchip.png)
 
 | Property | Options                                           | Description                                                  |
 | -------- | ------------------------------------------------- | ------------------------------------------------------------ |

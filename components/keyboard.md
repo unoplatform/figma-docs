@@ -2,7 +2,7 @@
 
 > **Note:**  **Keyboard** is only ornamental, it will not affect the plugin at all.
 
-![keyboard](.\images\keyboard.png)
+![keyboard](images/keyboard.png)
 
 | Property | Options          | Description                                              |
 | -------- | ---------------- | -------------------------------------------------------- |

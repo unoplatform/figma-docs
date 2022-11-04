@@ -4,7 +4,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Text* property for this component.
 
-![textbox](.\images\textbox.png)
+![textbox](images/textbox.png)
 
 | Property     | Options                                          | Description                                                  |
 | ------------ | ------------------------------------------------ | ------------------------------------------------------------ |
