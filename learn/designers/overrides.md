@@ -45,7 +45,7 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 
 | Property         | Currently supported instance overrides                       | Edit this layer in Figma        |
 | ---------------- | ------------------------------------------------------------ | ------------------------------- |
-| Background color | Not applicable                                               | n/a                             |
+| Background color | Add and edit a background fill to instances.                 | Main (Top) frame                |
 | Foreground color | Swap any colors roles assigned to ToggleButton icons with other color roles from the toolkit. | Vector (checked and unchecked)* |
 | Border  | Add button border (aka Stroke) colors from the toolkit. Add and edit border thickness to instances. | Main (Top) frame  |
 | Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
