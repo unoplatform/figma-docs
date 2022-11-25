@@ -20,6 +20,7 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Background color | Swap Primary and Surface fill colors with other color roles from the toolkit. | Main (Top) frame               |
 | Foreground color | Swap any colors roles assigned to button labels and icons with other color roles from the toolkit. | Label, Vector             |
 | Border           | Swap button border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Main (Top) frame  |
+| Content Alignment | Define custom content alignment (horizontal, and vertical) values. | Main (Top) frame  |
 | Corner radius    | Define custom corner radius values. | Main (Top) frame  |
 
 
