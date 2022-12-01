@@ -10,7 +10,7 @@ The data format is _JSON_.
 
 1. Select the page or component to edit;
 2. From Figma's *Plugins* menu select *Uno Platform*;
-3. Click the *Data Context* tab (fifth one from the left);
+3. Click the *Data Context* tab (fourth one from the left);
 4. Make changes - follow the JSON format;
 5. Click the *Save button* at the bottom of the tab.
 

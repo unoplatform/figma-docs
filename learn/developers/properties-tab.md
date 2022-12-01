@@ -47,7 +47,7 @@ It could also be used to set bindings to a component that can be used when the *
 3. Click the Properties tab (first one from the left);
 4. Input changes;
 5. Click the *Save* button at the bottom of the tab;
-6. (Optional) Preview the effects either in the Preview or XAML tabs by clicking the desired tab and then clicking the *Refresh* button at the bottom of the tab.
+6. (Optional) Preview the effects either in the Preview or Export tabs by clicking the desired tab and then clicking the *Refresh* button at the bottom of the tab.
 
  ![](assets/properties.png)
 

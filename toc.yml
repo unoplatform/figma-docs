@@ -54,7 +54,7 @@
   - name: Uno Figma for developers
     items:
 
-    # ******************* Developper stuff *******************
+    # ******************* Developer stuff *******************
 
     - name: Uno Figma Plugin
       topicHref: learn/developers/plugin.md
@@ -66,14 +66,14 @@
       - name: Preview Tab
         href: learn/developers/preview-tab.md
 
-      - name: XAML Tab
-        href: learn/developers/xaml-tab.md
-
-      - name: Themes Tab
-        href: learn/developers/themes-tab.md
+      - name: Export Tab
+        href: learn/developers/export-tab.md
 
       - name: DataContext Tab
         href: learn/developers/datacontext-tab.md
+
+      - name: Console Tab
+        href: learn/developers/console-tab.md
 
       - name: Settings Tab
         href: learn/developers/settings-tab.md

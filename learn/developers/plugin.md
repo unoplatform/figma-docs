@@ -10,7 +10,7 @@ Uno Figma Toolkit (UFT) and Uno Plugin allow to accelerate the designer to devel
 
 UFT comes stocked with Components, Text and color styles that are automatically recognized by the plugin and converted directly to XAML. Designers can also get a live preview of the translated look, behavior and code from their work in just a few seconds.
 
-The plugin functionalities have been organized into 6 main tabs: [Properties](properties-tab.md), [Preview](preview-tab.md), [XAML](xaml-tab.md), [Themes](themes-tab.md), [DataContext](datacontext-tab.md) and [Settings](settings-tab.md).
+The plugin functionalities have been organized into 6 main tabs: [Properties](properties-tab.md), [Preview](preview-tab.md), [Export](xaml-tab.md), [DataContext](datacontext-tab.md) and [Settings](settings-tab.md).
 
 ## General Plugin Guidelines
 
@@ -19,10 +19,10 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
 - Depending on settings, it may be required to click the refresh button in the plugin to view results;
 - *Properties* tab allows to impart behaviors and bindings to components;
 - *Preview* tab allows the visualization of the generated XAML;
-- *XAML* tab allows to inspect, edit, copy and export the generated code;
-- *Themes* tab allows to inspect and copy to pasteboard the resource dictionary;
+- *Export* tab allows to copy and export the generated code including Themes (resource dictionary) and Localization;
 - *DataContext* tab allows to set mocked data for binding in the *Preview* tab;
-- Properties, Themes, Data Context and Settings tabs all require saving changes before they can be applied.
+- *Dev Tools* tab allows to inspect, edit, copy and render changes in the *Preview* tab. Enable the *Development* option in the Settings tab to find *Dev Tools* tab;
+- Properties and Data Context tabs all require saving changes before they can be applied.
 
 > [!NOTE]
 > The generation of the XAML and the preview of it is a resource expensive operation and can take some time to complete.

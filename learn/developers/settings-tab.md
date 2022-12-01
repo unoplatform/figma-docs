@@ -2,17 +2,15 @@
 
 This tab allows to change various settings for the Plugin.
 
-> [!CAUTION]
-> Don't forget to save your settings!
-
 ## Versioning
 
 At the top of the settings tab, you can see various versioning:
 
 * *Uno Figma Plugin*: That's the version of the plugin itself;
 * *Uno.UI*: The version of `Uno.UI` currently used by the plugin;
-* *Uno.Toolkit.UI*: The version of the Toolkit currently used. This also define the version of *Uno Themes*;
-* *Uno.Extensions*: The version of Uno.Extensions used.
+* *Uno.Themes*: The version of `Uno.Themes` used;
+* *Uno.Toolkit.UI*: The version of the Toolkit currently used;
+* *Uno.Extensions*: The version of `Uno.Extensions` used.
 
 ## Settings
 
@@ -47,7 +45,7 @@ At the top of the settings tab, you can see various versioning:
 
   * *Save Properties as Shared*: Defines if properties set to elements in Figma should be private or shared with other plugins;
   * *Development*: Used by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
-  * *Dark mode*: Triggers dark/light mode for the plugin interface;
+  * *Plugin Theme*: Triggers dark/light mode for the plugin interface;
   * *Share usage analytics*: Opt in/out of the usage analytics to help Uno improving the plugin by gathering anonymous usage data of the plugin.
 
 ## Settings for Generated XAML
@@ -63,10 +61,10 @@ Not all settings will have effect on generated XAML in the same way...
 |  `Navigation` | false             | settings         |
 
 
-## Steps to use Data Context tab
+## Steps to use Settings tab
 
 1. From Figma's *Plugins* menu select *Uno Platform*;
 
-2. Click the *Settings* tab (sixth one from the left);
+2. Click the *Settings* tab (last tab);
 3. Make changes;
-4. Click the *Save button* at the bottom of the tab.
+4. Changes are automatically saved.

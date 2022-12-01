@@ -23,7 +23,7 @@ Follow this step-by-step guide, and you’ll learn how to build this page.
 - How to Make the Content Centered Vertically?
 
 ## Prerequisites and setup
-To get started with the Uno Figma plugin, review the ![Getting started](../../getting-started-uno-figma.md) guide.
+To get started with the Uno Figma plugin, review the ![Getting started](../../Overview/getting-started-uno-figma.md) guide.
 
 ## Step 1: Setting the page template
 
@@ -39,7 +39,7 @@ To get started with the Uno Figma plugin, review the ![Getting started](../../ge
 
 ![Page template layers](images/02_page-template-layers.png)
 ### What Are the Layers in a Page Template?
-1. **App bar:** iOS or Android bottom app bar. Not part of the actual app, but it's only for presentation purposes.
+1. **Status bar:** iOS or Android bottom app bar. Not part of the actual app, but it's only for presentation purposes.
 
 2. **Body:** Contain the Bottom Navigation Bar component and the Page layers.
 
@@ -52,8 +52,6 @@ To get started with the Uno Figma plugin, review the ![Getting started](../../ge
 6. **Section Placeholder (2):** We added 2 section placeholder to help you insert content faster into your design
 
 7. **Navigation Bar:** The sticky bottom navigation bar. If this layer is invisible, this component is not relevant to the actual page, and it could be deleted from the layers.
-
-8. **App bar:** iOS or Android top app bar. Not part of the actual app, but it's only for presentation purposes.
 
 ## Step 2: Creating a form
 
@@ -81,27 +79,28 @@ To get started with the Uno Figma plugin, review the ![Getting started](../../ge
 ### What Are the Layers in a Text Box?
 1. **Template:** Link to the main template
 
-2. **Assistive text:** Text displayed under the text box
+2. **Input:** Group containing the Suffix, Icons, and Input text
 
-3. **Line:** Horizontal line under the text box (only in filled type text box)
+3. **LeadingIcon:** Icon displayed on the left
 
-4. **Input:** Group containing the Suffix, Icons, and Input text
+4. **Content:** Group containing the Input text and Label
 
-5. **TrailingIcon:** Icon displayed on the right
+5. **Label:** Name of the text box
 
-6. **Content:** Group containing the Input text and Label
+6. **Input text:** Group containing the Cursor, Text, and Prefix
 
-7. **Input text:** Group containing the Cursor, Text, and Prefix
+7. **Prefix:** Text displayed on the left
 
-8. **Cursor:** Vertical bar on the right of the text (used only for illustrative purposes)
+8. **Text:** Text input by the user
 
-9. **Text:** Text input by the user
+9. **Cursor:** Vertical bar on the right of the text (used only for illustrative purposes)
 
-10. **Prefix:** Text displayed on the left
+10. **TrailingIcon:** Icon displayed on the right
 
-11. **Label:** Name of the text box
+11. **Line Container:** Horizontal line under the text box (only in filled type text box)
 
-12. **LeadingIcon:** Icon displayed on the left
+12. **Assistive text:** Text displayed under the text box
+
 
 ![Add a PasswordBox](images/06_add-password-box.png)
 ### How to Add a Password Box?
@@ -131,31 +130,31 @@ To get started with the Uno Figma plugin, review the ![Getting started](../../ge
 
 2. **Template 2:** Link to the Text Box template
 
-3. **Assistive text:** Text displayed under the text box
+3. **Input:** Group containing the TraillingIcon, and content
 
-4. **Line:** Horizontal line under the text box (only in filled type text box)
+4. **LeadingIcon:** Icon displayed on the left
 
-5. **Input:** Group containing the TraillingIcon, and content
+5. **Content:** Group containing the Input text and Label
 
-6. **TrailingIcon:** Group containing the Suffix, and Icon
+6. **Label:** Name of the text box
 
-7. **Suffix:** Text displayed on the right
+7. **Input text:** Group containing the Cursor, Text, and Prefix
 
-8. **Icon:** Icon displayed on the right
+8. **Prefix:** Text displayed on the left
 
-9. **Content:** Group containing the Input text and Label
+9. **Text:** Text input by the user
 
-10. **Input text:** Group containing the Cursor, Text, and Prefix
+10. **Cursor:** Vertical bar on the right of the text (used only for illustrative purposes)
 
-11. **Cursor:** Vertical bar on the right of the text (used only for illustrative purposes)
+11. **TrailingIcon:** Group containing the Suffix, and Icon
 
-12. **Text:** Text input by the user
+12. **Icon:** Icon displayed on the right
 
-13. **Prefix:** Text displayed on the left
+13. **Suffix:** Text displayed on the right
 
-14. **Label:** Name of the text box
+14. **Line:** Horizontal line under the text box (only in filled type text box)
 
-15. **LeadingIcon:** Icon displayed on the left
+15. **Assistive text:** Text displayed under the text box
 
 ![Adding button](images/09_add-button.png)
 ### How to Add a Button?
