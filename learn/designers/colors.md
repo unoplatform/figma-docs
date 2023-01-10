@@ -48,11 +48,3 @@ Component visual states are usually defined as an extra layer of their main colo
 1. Select the component from the *Layers* panel in Figma and expand it
 2. Update colors to both: `State Layer` AND `◇ Template/.Templst_[component name]`
    ![](assets/colors-update.png)
-
-## How to Generate Color Themes?
-
-Toolkit provides Light and Dark themes that should work for any project. They can be customized to follow to colors required by a particular project. In the case where there is no predefined color theme or simply to help fill in the gaps for an existing color theme, we recommend using a tool like the **Material theme Builder**.
-
-You can also swap color themes in and out of the document using the **Atlas Theme Manager Plugin**.
-
-More details to get those tools on the [Download & Tools](../../download.md) page.

@@ -20,6 +20,9 @@
     - name: Colors
       href: learn/designers/colors.md
 
+    - name: Themes
+      href: learn/designers/themes.md
+
     - name: Semantic Fonts
       href: learn/designers/semantic-fonts.md
 
