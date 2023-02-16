@@ -1,6 +1,6 @@
 # RadioButton
 
-![radiobutton](.\images\radiobutton.png)
+![radiobutton](./images/radiobutton.png)
 
 | Property | Options                                    | Description                                                  |
 | -------- | ------------------------------------------ | ------------------------------------------------------------ |

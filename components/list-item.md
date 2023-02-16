@@ -4,7 +4,7 @@
 
 
 
-![listitem](.\images\listitem.png)
+![listitem](./images/listitem.png)
 
 | Property           | Options             | Description                                                  |
 | ------------------ | ------------------- | ------------------------------------------------------------ |

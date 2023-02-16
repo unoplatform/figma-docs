@@ -5,7 +5,7 @@
 
 
 
-![button](.\images\button.png)
+![button](./images/button.png)
 
 | Property | Options                                         | Description                                                  |
 | -------- | ----------------------------------------------- | ------------------------------------------------------------ |

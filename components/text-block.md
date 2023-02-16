@@ -6,7 +6,7 @@
 
 
 
-![textblock](.\images\textblock.png)
+![textblock](./images/textblock.png)
 
 | Property | Options      | Description                                                  |
 | -------- | ------------ | ------------------------------------------------------------ |
