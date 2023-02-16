@@ -1,6 +1,6 @@
 # ListItem
 
-> **Note:** If you want to use horizontal swiping features, you should use **[SwipeControl]()** instead.
+> **Note:** If you want to use horizontal swiping features, you should use **[SwipeControl](./swipe-control.md)** instead.
 
 
 
