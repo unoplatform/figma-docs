@@ -10,7 +10,7 @@ Uno Figma Toolkit (UFT) and Uno Plugin allow to accelerate the designer to devel
 
 UFT comes stocked with Components, Text and color styles that are automatically recognized by the plugin and converted directly to XAML. Designers can also get a live preview of the translated look, behavior and code from their work in just a few seconds.
 
-The plugin functionalities have been organized into 6 main tabs: [Properties](properties-tab.md), [Preview](preview-tab.md), [Export](xaml-tab.md), [DataContext](datacontext-tab.md) and [Settings](settings-tab.md).
+The plugin functionalities have been organized into 6 main tabs: [Properties](properties-tab.md), [Preview](preview-tab.md), [Export](export-tab.md), [DataContext](datacontext-tab.md) and [Settings](settings-tab.md).
 
 ## General Plugin Guidelines
 
@@ -21,7 +21,7 @@ The plugin functionalities have been organized into 6 main tabs: [Properties](pr
 - *Preview* tab allows the visualization of the generated XAML;
 - *Export* tab allows to copy and export the generated code including Themes (resource dictionary) and Localization;
 - *DataContext* tab allows to set mocked data for binding in the *Preview* tab;
-- *Dev Tools* tab allows to inspect, edit, copy and render changes in the *Preview* tab. Enable the *Development* option in the Settings tab to find *Dev Tools* tab;
+- *Dev Tools* tab allows to inspect, edit, copy and render changes in the *Preview* tab. Enable the *Development* option in the Settings tab to find [Dev Tools](devtools-tab.md) tab;
 - Properties and Data Context tabs all require saving changes before they can be applied.
 
 > [!NOTE]

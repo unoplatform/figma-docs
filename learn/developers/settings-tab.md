@@ -43,7 +43,6 @@ At the top of the settings tab, you can see various versioning:
 
 * Settings
 
-  * *Save Properties as Shared*: Defines if properties set to elements in Figma should be private or shared with other plugins;
   * *Development*: Used by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
   * *Plugin Theme*: Triggers dark/light mode for the plugin interface;
   * *Share usage analytics*: Opt in/out of the usage analytics to help Uno improving the plugin by gathering anonymous usage data of the plugin.
