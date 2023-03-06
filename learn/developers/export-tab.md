@@ -4,8 +4,9 @@
 
 The Export tab is another powerful tool to inspect generated code and export to developers.
 
-The left-top dropdown allows you to alternate among `Xaml`, `Global Resources` and `Localization File`. Contextual controls at the bottom of the tab allow you to: set view type, refresh view and export the code;
+The left-top dropdown allows you to alternate among `Xaml`, `Colors Override File`, `Fonts Override File` and `Localization File`. Contextual controls at the bottom of the tab allow you to: set view type, refresh view and export the code;
 
+Exporting process is done by adding the tab content to the clipboard, so you can paste it into your favorite text editor.
 
 > [!NOTE]
 > Proper generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;

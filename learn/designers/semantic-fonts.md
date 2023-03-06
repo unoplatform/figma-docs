@@ -10,12 +10,7 @@ Uno Toolkit comes pre-loaded with 19 semantic font styles to ensure your project
             \- Fluent [SegoeUI-Variable and Static Fonts](https://docs.microsoft.com/en-us/windows/apps/design/downloads/#fonts)
 
 Uno will apply the proper native fonts, sizings, and spacings based on the Toolkits semantic text styles used in your design.
-
-- **Do not resize text styles**. When required, select one of the 19 provided. Any changes to font type, spacing, or size within a text style will be overridden by the plugin in the generated XAML;
-- Color styles can be changed;
-- Text styles can be changed;
-- Use *TextBlock* component when generating new text labels or paragraphs;
-- To apply a text style to a custom layout follow the steps below.
+To apply a text style to a custom layout follow the steps below.
 
 ## Steps
 
@@ -53,3 +48,14 @@ Caption Large
 Caption Medium
 Caption Small
 ```
+
+## Overriding Font Styles. 
+
+Uno Plugin allows some changes on semantic font styles.
+Changing the following properties will add new entries on generated Xaml resources to override default Toolkit styles values:
+
+- Font Height
+- Font Weight
+
+   > [!IMPORTANT]
+   > **Don't rename semantic font styles**. Uno Plugin uses the type styles name as reference to match with default styles from Toolkit. If you rename a type style, the plugin will not be able to generate the proper Xaml code.
