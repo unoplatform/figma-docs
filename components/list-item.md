@@ -1,6 +1,7 @@
 # ListItem
 
 > **Note:** If you want to use horizontal swiping features, you should use **[SwipeControl]()** instead.
+> **Note:** To know more about how plugin can handle lists, please see **[Properties Tab](../learn/developers/properties-tab.md)**.
 
 
 
