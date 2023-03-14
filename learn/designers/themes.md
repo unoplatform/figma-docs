@@ -27,7 +27,7 @@ Uno Figma Plugin allows you to import theme packages to customize your Figma FIl
 
 1. Open your Figma file and select **Uno Plugin** from the Plugins menu.
 2. Access the **Properties Tab** and go to **Theme Package** section.
-3. Click at the **Import** button and select the theme package you downloaded from the Material website. You can select the entire original zip file or the json file accordingly to the package format you selected.
+3. Click at the **Import** button and select the theme package you downloaded from the Material website. It must be the zip file, unchanged.
 4. Then confirm your choice and your theme will be applied to your Figma file.
 
 > [!TIP]
