@@ -81,9 +81,6 @@
       - name: Settings Tab
         href: learn/developers/settings-tab.md
 
-      - name: Custom Colors
-        href: learn/developers/custom-colors.md
-
 
 - name: Reference
   items:
