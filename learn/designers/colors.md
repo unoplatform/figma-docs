@@ -48,3 +48,9 @@ Component visual states are usually defined as an extra layer of their main colo
 1. Select the component from the *Layers* panel in Figma and expand it
 2. Update colors to both: `State Layer` AND `◇ Template/.Templst_[component name]`
    ![](assets/colors-update.png)
+
+## Custom Colors
+
+Custom Colors allow you to add more colors to the already available palette and use it consistently across your designs. In this guide, you will learn how to create custom colors in Figma, apply them to your UI elements, and export them. For step-by-step instructions, please refer to the detailed documentation page.
+
+To access the detailed documentation page, [click here.](../developers/custom-colors.md)
