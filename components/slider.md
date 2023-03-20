@@ -1,6 +1,6 @@
 # Slider
 
-<img src=".\images\slider.png" alt="slider"/>
+![slider](./images/slider.png)
 
 | Property    | Options                                    | Description                                                  |
 | ----------- | ------------------------------------------ | ------------------------------------------------------------ |

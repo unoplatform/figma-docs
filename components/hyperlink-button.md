@@ -2,7 +2,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
 
-<img src=".\images\hyperlinkbutton.png" alt="hyperlinkbutton"/>
+![hyperlinkbutton](./images/hyperlinkbutton.png)
 
 | Property | Options             | Description                                                  |
 | -------- | ------------------- | ------------------------------------------------------------ |

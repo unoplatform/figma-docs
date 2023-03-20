@@ -2,7 +2,7 @@
 
 **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *IsChecked* property for this component.
 
-<img src=".\images\checkbox.png" alt="checkbox" style="zoom:100%;" />
+![checkbox](./images/checkbox.png)
 
 | Property | Options                                              | Description                                                  |
 | -------- | ---------------------------------------------------- | ------------------------------------------------------------ |

@@ -2,7 +2,7 @@
 
 > **Tip:** The standard usage of the **FAB** is to use the default size.
 
-<img src="./images/fab.png" alt="fab"/>
+![fab](./images/fab.png)
 
 | Property | Options                        | Description                                                  |
 | -------- | ------------------------------ | ------------------------------------------------------------ |

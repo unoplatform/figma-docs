@@ -19,6 +19,7 @@ Toolkit comes preloaded with a set of semantic colors allowing project-specific 
 2. **Right-click on the color and choose edit style**. Or simply hover and click the appearing icon.
    ![](assets/color-edit.png)
 3. From the *Properties* section choose the HEX code of the desired color. Close all open panels, by clicking the ✕ icon. You should now see your color updating throughout the document.
+
    ![](assets/color-edit-properties.png)
 
 > [!TIP]
@@ -34,10 +35,10 @@ Toolkit comes preloaded with a set of semantic colors allowing project-specific 
 3. Select the color to change in the *Color Selection* panel on the right-hand side of your monitor;
 4. Right-click on the color and choose *Edit Style*;
 5. From the Properties section choose the HEX code of the desired color. Close all open panels, by clicking the X.
+
    ![](assets/colors-apply.png)
 
-** The top layer of a component cannot be colored.*
-
+*The top layer of a component cannot be colored.*
 
 ## How to Change Colors of Component States
 
@@ -47,6 +48,7 @@ Component visual states are usually defined as an extra layer of their main colo
 
 1. Select the component from the *Layers* panel in Figma and expand it
 2. Update colors to both: `State Layer` AND `◇ Template/.Templst_[component name]`
+
    ![](assets/colors-update.png)
 
 ## Custom Colors

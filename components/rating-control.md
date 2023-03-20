@@ -2,8 +2,7 @@
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Value* property for this component.
 
-<img src=".\images\ratingcontrol.png" alt="ratingcontriel"/>
-
+![radintcontrol](./images/ratingcontrol.png)
 | Property | Options      | Description                                                  |
 | -------- | ------------ | ------------------------------------------------------------ |
 | Label    | `True/False` | Adds a label on the right side of the RatingControl. This label will not be swhown in the plugin |

@@ -4,9 +4,7 @@
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
 
 
-
-![button](.\images\button.png)
-
+![button](./images/button.png)
 | Property | Options                                         | Description                                                  |
 | -------- | ----------------------------------------------- | ------------------------------------------------------------ |
 | Type     | `Elevated, Filled, Text, Outlined, FilledTonal` | Changes the style of the button                              |

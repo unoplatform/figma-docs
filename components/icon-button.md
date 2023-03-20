@@ -1,6 +1,6 @@
 # IconButton
 
-<img src=".\images\iconbutton.png" alt="iconbutton"/>
+![iconbutton](./images/iconbutton.png)
 
 | Property | Options                                    | Description                                                  |
 | -------- | ------------------------------------------ | ------------------------------------------------------------ |

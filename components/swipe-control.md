@@ -2,7 +2,7 @@
 
 > **Note:** When rendering a **SwipeControl** using the Uno Plugin only the first element of the list will rendered, but the the other elements will still be present. To actually see the swiping in effect while using the plugin, you will need to use a touch screen.
 
-![swipecontrol](.\images\swipecontrol.png)
+![swipecontrol](./images/swipecontrol.png)
 
 | Property    | Options                                  | Description                                                  |
 | ----------- | ---------------------------------------- | ------------------------------------------------------------ |

@@ -1,8 +1,7 @@
 # ComboBox
 
 
-
-<img src="./images/combobox.png" alt="combobox"/>
+![combobox](./images/combobox.png)
 
 | Property | Options         | Description                                    |
 | -------- | --------------- | ---------------------------------------------- |
