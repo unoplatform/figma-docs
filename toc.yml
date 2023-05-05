@@ -83,13 +83,6 @@
 
       - name: Custom Colors
         href: learn/developers/custom-colors.md
-        
-      - name: Custom Components
-        href: learn/developers/custom-components.md
-
-    #  Are we adding this now?
-    #  - name: Dev Tools
-    #    href: learn/developers/devtools-tab.md
 
 
 - name: Reference
@@ -169,9 +162,6 @@
 
     - name: Bottom Navigation Bar
       href: components/bottom-navigation-bar.md
-
-    - name: Bottom Bar
-      href: components/bottom-bar.md
     
     - name: Tab Bar
       href: components/tab-bar.md
@@ -181,9 +171,6 @@
 
     - name: PersonPicture
       href: components/person-picture.md
-
-    - name: PipsPager
-      href: components/pips-pager.md
 
     - name: Progress Ring
       href: components/progress-ring.md
