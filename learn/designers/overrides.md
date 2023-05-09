@@ -85,9 +85,10 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 
 | Property      | Currently supported instance overrides                       | Edit this layer in Figma |
 | ---------------- | ------------------------------------------------------------ | ------------------------ |
-| Background color | Swap fill color role with any other color roles from the toolkit. | Input                    |
+| Background color | Swap fill the color role with any other color roles from the toolkit. | Main (Top) frame  |
+| Corner Radius    | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 | Foreground color | Swap color roles used for text and icons with any other color roles from the toolkit. | Text, Vector             |
-| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Input                    |
+| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame  |
 
 ### [Pips Pager](../../components/pips-pager.md)
 
@@ -107,9 +108,12 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 
 | Property          | Currently supported instance overrides                       | Edit this layer in Figma |
 | ---------------- | ------------------------------------------------------------ | ------------------------ |
-| Background color | Swap fill color role with any other color roles from the toolkit. | Input                    |
+| Background color | Swap fill the color role with any other color roles from the toolkit. | Main (Top) frame  |
+| Corner Radius    | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 | Foreground color | Swap color roles used for text and icons with any other color roles from the toolkit. | Text, Vector             |
-| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Input                    |
+| Placeholder Foreground color | Swap color roles used for placeholder/label with any other color roles from the toolkit. | Label             |
+| Padding           | Define custom padding values for the control, affecting its content. | Input                    |
+| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame  |
 
 ### [Tab Bar](../../components/tab-bar.md)
 

@@ -2,22 +2,25 @@
 
 > **Note:** The **TrailingIcon** of the TextBox will always be the "X" icon whether or not it is changed in Figma.
 
-> **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Text* property for this component.
-
 ![textbox](./images/textbox.png)
+
+## Component Properties
 
 | Property     | Options                                          | Description                                                  |
 | ------------ | ------------------------------------------------ | ------------------------------------------------------------ |
-| Type         | `Filled, Outlined`                               | Changes the style of the TextBox                             |
-| Property     | `Default, Prefix, Suffix`                        | Adds a measurement units on the left (prefix) or the right (suffix) of the text box. Currently, both Prefix and Suffix are not supported |
-| State        | `Enabled, Hover, Active, Focus, Error, Disabled` | Alters the current state of the component, although it doesn't affect the plugin |
-| LeadingIcon  | `True/False`                                     | Adds an icon before the input                                |
-| TrailingIcon | `True/False`                                     | Adds a "Visibilty" icon after the input. This will not affect the plugin |
+| Type         | `Filled, Outlined`                               | Changes the style of the TextBox                            |
+| State        | `Enabled, Hovered, Focused, Disabled`            | Alters the current state of the component, although it doesn't affect the plugin |
 | Multiline    | `True/False`                                     | Enables or disables the multiline feature for the TextBox    |
+| Label        | `True/False`                                     | Show or hide Label                                           |
+| Populated    | `True/False`                                     | Show or hide input text content                              |
+
+## Content Template Properties
+
+| Leading            | `True/False`                             | Adds an icon on the left of the TextBox input             |
+| Label              | `True/False`                             | Show or hide Label                                        |
+| Input Text         | `True/False`                             | Show or hide input text content                           |
+| Trailing           | `True/False`                             | Swap visibility of a clear icon. Doesn't affect Plugin    |
 
 ### Extra Customization
 
 > To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
-
-- **LeadingIcon:** Allows you to change the icon on the left of the **TextBox**. It will only be displayed if the **LeadingIcon** property is set to Icon.
-- **Label:** Allows you to change the text of the **TextBox's** placeholder.
