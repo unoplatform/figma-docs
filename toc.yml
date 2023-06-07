@@ -144,17 +144,8 @@
     - name: ToggleSwitch
       href: components/toggle-switch.md
 
-    - name: AssistChip
-      href: components/assist-chip.md
-
-    - name: FilterChip
-      href: components/filter-chip.md
-
-    - name: InputChip
-      href: components/input-chip.md
-
-    - name: SuggestionChip
-      href: components/suggestion-chip.md
+    - name: Chip
+      href: components/chip.md
 
     - name: Card
       href: components/card.md

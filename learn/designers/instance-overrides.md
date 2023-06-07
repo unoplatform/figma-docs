@@ -30,6 +30,15 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Foreground color | Swap any colors roles assigned to content with other color roles from the toolkit. | Main (Top) frame               |
 | Border           | **Only for Outlined variants** Swap card border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Main (Top) frame  |
 | Corner radius    | Define custom corner radius values. | Main (Top) frame  |
+
+### [Chip](../../components/chip.md)
+
+| Property          | Currently supported instance overrides                       | Edit this layer in Figma |
+| ---------------- | ------------------------------------------------------------ | ------------------------ |
+| Background color | Swap fill color role with any other color roles from the toolkit. | Main (Top) frame                |
+| Foreground color | Swap color roles used for text and icons with any other color roles from the toolkit. | Text, Vector             |
+| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame                |
+
 ### [Floating Action Button (FAB)](../../components/fab.md)
 
 | Property                     | Currently supported instance overrides                       | Edit this layer in Figma  |
@@ -134,7 +143,6 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 The following controls are not supporting overrides right now:
 
 * Checkbox
-* Chips
 * DatePicker
 * Dialogs
 * Flyouts
