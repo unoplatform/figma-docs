@@ -29,7 +29,7 @@ It could also be used to set bindings to a component that can be used when the *
 
 - *Page Name*: the exported page will receive this name instead the frame name.  
 
-- *Type* allows you to assign ListView, Items Repeater (StackLayout) and Group behaviours to a frame;
+- *Type* allows you to assign ListView and Items Repeater (StackLayout) behaviours to a frame;
 
     > [!NOTE]
     > To add scrollable feature to a frame, start by going to the *Prototype tab* (in the top right of the Figma interface) and then set the **Overflow scrolling** property to one of the 4 options
