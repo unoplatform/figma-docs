@@ -14,6 +14,11 @@ Here is a list of all the components that can be used while using the Figma Plug
 -  [Slider](./slider.md)
 -  [RatingControl](./rating-control.md)
 -  [ToggleSwitch](./toggle-switch.md)
+## Chips
+-  [AssistChip](./assist-chip.md)
+-  [FilterChip](./filter-chip.md)
+-  [InputChip](./input-chip.md)
+-  [SuggestionChip](./suggestion-chip.md)
 ## Collections
 -  [Card](./card.md)
 -  [Image](./image.md)
@@ -29,7 +34,6 @@ Here is a list of all the components that can be used while using the Figma Plug
 -  [Bottom Navigation Bar](./bottom-navigation-bar.md)
 -  [Tab Bar](./tab-bar.md)
 ## Others
--  [Chip](./chip.md)
 -  [Divider](./divider.md)
 ## Person Picture
 -  [PersonPicture](./person-picture.md)
