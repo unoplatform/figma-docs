@@ -13,6 +13,6 @@ For those cases, the plugin allows the user to reserve space in exported layout 
 ![](assets/custom-component.png)
 
 > [!NOTE]
-> When you add an instance of your custom component in a screen to be generated, the plugin will create the correct Xaml code to your custom control. 
+> When you add an instance of your custom component in a screen to be generated, the plugin will create the correct Xaml code to your custom control.
 
 ![](assets/custom-component2.png)
