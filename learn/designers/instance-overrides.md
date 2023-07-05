@@ -129,6 +129,7 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Placeholder Foreground color | Swap color roles used for placeholder/label with any other color roles from the toolkit. | Label             |
 | Padding           | Define custom padding values for the control, affecting its content. | Input                    |
 | Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame  |
+| ContentAlignment | Define custom alignment for its content. | Input text  |
 
 ### [Tab Bar (Navigaton variant only)](../../components/tab-bar.md)
 
