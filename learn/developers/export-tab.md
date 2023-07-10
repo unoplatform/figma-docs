@@ -18,12 +18,25 @@ Exporting process is done by adding the tab content to the clipboard, so you can
 3. Click the *Export* tab (third one from the left);
 4. Click the *Refresh* button at the bottom of the tab.
 
-### Export Options
+## View Hierarchy
 
-The plugin is able to export both Xaml and C# code. You can easily select which option you want to generate using a dropdown field.
-At left-top dropdown, you can choose what to export.
+In order to allow designers to work with reusable content, plugin can generate code for User Controls, Custom External Controls, Pages and more.
+Plugin will export controls with own code (like User Controls and Pages) in separated files and reference those in the main container code.
+The final code will be flexible, cleaner and easier to understand and reuse.  
 
-It is possible to export the full screen code, resources like colors, fonts, localization, user controls, among other options, depending on your selected design.
+![](assets/view-hierarchy01.png)
+![](assets/view-hierarchy02.png)
+![](assets/view-hierarchy03.png)
+
+### How to use it?
+
+Generating reusable code is simple and there are many different ways to create it using the plugin:
+
+1. Converting any frame, with or without content, in a component - both component and instances will result in AutoLayout containers in the exported code.
+2. Using Properties Tab, setting the Type field as Page or User Control - plugin will generate both: content code for those controls and their references in the full exported code.
+![](assets/view-hierarchy-prop01.png)
+3. Converting any frame, with or without content, in a component and using Properties Tab, setting the Control Type field - plugin will generate both: content code for those controls and their references in the full exported code.
+![](assets/view-hierarchy-prop02.png)
 
 > [!NOTE]
 > To override your application's resources, simply copy the text there into your Override file, as documented in the [Uno Themes documentation](https://platform.uno/docs/articles/external/uno.themes/doc/material-getting-started.html#customize-color-palette).
