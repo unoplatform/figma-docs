@@ -29,11 +29,13 @@ It could also be used to set bindings to a component that can be used when the *
 
 - *Page Name*: the exported page will receive this name instead the frame name.  
 
-- *Type* allows you to assign Page, UserControl, ListView and Items Repeater (StackLayout) behaviours to a frame;
+- *Type* allows you to assign Page, UserControl, ListView and Items Repeater behaviours to a frame;
 
     > [!NOTE]
     > When you select the Type of a root frame as User Control, the generated preview will show you exactly the content of your User Control. However, in the export tab, the plugin will create the correct Xaml reference to your User Control and also include an option to view only your User Control content code in the Preview combobox. 
 
+    > [!NOTE] 
+    > If the selected frame has his Autolayout Content Orientation set to WRAP, the generated ItemsRepeater will use UniformGridLayout, otherwise, it will use StackLayout.
 
     > [!NOTE]
     > To add scrollable feature to a frame, start by going to the *Prototype tab* (in the top right of the Figma interface) and then set the **Overflow scrolling** property to one of the 4 options
