@@ -8,14 +8,15 @@
 
 | Property       | Options            | Description                                                  |
 | -------------- | ------------------ | ------------------------------------------------------------ |
-| Type           | `Default, Modal`   | Changes the style of the Navigation Bar. This property doesn't affect the plugin. |
-| Trailing icons | `True/False`       | Adds icons on the right side of the Navigation bar           |
-| Style          | `Primary, Surface` | Changes the colors of the Navigation Bar, it can also be overriden by using the **Selection colors** property from Figma |
+| Fill Style     | `Primary, Surface` | Changes the colors of the Navigation Bar, it can also be overridden by using the **Selection colors** property from Figma |
+| Content        | `Title/Image/None` | Changes the main content of the Navigation bar               |
+| Leading button | `True/False`       | Adds an icon on the left side of the Navigation bar          |
+| Trailing buttons | `True/False`       | Adds icons on the right side of the Navigation bar           |
 
 ### Extra Customization
 
 > To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
 
-- **LeadingIcon > Icon:** Changes the icon on the left of the **Navigation Bar**, any modifications will not affect the plugin. 
-- **Content:** Allows you to change the text of the **Navigation Bar's** label.
+- **LeadingIcon > Leading Icon > Icon:** Changes the icon on the left of the **Navigation Bar**, any modifications will not affect the plugin. 
+- **Content:** Allows you to change the text of the **Navigation Bar's** content.
 - **TrailingIcon > Icon:** Changes on of the icons on the right of the **Navigation Bar**. Hiding a Trailing Icon will stop it from being generated in the plugin.
