@@ -39,6 +39,27 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Foreground color | Swap color roles used for text and icons with any other color roles from the toolkit. | Text, Vector             |
 | Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame                |
 
+### [Check Box](../../components/check-box.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
+| ---------------- | ------------------------------------------------------------ | ------------------------ |
+| Content Foreground color | Swap CheckBox Label color role with other color roles from the toolkit. | Template/Content/Content                    |
+| Foreground color | Swap color roles used for check container with any other color roles from the toolkit. | Template/Content/Selected/OutlinePath             |
+
+### [Combo Box](../../components/combo-box.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
+| ---------------- | ------------------------------------------------------------ | ------------------------ |
+| Background color | Swap ComboBox Surface color role with other color roles from the toolkit. | Input                    |
+| Foreground color | Swap OnSurface color role used for text and icons with other color roles from the toolkit. | Text, Vector             |
+| Border           | Swap ComboBox border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Input                    |
+
+### [Divider](../../components/divider.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma   |
+| ---------------- | ------------------------------------------------------------ | -------------------------- |
+| Foreground color | Swap fill color role used for dividers with any other color roles from the toolkit. | Template/.Template_Divider |
+
 ### [Floating Action Button (FAB)](../../components/fab.md)
 
 | Property                     | Currently supported instance overrides                       | Edit this layer in Figma  |
@@ -47,6 +68,14 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Foreground color             | Swap any colors roles assigned to FAB labels and icons with other color roles from the toolkit. | Label, Vector             |
 | Border                       | Swap FAB border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Main (Top) frame |
 | Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
+
+### [Hyperlink](../../components/hyperlink-button.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
+| ---------------- | ------------------------------------------------------------ | ------------------------ |
+| Background color | Add a fill color with color color roles from the toolkit.    | Hyperlink Button         |
+| Foreground color | Swap Primary or OnSurface color role used for hyperlinks with any other color roles from the toolkit. | Link                     |
+| Border           | Add, remove and edit border thickness from instances. You can assign any toolkit color to the border property. | Hyperlink Button         |
 
 ### [Icon Button](../../components/icon-button.md)
 
@@ -66,36 +95,6 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Border  | Add button border (aka Stroke) colors from the toolkit. Add and edit border thickness to instances. | Main (Top) frame  |
 | Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 
-### [Radio Button](../../components/radio-button.md)
-
-| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
-| ---------------- | ------------------------------------------------------------ | ------------------------ |
-| Background color | Swap RadioButton Primary color role with other color roles from the toolkit. | Icon, Color              |
-| Foreground color | Swap OnSurface color role used for text label with other color roles from the toolkit. | Content                  |
-| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | RadioButton              |
-
-### [Combo Box](../../components/combo-box.md)
-
-| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
-| ---------------- | ------------------------------------------------------------ | ------------------------ |
-| Background color | Swap ComboBox Surface color role with other color roles from the toolkit. | Input                    |
-| Foreground color | Swap OnSurface color role used for text and icons with other color roles from the toolkit. | Text, Vector             |
-| Border           | Swap ComboBox border (aka Stroke) colors with other color roles from the toolkit. Add, remove and edit border thickness from instances. | Input                    |
-
-### [Divider](../../components/divider.md)
-
-| Property         | Currently supported instance overrides                       | Edit this layer in Figma   |
-| ---------------- | ------------------------------------------------------------ | -------------------------- |
-| Foreground color | Swap fill color role used for dividers with any other color roles from the toolkit. | Template/.Template_Divider |
-
-### [Hyperlink](../../components/hyperlink-button.md)
-
-| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
-| ---------------- | ------------------------------------------------------------ | ------------------------ |
-| Background color | Add a fill color with color color roles from the toolkit.    | Hyperlink Button         |
-| Foreground color | Swap Primary or OnSurface color role used for hyperlinks with any other color roles from the toolkit. | Link                     |
-| Border           | Add, remove and edit border thickness from instances. You can assign any toolkit color to the border property. | Hyperlink Button         |
-
 ### [Password Box](../../components/password-box.md)
 
 | Property      | Currently supported instance overrides                       | Edit this layer in Figma |
@@ -110,6 +109,14 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Property      | Currently supported instance overrides                       | Edit this layer in Figma |
 | ---------------- | ------------------------------------------------------------ | ------------------------ |
 | Background color | Swap fill color role with any other color roles from the toolkit. | Main (Top) frame                |
+
+### [Radio Button](../../components/radio-button.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma |
+| ---------------- | ------------------------------------------------------------ | ------------------------ |
+| Background color | Swap RadioButton Primary color role with other color roles from the toolkit. | Icon, Color              |
+| Foreground color | Swap OnSurface color role used for text label with other color roles from the toolkit. | Content                  |
+| Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | RadioButton              |
 
 ### [Slider](../../components/slider.md)
 
@@ -143,7 +150,6 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 
 The following controls are not supporting overrides right now:
 
-* Checkbox
 * DatePicker
 * Dialogs
 * Flyouts
