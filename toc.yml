@@ -180,6 +180,9 @@
     - name: Divider
       href: components/divider.md
 
+    - name: MediaPlayer
+      href: components/media-player.md
+
     - name: PersonPicture
       href: components/person-picture.md
 
