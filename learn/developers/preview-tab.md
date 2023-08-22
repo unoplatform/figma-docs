@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Preview
+---
+
 # Preview Tab
 
 ## Using the Preview Tab

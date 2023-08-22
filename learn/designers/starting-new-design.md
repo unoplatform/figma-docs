@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.NewDesign
+---
+
 # Starting a New Design and General Tips
 
 To ensure having the proper XAML and previews from the plugin, please follow these guidelines:

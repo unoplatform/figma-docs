@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Button
+---
+
 # Button
 > **Note:** The **Button** allows developers and designers to override the background's color via the Selection colors option
 

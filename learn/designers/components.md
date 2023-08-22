@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Component
+---
+
 # How to Use Components
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.ProgressRing
+---
+
 # ProgressRing
 
 > **Note:** Currently the **ProgressRing** is not affected by the **Selection colors** property from Figma. In other words, the **ProgressRing** will always be the same colors in the plugin.

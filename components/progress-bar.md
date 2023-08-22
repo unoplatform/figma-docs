@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.ProgressBar
+---
+
 # ProgressBar
 
 > **Note:** Currently the **ProgressBar** is not affected by the **Selection colors** property from Figma. In other words, the **ProgressBar** will always be the same colors in the plugin.

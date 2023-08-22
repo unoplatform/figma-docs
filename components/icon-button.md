@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.IconButton
+---
+
 # IconButton
 
 ![iconbutton](./images/iconbutton.png)

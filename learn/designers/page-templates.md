@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.PageTemplates
+---
+
 # Page Templates
 
 ## How to Use Page Templates

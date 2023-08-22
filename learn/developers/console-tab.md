@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Console
+---
+
 # Console Tab
 
 ## Using the Console Tab

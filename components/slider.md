@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Slider
+---
+
 # Slider
 
 ![slider](./images/slider.png)

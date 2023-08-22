@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.RadioButton
+---
+
 # RadioButton
 
 ![radiobutton](./images/radiobutton.png)

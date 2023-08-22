@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Keyboard
+---
+
 # Keyboard
 
 > **Note:**  **Keyboard** is only ornamental, it will not affect the plugin at all.

@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components
+---
+
 # Components
 
 Here is a list of all the components that can be used while using the Figma Plugin.

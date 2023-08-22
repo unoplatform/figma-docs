@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Component.NavigationBar
+---
+
 # How to Use NavigationBar component
 
 ## Overview

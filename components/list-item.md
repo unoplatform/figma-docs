@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.ListItem
+---
+
 # ListItem
 
 > **Note:** If you want to use horizontal swiping features, you should use **[SwipeControl]()** instead.

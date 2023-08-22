@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Fonts
+---
+
 # How to Use Fonts
 
 Uno Toolkit comes pre-loaded with 19 semantic font styles to ensure your project will look great on any target platform. All the Toolkit components use these styles and the plugin can generate the necessary XAML for all of them with zero extra effort on your part.

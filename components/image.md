@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Image
+---
+
 # Image
 
 > **Note:** There are 2 different components named **Image** in the Plugin. The difference is that one of them has the **State** property the other doesn't.

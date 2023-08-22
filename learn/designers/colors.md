@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Colors
+---
+
 # Colors
 
 ## How to Use Color Styles

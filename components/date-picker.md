@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.DatePicker
+---
+
 # DatePicker
 
 > **Note:** Currently the only **DatePickers** that are displayed properly are the ones with the **Type** property set to **Icon**. Any other **DatePickers** will look as if it was also set to **Icon**.

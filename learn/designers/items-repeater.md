@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.ItemsRepeater
+---
+
 # Using the ItemsRepeater property 
 
 An advanced feature for designers requires some knowledge of JSON.

@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Export
+---
+
 # Export Tab
 
 ## Using the Export Tab

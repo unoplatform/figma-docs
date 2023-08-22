@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.NavigationBar
+---
+
 # Navigation Bar
 
 > **Note:** Only bitmap icons can be used to modify the buttons of the **Navigation Bar** to avoid a known issue with iOS and Android apps. The special main command (**Leading icon**) will be changed automatically depending on the Navigation Bar's usage, specifically if it is used in a popup or not. 

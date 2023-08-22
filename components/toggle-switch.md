@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.ToggleSwitch
+---
+
 # Toggle Switch
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *IsOn* property for this component.

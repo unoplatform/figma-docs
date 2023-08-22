@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.PasswordBox
+---
+
 # PasswordBox
 
 > **Note:** The **TrailingIcon** of the PasswordBox will always be the "Visibility" icon whether or not it is changed in Figma.

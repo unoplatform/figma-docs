@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.PipsPager
+---
+
 # Pips Pager
 
 ![divider](./images/pipspager.png)

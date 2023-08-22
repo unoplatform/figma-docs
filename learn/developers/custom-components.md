@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.CustomComponents
+---
+
 # Custom Components
 
 It is pretty common that apps use third party or custom controls, not present in Winui control library.

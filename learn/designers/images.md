@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Images
+---
+
 # Images
 
 ## How to Use Images

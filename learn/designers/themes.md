@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Themes
+---
+
 # Color Themes
 
 ## How to Generate Color Themes?

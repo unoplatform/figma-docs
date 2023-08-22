@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Settings
+---
+
 # Settings Tab
 
 This tab allows to change various settings for the Plugin.

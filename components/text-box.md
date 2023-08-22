@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.TextBox
+---
+
 # TextBox
 
 > **Note:** The **TrailingIcon** of the TextBox will always be the "X" icon whether or not it is changed in Figma.

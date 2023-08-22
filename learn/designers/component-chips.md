@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Component.Chips
+---
+
 # How to Use Chips
 
 Chips are used to either make selections, filter content or trigger actions. They can be used alone or appear as a group of interactive elements. It is possible to produce their respective appearances by using the variants of the Chip component.

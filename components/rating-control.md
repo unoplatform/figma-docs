@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.RatingControl
+---
+
 # RatingControl
 
 > **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Value* property for this component.

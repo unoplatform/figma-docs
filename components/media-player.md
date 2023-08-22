@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.MediaPlayerElement
+---
+
 # MediaPlayerElement
 
 ![radiobutton](./images/mediaplayerelement.png)

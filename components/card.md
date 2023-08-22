@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Card
+---
+
 # Card
 
 

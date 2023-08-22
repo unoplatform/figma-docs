@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Fab
+---
+
 # Floating Action Button (FAB)
 
 > **Tip:** The standard usage of the **FAB** is to use the default size.

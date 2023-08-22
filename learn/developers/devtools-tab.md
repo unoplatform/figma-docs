@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Console
+---
+
 # Dev Tools Tab
 
 ## Using the Dev Tools Tab

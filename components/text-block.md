@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.TextBlock
+---
+
 # Text Block
 
 > **Note:** **Text Block** and the **Text** option from Figma will both affect the plugin in a similar way. **Text Block** only presets the formatting.

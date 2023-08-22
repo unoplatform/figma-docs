@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.Component.Tabs
+---
+
 # How to use Tabs component 
 
 ## Overview

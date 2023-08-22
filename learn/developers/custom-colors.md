@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.CustomColors
+---
+
 # Custom Colors
 
 ## Using Custom Colors

@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Designers.TypeScaleOverrides
+---
+
 # How to Override Type Sizing
 Advanced feature
 <br />

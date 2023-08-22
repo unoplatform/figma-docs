@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Divider
+---
+
 # Divider
 
 ![divider](./images/divider.png)

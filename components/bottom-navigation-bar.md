@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.BottomNavigationBar
+---
+
 # Bottom Navigation Bar
 
 > **Note:** The **Bottom Navigation Bar** has a few important details that must be known. First of all the colors can be overridden using the **Selection colors** property from Figma. There is also the fact that the size of the component will not change based on the labels. The **badge** won't be displayed in the plugin. Finally, there is a known issue  where content around the **FAB** will be hidden.

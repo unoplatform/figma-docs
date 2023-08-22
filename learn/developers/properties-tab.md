@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Learn.Developers.Tabs.Properties
+---
+
 # Properties Tab
 
 ## Using the Properties Tab

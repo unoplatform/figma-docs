@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.IconToggleButton
+---
+
 # IconToggleButton
 
 > **Note:** The color of the **IconToggleButton** can be modified via the **Selection colors** option. The color must be modified for both the checked AND unchecked sub-components in the **IconToggleButton's** hierarchy

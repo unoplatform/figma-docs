@@ -1,3 +1,7 @@
+---
+uid: Uno.Figma.Components.Dialog
+---
+
 # Dialog
 
 ![dialog](./images/dialog.png)
