@@ -99,6 +99,14 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Border  | Add button border (aka Stroke) colors from the toolkit. Add and edit border thickness to instances. | Main (Top) frame  |
 | Corner Radius  | Define custom corner radius values for border and/or background color. | Main (Top) frame  |
 
+### [Navigation Bar](../../components/navigation-bar.md)
+
+| Property         | Currently supported instance overrides                       | Edit this layer in Figma        |
+| ---------------- | ------------------------------------------------------------ | ------------------------------- |
+| Background color | Add and edit a background fill to instances.                 | Main (Top) frame                |
+| Foreground color | Swap any colors roles assigned to Text Content.              | Bar/Content/Text                |
+| Icon Foreground color | Swap color roles assigned to any icon with any other color roles from the toolkit. | Respective Vector             |
+
 ### [Password Box](../../components/password-box.md)
 
 | Property      | Currently supported instance overrides                       | Edit this layer in Figma |
@@ -158,7 +166,6 @@ The following controls are not supporting overrides right now:
 * Dialogs
 * Flyouts
 * ListItem
-* NavigationBar
 * Progress Bar
 * RatingControl
 * SwipeControl
