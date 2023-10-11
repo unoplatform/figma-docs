@@ -56,6 +56,10 @@ It could also be used to set bindings to a component that can be used when the *
 
 - *Application Namespace*: this property is used to prefix the _namespace_ in the generated XAML.
 
+- *Views Sub Namespace*: set the _sub namespace_ for Page files (i.e. _ApplicationNamespace.ViewsSubNamespace_). 
+
+- *Styles Sub Namespace*: set the _sub namespace_ for Colors and Font Resource files (i.e. _ApplicationNamespace.StylesSubNamespace_). 
+
 - *Customize*: used to import and override theme packages from Material Theme Builder and its property can be used to override the theme package used in the Figma File, for more information please visit the [Themes](../designers/themes.md) page.
 
 > [!NOTE]
