@@ -1,5 +1,5 @@
 ---
-uid: Uno.Figma.Learn.Developers.Tabs.Console
+uid: Uno.Figma.Learn.Developers.Tabs.DevTools
 ---
 
 # Dev Tools Tab

@@ -42,6 +42,15 @@ Generating reusable code is simple and there are many different ways to create i
 3. Converting any frame, with or without content, in a component and using Properties Tab, setting the Control Type field - plugin will generate both: content code for those controls and their references in the full exported code.
 ![](assets/view-hierarchy-prop02.png)
 
+
+## C# Markup
+
+It is possible to choose between Xaml and C# Markup version of the exported code. All that is needed is to choose the desired format at the second Dropdown in the Export Tab.
+
+> [!NOTE]
+> Some settings for C# markup can be defined at the button Csharp Settings, which appears when C# is selected.
+
+
 > [!NOTE]
 > To override your application's resources, simply copy the text there into your Override file, as documented in the [Uno Themes documentation](https://platform.uno/docs/articles/external/uno.themes/doc/material-getting-started.html#customize-color-palette).
 

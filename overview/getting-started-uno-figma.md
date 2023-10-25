@@ -29,9 +29,10 @@ Next: [build a simple login page with the Uno Figma plugin](../learn/designers/s
 5. Pick the second tab (the "PLAY ICON") called `Preview`.
 6. Click the Refresh button at the botton of the plugin.
 7. After few seconds, a XAML rendered version of the selected page should be displayed.
-8. Pick the third tab called `Export`. An editor will display the generated code. It is possible to alternate among `Xaml`, `Global Resources`, `Localization File` on the dropdown on the left.  
-9. An `Export` button at the bottom right of the plugin will copy the content into the clipboard, which can be used to create a XAML Page or add Resources in Visual Studio.
+8. Pick the third tab called `Export`. An editor will display the generated code. Using the dropdown on the left, is possible to alternate among code for the `Root Screen`, `Colors and Font Overrides Files`,  `Localization File`, `Custom Component` and more!
+9. It is also possible to choose betwee `Xaml` and `C# Markup` formats. 
+10. An `Export` button at the bottom right of the plugin will copy the content into the clipboard, which can be used to send the code to the IDE of preference.
 
 ### Tips for developers
-* It is possible to change the namespace of the application in the first tab called `Properties`. By default a namespace will be created from the document's name. The same namespace is used for the whole Figma document.
+* It is possible to change namespaces in the first tab called `Properties`. By default an Application Namespace will be created from the document's name. It is also possible to define sub namespaces for Style and View Layer. The same namespace collection is used for the whole Figma document.
 * The generated screen (application page) always represents the currently selected _Frame_ in Figma. An option in the settings called `Auto Sync` will redo the generation each time the selection changes.
