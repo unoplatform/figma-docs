@@ -30,7 +30,7 @@ Next: [build a simple login page with the Uno Figma plugin](../learn/designers/s
 6. Click the Refresh button at the botton of the plugin.
 7. After few seconds, a XAML rendered version of the selected page should be displayed.
 8. Pick the third tab called `Export`. An editor will display the generated code. Using the dropdown on the left, is possible to alternate among code for the `Root Screen`, `Colors and Font Overrides Files`,  `Localization File`, `Custom Component` and more!
-9. It is also possible to choose betwee `Xaml` and `C# Markup` formats. See [Export Tab](../learn/developers/export-tab.md) for more details
+9. It is also possible to choose betwee `Xaml` and `C# Markup` formats. 
 10. An `Export` button at the bottom right of the plugin will copy the content into the clipboard, which can be used to send the code to the IDE of preference.
 
 ### Tips for developers

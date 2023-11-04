@@ -47,16 +47,8 @@ Generating reusable code is simple and there are many different ways to create i
 
 It is possible to choose between Xaml and C# Markup version of the exported code. All that is needed is to choose the desired format at the second Dropdown in the Export Tab.
 
-![](assets/cshar-markup-01.png)
-
-Plugin can also export Resource Overrides in C# Markup: 
-
-![](assets/cshar-markup-03.png)
-
 > [!NOTE]
 > Some settings for C# markup can be defined at the button Csharp Settings, which appears when C# is selected.
-
-![](assets/cshar-markup-02.png)
 
 
 > [!NOTE]
