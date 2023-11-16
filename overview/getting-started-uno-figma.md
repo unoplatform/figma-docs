@@ -27,7 +27,7 @@ Next: [build a simple login page with the Uno Figma plugin](../learn/designers/s
 3. Open the _Example app_ page (it may be renamed to something else by the designer) and right-click on a designed screen.
 4. Open the `Plugins`-> `Uno Platform`. The initialization could take few seconds.
 5. Pick the second tab (the "PLAY ICON") called `Preview`.
-6. Click the Refresh button at the botton of the plugin.
+6. Click the Refresh button at the bottom of the plugin.
 7. After few seconds, a XAML rendered version of the selected page should be displayed.
 8. Pick the third tab called `Export`. An editor will display the generated code. Using the dropdown on the left, is possible to alternate among code for the `Root Screen`, `Colors and Font Overrides Files`,  `Localization File`, `Custom Component` and more!
 9. It is also possible to choose betwee `Xaml` and `C# Markup` formats. See [Export Tab](../learn/developers/export-tab.md) for more details
