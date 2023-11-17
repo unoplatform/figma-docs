@@ -4,38 +4,36 @@ uid: Uno.Figma.Learn.Designers.Themes
 
 # Color Themes
 
-## How to Generate Color Themes?
+## Generating Color Themes with Uno Toolkit
 
-Toolkit provides Light and Dark themes that should work for any project. They can be customized to follow to colors required by a particular project. In the case where there is no predefined color theme or simply to help fill in the gaps for an existing color theme, we recommend using a tool like the **Material theme Builder**.
+To enhance the aesthetic appeal and consistency of your project, the Uno Toolkit offers customizable Light and Dark themes. These can be tailored to meet the specific color requirements of your project. For additional customization or to develop a unique color scheme, the **Material Theme Builder** is an invaluable tool.
 
-You can also swap color themes in and out of the document using the **Atlas Theme Manager Plugin**.
+To dynamically switch color themes in your Figma document, the **Atlas Theme Manager Plugin** is recommended. More details about these tools are available on the [Download & Tools](../../download.md) page.
 
-More details to get those tools on the [Download & Tools](../../download.md) page.
+## Creating a Custom Theme Package
 
-## How to generate a Theme Package?
+The Uno Figma Plugin supports importing theme packages, allowing for extensive customization of your Figma file. Utilize the **Material Theme Builder** to craft a personalized theme, which can then be imported into Figma.
 
-Uno Figma Plugin allows you to import theme packages to customize your Figma FIle. The **Material theme Builder** tool can customize a theme and generate a theme package that can be imported into your Figma file, through Uno Plugin.
+### Steps to Generate a Theme Package
 
-## Steps
-
-1. Access web version of **Material theme Builder Tool**.
-2. **Customize your theme** the way your project requires. You can also create custom colors which will be imported as well.
-3. Go to **Export** section and select **Material Tokens** option to download your package.
+1. Access the **Material Theme Builder Tool** online.
+2. Customize your theme to fit your project's needs, including the creation of custom colors.
+3. In the **Export** section, be sure to select the **Material Tokens (DSP)** option to download your package as a zip file. This step is crucial, as the Uno Plugin requires this specific format for successful import.
 
 > [!CAUTION]
-> Till the time we wrote this document, the Material theme Builder tool does not support importing back your theme package. So, if you want to make changes to your theme, you will have to start from scratch or leave the Theme Builder web page open.
+> The Material Theme Builder does not currently support re-importing your theme package. To modify your theme, you will need to either start from scratch or maintain the Theme Builder web page for reference.
 
-## How to import a Theme Package?
+## Importing a Theme Package into Figma
 
-### Steps
+### Steps for Import
 
-1. Open your Figma file and select **Uno Plugin** from the Plugins menu.
-2. Access the **Properties Tab** and go to **Theme Package** section.
-3. Click at the **Import** button and select the theme package you downloaded from the Material website. It must be the zip file, unchanged.
-4. Then confirm your choice and your theme will be applied to your Figma file.
-
-> [!TIP]
-> If something is not as you expected, a simple **Undo** can remove all imported changes at once.
+1. In Figma, open your file and select the **Uno Plugin** from the Plugins menu.
+2. Within the Uno Plugin, navigate to the **Properties Tab** and locate the **Theme Package** section.
+3. Click on **Import**, then choose the zip file you downloaded from the Material Theme Builder. It's essential to use the unaltered zip file for a smooth import process.
+4. Confirm to apply the theme to your Figma file.
 
 > [!TIP]
-> The plugin will ignore any file if its content is not relevant to the theme and will throw a warning message in that case.
+> If the imported theme doesn't align with your expectations, use Figma's **Undo** feature to revert all changes at once.
+
+> [!TIP]
+> The Uno Plugin will only process relevant files within the theme package, disregarding any unrelated content and notifying you of such instances.

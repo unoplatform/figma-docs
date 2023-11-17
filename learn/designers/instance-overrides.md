@@ -6,17 +6,17 @@ uid: Uno.Figma.Learn.Designers.Overrides
 
 ## Overview
 
-Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://m3.material.io/styles/color/the-color-system/color-roles). Designers using UFPMT should be intimatly familiar with the Material color system before attempting to substitute color roles through out components or they run the risk of finding nasty surprises in the XAML generated from their compositions come integration time. At least that was the case before UFPMT introduced its new *Instance* *Overrides* feature. While we still recommend you get familiar with Material color management, overrides gives you more control and flexibility in the areas of: swapping color roles and managing component borders (strokes in figma parlance). Overrides also allow you to redefine corner radius values set in Uno Toolkit components.
+The Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://aka.platform.uno/uno-material-m3-colors). Designers using UFPMT should be intimately familiar with the Material color system before attempting to substitute color roles throughout components, or they may encounter issues in the XAML generated from their compositions. UFPMT's *Instance Overrides* feature provides more control and flexibility in areas like swapping color roles and managing component borders (strokes in Figma parlance). Overrides also allow for the redefinition of corner radius values in Uno Toolkit components.
 
- ## How it works
+## How It Works
 
-Instance overrides works by detecting changes between a component's Editable Template and it's instances used in your Figma design file. This is done when you use the Uno Figma Plugin to generate XAML or a Preview of a selected composition. If your design uses a consistant set of buttons yet you need to create a new style for a certain use case, like a red destructive change confirmation button (shown below), the plugin will now detect the overrides you applyed to button instances and generate the proper XAML to reflect this new button style.
+Instance overrides work by detecting changes between a component's Editable Template and its instances used in your Figma design file. When you use the Uno Figma Plugin to generate XAML or a Preview of a selected composition, any overrides applied to button instances, such as a new style for a red destructive change confirmation button, will be recognized by the plugin and reflected in the generated XAML.
 
 ![](images/overriden-button-style.png)
 
-## Instance overrides per component
+## Instance Overrides Per Component
 
-Foreground color usually referers to content (in Material guidelines) of a component like text and icons as well as state overlays. Background color is usually the fill color used to define the shape of the component. Border is a synonyme for stroke (in Figma) and Outline (in Material) and is a line defining the outer border of a component.
+Foreground color usually refers to the content (in Material guidelines) of a component like text and icons, as well as state overlays. Background color is usually the fill color used to define the shape of the component. Border is synonymous with stroke (in Figma) and outline (in Material) and is a line defining the outer border of a component.
 
 ### [Button](../../components/button.md)
 | Property         | Currently supported instance overrides                       | Edit this Layer in Figma  |
@@ -158,9 +158,9 @@ Foreground color usually referers to content (in Material guidelines) of a compo
 | Foreground color | Swap color roles used for text and icons with any other color roles from the toolkit. | Text, Vector             |
 | Border           | Add, remove and edit border thickness from instances. Use any color role from the Toolkit. | Main (Top) frame                |
 
-## **Controls with no support**
+## **Controls with No Support**
 
-The following controls are not supporting overrides right now:
+The following controls do not support overrides at this time:
 
 * DatePicker
 * Dialogs
@@ -171,14 +171,3 @@ The following controls are not supporting overrides right now:
 * SwipeControl
 * TabBar* (Content variants and activity indicators are unsupported)
 * ToggleSwitch*
-
-
-
-
-
-
-
-
-
-
-
