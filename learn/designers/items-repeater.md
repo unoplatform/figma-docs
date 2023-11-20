@@ -2,30 +2,46 @@
 uid: Uno.Figma.Learn.Designers.ItemsRepeater
 ---
 
-# Using the ItemsRepeater Property 
+# Maximizing UI Design with ItemsRepeater in Uno Figma
 
-## What are they, and why use them?
+## Understanding the ItemsRepeater
 
-ItemsRepeater is a feature that generates code for displaying a collection of items in customizable layouts, such as lists and grids. It allows for the efficient display of large data sets by rendering items in a repeating layout, improving performance and reducing memory usage in generated apps. This can be beneficial for developers and streamlines the handoff process. ItemsRepeater also supports external data sources and bindings through the Uno plugin, enabling realistic previews and optimal layout design before handoff.
+ItemsRepeater is an advanced feature in the Uno Figma Toolkit designed to generate code for displaying collections of items in various layouts, like lists and grids. It's particularly efficient for large datasets, improving app performance by rendering items in a repeating pattern, thereby reducing memory usage. This feature not only benefits developers but also streamlines the design-to-development handoff process.
 
-The use of ItemsRepeater ensures consistent design, reduces maintenance by updating only one item for changes, and maximizes the amount of generated code to jumpstart development.
+## Choosing Between UniformGridLayout and StackLayout
+- **UniformGridLayout**: Presents items in a uniform-sized grid, ideal for visually organized displays.
+- **StackLayout**: Stacks items either horizontally or vertically, based on AutoLayout properties, suitable for linear item arrangements.
 
-## How to Apply ItemsRepeater to Your Figma Designs
+## Implementing Scrolling with ItemsRepeater
+It's important to note that ItemsRepeater itself doesn't provide scrolling capabilities. To incorporate scrolling, place the ItemsRepeater within a scrollable region. It will then adapt its virtualization to the scroll viewers present.
 
-1. Select the frame for the repeated items.
-2. Launch the Uno Figma plugin.
-3. In the *Properties* Tab, from the *Type* dropdown menu, select **ItemsRepeater**.
-4. Go to the *Data Context* Tab and enter data in JSON format.
-5. Click the *Save* button at the bottom of the tab.
-6. In the *Preview* Tab, click the Refresh button to update the layout with the data context.
-7. The live preview will now show the layout with data from the Data Context tab.
+## Steps to Apply ItemsRepeater in Figma Designs
 
-![](assets/ItemsRepeater.png)
+### 1. **Frame Selection**
+   - Choose the frame where the repeated items will be displayed.
+
+### 2. **Launch Uno Plugin**
+   - Open the Uno Figma plugin to begin customization.
+
+### 3. **Configure Properties**
+   - In the *Properties* Tab, select **ItemsRepeater** from the *Type* dropdown menu.
+
+### 4. **Setting Up Data Context**
+   - Navigate to the *Data Context* Tab.
+   - Enter your data in JSON format to simulate real-world content.
+   - Save your settings.
+
+### 5. **Previewing Your Design**
+   - Use the *Preview* Tab to refresh and see the updated layout.
+   - The live preview will display the layout populated with data from the Data Context tab.
+
+![ItemsRepeater Preview](assets/ItemsRepeater.png)
 
 > [!NOTE] 
-> ItemsRepeater does not provide states for repeated items. The *Data Context* is set at the *Root Frame* in Figma, so the data will be saved to the first *root* frame in the Figma data, regardless of the selected element.
+> The ItemsRepeater doesn't provide states for the repeated items. Data Context is set at the *Root Frame* level in Figma, meaning the data will be associated with the first *root* frame, regardless of the selected element.
 
-### Data Context Example (used in the above screenshot)
+### Example of Data Context
+Below is an example JSON data, featuring a variety of products:
 
 ``` json
 {
@@ -67,5 +83,3 @@ The use of ItemsRepeater ensures consistent design, reduces maintenance by updat
     }
   ]
 }
-```
-

@@ -2,72 +2,68 @@
 uid: Uno.Figma.Learn.Developers.Tabs.Settings
 ---
 
-# Settings Tab
+# Settings Tab in Uno Figma Plugin
 
-This tab allows to change various settings for the Plugin.
+## Overview
 
-## Versioning
+The Settings tab in the Uno Figma Plugin offers various adjustable parameters to customize the plugin's functionality and behavior.
 
-At the top of the settings tab, you can see various versioning:
+### Version Information
 
-* *Uno Figma Plugin*: That's the version of the plugin itself;
-* *Uno.UI*: The version of `Uno.UI` currently used by the plugin;
-* *Uno.Themes*: The version of `Uno.Themes` used;
-* *Uno.Toolkit.UI*: The version of the Toolkit currently used;
-* *Uno.Extensions*: The version of `Uno.Extensions` used.
+At the top of the Settings tab, you can find version details of different components used by the plugin:
 
-## Settings
+- **Uno Figma Plugin**: Version of the plugin itself.
+- **Uno.UI**: Version of `Uno.UI` utilized by the plugin.
+- **Uno.Themes**: Version of `Uno.Themes` in use.
+- **Uno.Toolkit.UI**: Version of the Toolkit being used.
+- **Uno.Extensions**: Version of `Uno.Extensions` employed.
 
-* Preview
+### Configurable Settings
 
-  * *Auto Sync*: when set, preview tab is updated each time a new selection is done in Figma.
+#### Preview Settings
 
-    > [!CAUTION]
-    > Using this feature is resource expensive.
-
-* General
-
-  * *Bindings*: Defines if the generation of _bindings_ should be in generated XAML;
-  * *Localization*: Defines is the generation of `x:Uid` should be in generated XAML;
-  * *Accessibility*: Defines if _AutomationPeer_ properties should be in generated XAML;
-  * *Layout optimizer*: Define if the Layout optimizer should be use
-
+- **Auto Sync**: Automatically updates the Preview tab when a new selection is made in Figma. 
   > [!CAUTION]
-    > The layout optimizer is still in the experimental phase.
+  > This feature is resource-intensive.
+- **Extract Image**: Extract images from Figma to show in the preview. When disabled it will generate placeholders. Images are not in exported XAML. 
+
+#### General Settings
+
+- **Bindings**: Toggles the generation of bindings in the exported XAML.
+- **Localization**: Determines the inclusion of `x:Uid` in the exported XAML.
+- **Accessibility**: Decides whether _AutomationPeer_ properties appear in the exported XAML.
+- **Layout Optimizer**: Activates the layout optimizer.
 
   > [!NOTE]
-  > Options here, except _Bindings_, won't change the XAML generated in the preview, and will only be present in the exported version.
+  > Except for _Bindings_, these settings do not affect the preview-generated XAML but are applied in the exported version.
 
-* Extensions
+#### Extensions Settings
 
-  * *Reactive*: Defines if `<FeedView />` controls should be in generated XAML;
-  * *Navigation*: Defines if *Uno Navigation Extensions* instructions should be in generated XAML.
+- **Reactive**: Controls the inclusion of `<FeedView />` controls in the generated XAML.
+- **Navigation**: Toggles the inclusion of Uno Navigation Extensions instructions in the generated XAML.
 
-* Styling: This is advanced and should not be changed.
+#### Styling Settings
 
-* Settings
+- Advanced settings for styling that are generally not modified.
 
-  * *Development*: Used by Uno developers to diagnose problems. Not useful unless instructed by support to use it;
-  * *Plugin Theme*: Triggers dark/light mode for the plugin interface;
-  * *Share usage analytics*: Opt in/out of the usage analytics to help Uno improving the plugin by gathering anonymous usage data of the plugin.
+#### Plugin Settings
 
-## Settings for Generated XAML
+- **Plugin Theme**: Switches between dark and light modes for the plugin interface.
+- **Share Usage Analytics**: Opt in or out of usage analytics to aid Uno in improving the plugin through anonymous data collection.
 
-Not all settings will have effect on generated XAML in the same way...
+### Impact of Settings on XAML Generation
 
 |       Setting | Effect in Preview | Effect on Export |
-| ------------ | ----------------- | ---------------- |
-|    `Bindings` | settings          | settings         |
-| `Localization` | false             | settings         |
-| `Accessibility` | false             | settings         |
-|    `Reactive` | false             | settings         |
-|  `Navigation` | false             | settings         |
+| ------------: | :---------------: | :--------------: |
+|    `Bindings` |      Settings     |      Settings    |
+| `Localization`|       False       |      Settings    |
+| `Accessibility`|      False       |      Settings    |
+|    `Reactive` |       False       |      Settings    |
+|  `Navigation` |       False       |      Settings    |
 
+### Utilizing the Settings Tab
 
-## Steps to use Settings tab
-
-1. From Figma's *Plugins* menu select *Uno Platform*;
-
-2. Click the *Settings* tab (last tab);
-3. Make changes;
-4. Changes are automatically saved.
+1. Access the Uno Platform Plugin from Figma's *Plugins* menu.
+2. Open the *Settings* tab, located as the last tab.
+3. Adjust settings as needed.
+4. Changes are saved automatically, streamlining the configuration process.

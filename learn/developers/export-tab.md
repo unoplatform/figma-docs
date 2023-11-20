@@ -2,68 +2,64 @@
 uid: Uno.Figma.Learn.Developers.Tabs.Export
 ---
 
-# Export Tab
+# Export Tab in Uno Figma Plugin
 
-## Using the Export Tab
+## Utilizing the Export Tab
 
-The Export tab is another powerful tool to inspect generated code and export to developers.
+The Export tab is a powerful tool within the Uno Figma Plugin, offering the ability to inspect generated code and export it for development purposes.
 
-The left-top dropdown allows you to alternate among `Xaml`, `Colors Override File`, `Fonts Override File` and `Localization File`. Contextual controls at the bottom of the tab allow you to: set view type, refresh view and export the code;
+### Features of the Export Tab
 
-Exporting process is done by adding the tab content to the clipboard, so you can paste it into your favorite text editor.
+- **Code Inspection**: View and analyze the generated code directly within Figma.
+- **Format Selection**: Alternate between `Xaml`, `Colors Override File`, `Fonts Override File`, and `Localization File` using the dropdown at the top-left.
+- **Export Functionality**: Export the code by copying it to the clipboard, allowing you to paste it into your preferred text editor.
 
 > [!NOTE]
-> Proper generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
+> To ensure proper code generation, it's essential to use the appropriate templates and components. Refer to the [New Design Guidelines](../designers/starting-new-design.md) for starting a new project.
 
-### Steps to Use Export Tab
+### Steps to Use the Export Tab
 
-1. Select the page or component to inspect;
-2. From Figma's *Plugins* menu select *Uno Platform*;
-3. Click the *Export* tab (third one from the left);
-4. Click the *Refresh* button at the bottom of the tab.
+1. **Select Item**: Choose the page or component you wish to inspect.
+2. **Access Plugin**: Open Uno Platform from Figma's Plugins menu.
+3. **Open Export Tab**: Click on the Export tab, the third icon from the left.
+4. **Refresh View**: Use the Refresh button at the bottom of the tab to update the view.
 
-## View Hierarchy
+## View Hierarchy Feature
 
-In order to allow designers to work with reusable content, plugin can generate code for User Controls, Custom External Controls, Pages and more.
-Plugin will export controls with own code (like User Controls and Pages) in separated files and reference those in the main container code.
-The final code will be flexible, cleaner and easier to understand and reuse.  
+The Uno Figma Plugin supports generating reusable code for User Controls, Custom External Controls, Pages, and more. The plugin exports controls with their own code separately and references them in the main container code for a flexible and clean structure.
+
+### Implementing View Hierarchy
+
+1. **Convert to Component**: Transform any frame into a component to generate AutoLayout containers in the code.
+2. **Use Properties Tab**: Set the Type field as Page or User Control for dedicated content code and references.
+3. **Combine Approaches**: Convert frames into components and set Control Type in the Properties Tab for comprehensive code generation.
 
 ![](assets/view-hierarchy01.png)
 ![](assets/view-hierarchy02.png)
 ![](assets/view-hierarchy03.png)
 
-### How to use it?
+## C# Markup Export
 
-Generating reusable code is simple and there are many different ways to create it using the plugin:
+The plugin allows the choice between Xaml and C# Markup formats for the exported code.
 
-1. Converting any frame, with or without content, in a component - both component and instances will result in AutoLayout containers in the exported code.
-2. Using Properties Tab, setting the Type field as Page or User Control - plugin will generate both: content code for those controls and their references in the full exported code.
-![](assets/view-hierarchy-prop01.png)
-3. Converting any frame, with or without content, in a component and using Properties Tab, setting the Control Type field - plugin will generate both: content code for those controls and their references in the full exported code.
-![](assets/view-hierarchy-prop02.png)
+1. **Select Format**: Choose the desired format in the Export Tab's second dropdown.
 
+   ![](assets/cshar-markup-01.png)
 
-## C# Markup
+2. **Export Resource Overrides**: The plugin can also export Resource Overrides in C# Markup.
 
-It is possible to choose between Xaml and C# Markup version of the exported code. All that is needed is to choose the desired format at the second Dropdown in the Export Tab.
-
-![](assets/cshar-markup-01.png)
-
-Plugin can also export Resource Overrides in C# Markup: 
-
-![](assets/cshar-markup-03.png)
+   ![](assets/cshar-markup-03.png)
 
 > [!NOTE]
-> Some settings for C# markup can be defined at the button Csharp Settings, which appears when C# is selected.
+> Specific settings for C# markup can be adjusted using the Csharp Settings button, available when C# is selected.
 
 ![](assets/cshar-markup-02.png)
 
-
 > [!NOTE]
-> To override your application's resources, simply copy the text there into your Override file, as documented in the [Uno Themes documentation](https://platform.uno/docs/articles/external/uno.themes/doc/material-getting-started.html#customize-color-palette).
+> To override your application's resources, copy the text into your Override file as outlined in the [Uno Themes documentation / Colors override](https://aka.platform.uno/uno-material-colors).
 
 ![](assets/export.png)
 
 > [!WARNING]
 >
-> This features will only work if the document has been created by duplicating the [Uno Toolkit](../designers/starting-new-design.md) document.
+> The Export features are fully functional only if the document is created by duplicating the [Uno Toolkit](../designers/starting-new-design.md) document.

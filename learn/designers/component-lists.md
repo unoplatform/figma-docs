@@ -2,62 +2,55 @@
 uid: Uno.Figma.Learn.Designers.Component.Lists
 ---
 
-# How to Use Lists
+# How to Use Lists in Uno Figma Toolkit
 
 ## Overview
 
-When the design requires a dynamic list (lists populated with data returned by an API), use the **List: Template** component. It can be found in the *Assets* section of the Toolkit. If the list you need is a static set of elements, build it using components like *Button* and/or *Text Block*.
+Lists are a fundamental element in UI design, used for displaying a series of items. The Uno Figma Toolkit provides the **List: Template** component for dynamic lists, which are especially useful when populating lists with data returned by an API. For static lists, you can construct them using basic components like *Button* and *Text Block*. Additionally, the *ItemsRepeater* can be an effective alternative for both dynamic and static lists, offering flexible layout options.
 
-### Steps
+### Steps for Using List Template
 
-1. Place the *List Template* inside the `◇ Content Scrollable` layer of the page template.
-2. With the list selected, right-click and select "Detach Instance" from the contextual menu.
-3. Choose the ListItem variants required for your list.
-4. Set list-related settings in the Uno Plugin. (See below)
+1. Place the *List Template* inside the `◇ Content Scrollable` layer of your page template.
+2. Detach the instance of the list for customization.
+3. Select appropriate ListItem variants for your list.
+4. Configure list-related settings in the Uno Plugin as detailed below.
 
-Lists are composed of *ListItems*. *ListItems* have many variants to choose from: Leading Items, Content, Primary Controls, Secondary Controls, or Trailing items. Each of these also has variants of their own, e.g., Leading Item can be either: Image, Person Picture, or Icon.
+Lists consist of *ListItems*, which come in various forms like Leading Items, Content, Primary Controls, Secondary Controls, or Trailing items, each with their own set of variants.
+
+![ListItem Variants](assets/lists-variants.png)
 
 >[!NOTE]
->Lists do not include space between ListItems. If the design requires space between items, add padding at the top or bottom of your ListItem component.
-
-![ListItem Variants.png](assets/lists-variants.png)
+>Lists do not inherently include space between items. Add padding to ListItems if spacing is required.
 
 ## Uno Plugin Settings for Lists
 
-To render properly, a list requires specific settings to be enabled in the plugin:
+Proper rendering of lists requires specific settings within the Uno Plugin:
 
-1. Select the *List Template* component in the layout.
-2. Launch the plugin.
-3. From the *Properties* tab of the plugin (first from the left), select *Layout Type* and set it to *Scrollable*. Then click the *Save* button (bottom left).
-4. From the *Settings* Tab (far right), toggle *Binding* to *On* and click the *Save* button (scroll all the way down to find it).
-5. Return to the *Preview* Tab (second from the left) and click the *Refresh* button to render the results.
+1. Select your *List Template* in the layout.
+2. Open the Uno Plugin.
+4. Refresh the preview to see the updated list.
+
+>[!CAUTION]
+> *Bindings* mode must be enabled in the settings and a *DataContext* must be defined
+> for the feature to work.
 
 >[!NOTE]
->Only the first item (usually a *List Item*) at the top of the list will be used to create the template in the generated XAML output by the Uno Plugin.
+>The first item in the list is typically used to create the template in the generated XAML output.
 
-### Lists with Swipeable Content
+### Incorporating Swipeable Content in Lists
 
-To add swipeable lists to an app, use the **Swipe Control List: Template** found in the assets panel. Any number of items can be added to the list by duplicating the `◇ SwipeControl` and `◇ Divider` layers found within the component.
-
-![](assets/lists-swipeable.png)
+For interactive lists with swipeable items, use the **Swipe Control List: Template**.
 
 ### Steps
 
-1. Place the *Swipe Control List: Template* inside the *Content Scrollable* layer of the page template.
-2. Choose the SwipeControl variants required for your list.
-3. Go to the *Prototype Tab* found in the top right of the Figma interface.
-4. Select *Overflow Scrolling*, then select one of the 4 available options:
-   - No Scrolling
-   - Horizontal Scrolling
-   - Vertical Scrolling
-   - Horizontal and Vertical Scrolling
+1. Insert the *Swipe Control List: Template* within the *Content Scrollable* layer.
+2. Choose the required SwipeControl variants.
+3. In the *Prototype Tab* (in Figma, not the plugin), select your preferred *Overflow Scrolling* option.
 
-### Uno Plugin Properties for Swipeable Lists
+![Swipeable Lists](assets/lists-swipeable.png)
 
-To render properly, a Swipeable List requires specific settings to be enabled in the plugin:
+## Alternative: Using ItemsRepeater for Lists
 
-1. Start after **Step 2** of the previous section.
-2. Select the *Swipe Control List: Template* component in the layout.
-3. Launch the plugin.
-4. From the [*Properties* tab](../developers/properties-tab.md) of the plugin (first from the left), select *Layout Type* and set it to either *Default* or *Scrollable*, then click the *Save* button (bottom left).
-5. Return to the *Preview* Tab (second from the left) and click the *Refresh* button to render the results.
+The [*ItemsRepeater*](items-repeater.md), particularly used with the "UniformGridLayout" option, is an excellent alternative for creating both dynamic and static lists. It provides more layout flexibility compared to traditional list templates and is suitable for various design scenarios.
+
+By utilizing these tools and steps, you can effectively implement different types of lists in your designs using the Uno Figma Toolkit, enhancing the functionality and visual appeal of your UI.
