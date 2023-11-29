@@ -20,6 +20,8 @@ uid: Uno.Figma.Components.TextBox
 
 ## Content Template Properties
 
+| Property           | Options                                  | Description                                               |
+| ------------------ | ---------------------------------------- | --------------------------------------------------------- |
 | Leading            | `True/False`                             | Adds an icon on the left of the TextBox input             |
 | Label              | `True/False`                             | Show or hide Label                                        |
 | Input Text         | `True/False`                             | Show or hide input text content                           |
