@@ -25,6 +25,11 @@ You may want to do this in your app to denote statuses, add color tags, introduc
 3) Click the ➕ icon to add a custom color style to the Light theme.
 4) Name your color, pick a value, and click Create Style.
 5) Optional: If you want your new style to have a Dark theme counterpart, repeat the above steps but select the "Dark" theme in step 2, and use the same name for both custom styles.
+1) From the [Uno Figma Toolkit file](https://aka.platform.uno/uno-figma-material-toolkit) make sure you have nothing selected;
+2) Go to the *Design* panel on the right side of the screen, find the *Color style* section, and hover over the "Light" theme;
+3) Click the ➕ icon to add a custom color style to the Light theme
+4) Name your color, pick a value, and click Create Style
+5) Optional: If you want your new style to have a Dark theme counterpart repeat the above steps but select the "Dark" theme in step 2, and use the same name for both custom styles.
 
 > [!IMPORTANT]
 > Custom color names **MUST END WITH `Color`**.
