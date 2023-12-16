@@ -8,13 +8,11 @@ uid: Uno.Figma.Download
 The starting point is to duplicate the Uno Toolkit for Figma document.
 
 Duplicate the [Uno Platform Material Toolkit](https://aka.platform.uno/uno-figma-material-toolkit) from the Figma Community.
-Duplicate the [Uno Platform Material Toolkit](https://aka.platform.uno/uno-figma-material-toolkit) from Figma Community.
 
 ## Uno Platform Plugin
 To start generating XAML from the document, the Uno Platform Plugin is required.
 
 It can be installed directly from the Figma Community using this URL: [Uno Platform Figma Plugin](https://aka.platform.uno/uno-figma-plugin).
-It can be installed directly from the Figma Community using this url: [Uno Platform Figma Plugin](https://aka.platform.uno/uno-figma-plugin).
 
 ## External 3rd Party Tools
 

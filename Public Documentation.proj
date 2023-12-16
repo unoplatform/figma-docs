@@ -1,0 +1,8 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Documentation Include="**/*.md" />
+    <Documentation Include="**/*.png" />
+    <Documentation Include="**/*.svg" />
+    <Documentation Include="toc.yml" />
+  </ItemGroup>
+</Project>

@@ -1,1 +1,1 @@
-This page has been moved [there](overview/getting-started-uno-figma.md)
+This page has been moved [there](xref:Uno.Figma.GettingStarted)

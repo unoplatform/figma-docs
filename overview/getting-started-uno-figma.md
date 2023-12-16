@@ -4,9 +4,8 @@ uid: Uno.Figma.Overview.GettingStarted
 
 # Design and Build Uno Platform Applications With Figma
 
-It is now possible to use Figma to design and build Uno Platform applications. Designers can use the highly collaborative Figma environment to fine-tune the User Experience (UX) while putting in place building blocks of an application following the Material Design language.
+Designers can use the highly collaborative Figma environment to fine-tune the User Experience (UX) while putting in place building blocks of an application following the Material Design language.
 Using the [Uno Platform Figma Plugin](../download.md), it is possible to visualize how the application will render and to export actual XAML for use in Visual Studio for the application. This application is also ready for localization, ready for accessibility, and can optionally make use of [Uno Extensions](https://aka.platform.uno/uno-extensions) (Reactive, Navigation...).
-Using the [Uno Platform Figma Plugin](../download.md), it is possible to visualize how the application will render and export actual XAML to use in Visual Studio for the application. This application is also ready for localization, ready for accessibility and can optionally use of [Uno Extensions](https://aka.platform.uno/uno-extensions) (Reactive, Navigation...).
 
 ## Designer's Side
 

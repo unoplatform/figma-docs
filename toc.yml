@@ -1,9 +1,39 @@
-- name: Overview
-  href: overview/getting-started-uno-figma.md
-  #items:
+- name: Getting Started
+  topicHref: xref:Uno.Figma.GettingStarted
+  items:
+    - name: Setup
+      topicHref: xref:Uno.Figma.GettingStarted.Setup
 
-- name: Download & Tools
-  href: download.md
+      items:
+       - name: Download & Tools
+         href: xref:Uno.Figma.Download
+
+    - name: Design to Code
+      href: xref:Uno.Figma.GettingStarted.DesignToCode
+      
+    - name: Create an App
+      href: xref:Uno.Figma.GettingStarted.CreateAnApp
+    
+    - name: Troubleshoot
+      href: xref:Uno.Figma.GettingStarted.Troubleshoot
+
+- name: Samples & Tutorials
+  items:
+    - name: TODO App Sample App
+      href: samples-tutorials/todo-app.md
+
+    - name: Uno Commerce Sample App
+      href: samples-tutorials/uno-commerce.md
+
+    - name: Common Workflows
+      href: xref:Uno.Figma.CommonWorkflows
+      
+- name: Overview
+  #topicHref: overview/getting-started-uno-figma.md
+  items:
+    - name: How it works
+      href: xref:Uno.Figma.Overview.HowItWorks
+
 
 - name: Learn Uno Figma (for designers)
   items:
@@ -101,7 +131,6 @@
     #  - name: Dev Tools
     #    href: learn/developers/devtools-tab.md
 
-
 - name: Reference
   items:
 
@@ -197,9 +226,6 @@
 
     - name: Status Bar
       href: components/status-bar.md
-
-    - name: Buttom Bar
-      href: components/buttom-bar.md
 
     - name: Keyboard
       href: components/keyboard.md
