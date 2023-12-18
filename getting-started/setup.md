@@ -2,7 +2,11 @@
 uid: Uno.Figma.GettingStarted.Setup
 ---
 
-# Setting up your environment
+# Getting Ready
+
+This section will guide you through the process of setting you up to use Figma and the Uno Platform Figma Plugin to generate code that can be used to create an app.
+
+Those steps will use the web version of Figma. The plugin is also available in the desktop version of Figma and the steps are pretty similar.
 
 ## Figma environment
 Let's start by making sure you have a working Figma environment.
@@ -27,16 +31,18 @@ Let's start by making sure you have a working Figma environment.
 >   ![Launch Plugin from toolbar in Design mode](assets/launch-plugin-from-toolbar.png) 
 > * In Developer mode: use the _Plugins_ tab in the right panel and search for _Uno Platform_
 >
->   ![Launch Plugin from toolbar in Developer mode](assets/launch-plugin-devmode2.png) 
+>   ![Launch Plugin from toolbar in Developer mode](assets/launch-plugin-devmode2.png)
 
-## Development environment
+## Development environment (Visual Studio or your favorite IDE)
 
 Creating a new project using the Uno Platform requires a developer environment to be setup. The following guides will help you setup your environment:
+[Getting Started with Uno Platform](xref:Uno.GetStarted)
+This guide will use Visual Studio on Windows as the IDE, but it is possible to use other supported IDEs like Visual Studio Code or JetBrains Rider.
 
 > [!IMPORTANT]
 > Ensure you have a working development environment before continuing.
 > Follow the [Uno Platform Getting Started](xref:Uno.GetStarted) guide.
-> This guide will use Visual Studio on Windows as the IDE, but it is possible to use other supported IDEs like Visual Studio Code or JetBrains Rider.
+> 
 
 ## Next step
 
