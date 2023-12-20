@@ -4,6 +4,11 @@ uid: Uno.Figma.Download
 
 # Downloads & Tools
 
+## Figma
+Both the web and desktop versions of Figma can be used to generate code using the Uno Platform Figma Plugin.
+
+Follow the [Setup](xref:Uno.Figma.GetStarted.Setup) tutorial to create and account and get it working.
+
 ## Uno Toolkit for Figma Document
 The starting point is to duplicate the Uno Toolkit for Figma document.
 

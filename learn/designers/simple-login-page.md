@@ -28,7 +28,7 @@ Follow this step-by-step guide to learn how to build a simple login page.
 
 
 ## Prerequisites and Setup
-Before starting, review the [Getting Started](xref:Uno.Figma.GettingStarted) guide for the Uno Figma plugin.
+Before starting, review the [Get Started](xref:Uno.Figma.GetStarted) guide for the Uno Figma plugin.
 
 ## Step 1: Setting the Page Template
 

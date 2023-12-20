@@ -1,23 +1,17 @@
-- name: Getting Started
-  topicHref: xref:Uno.Figma.GettingStarted
+- name: Get Started
+  topicHref: xref:Uno.Figma.GetStarted
   items:
-    - name: Start Here
-      href: xref:Uno.Figma.GettingStarted
-
     - name: Setup
-      href: xref:Uno.Figma.GettingStarted.Setup
+      href: xref:Uno.Figma.GetStarted.Setup
 
     - name: Design to Code
-      href: xref:Uno.Figma.GettingStarted.DesignToCode
-      
-    - name: Create an App
-      href: xref:Uno.Figma.GettingStarted.CreateAnApp
-    
-#    - name: Troubleshoot
-#      href: xref:Uno.Figma.GettingStarted.Troubleshoot
+      href: xref:Uno.Figma.GetStarted.DesignToCode
 
-    - name: Download & Tools
-      href: xref:Uno.Figma.Download
+    - name: Create an App
+      href: xref:Uno.Figma.GetStarted.CreateAnApp
+
+#    - name: Troubleshoot
+#      href: xref:Uno.Figma.GetStarted.Troubleshoot
 
 #- name: Samples & Tutorials
 #  items:
@@ -29,209 +23,212 @@
 #
 #    - name: Common Workflows
 #      href: xref:Uno.Figma.CommonWorkflows
-      
+
 - name: Overview
-  #topicHref: overview/getting-started-uno-figma.md
+  #topicHref: overview/get-started-uno-figma.md
   items:
-    - name: How it works
-      href: xref:Uno.Figma.Overview.HowItWorks
+#    - name: How it works
+#      href: xref:Uno.Figma.Overview.HowItWorks
+
+    - name: Downloads & Tools
+      href: xref:Uno.Figma.Download
 
     - name: Design with Uno Figma Material Toolkit
       items:
-    
+
       # ******************* Designer stuff *******************
       - name: Building a simple login page
         href: learn/designers/simple-login-page.md
-    
+
       - name: Starting a New Design and General Tips
         href: learn/designers/starting-new-design.md
-    
+
       - name: Colors
         href: learn/designers/colors.md
-    
+
       - name: Custom Colors
         href: learn/designers/custom-colors.md
-    
+
       - name: DSP Import
         href: learn/designers/dsp-import.md
-    
+
       - name: Themes
         href: learn/designers/themes.md
-    
+
       - name: Semantic Fonts
         href: learn/designers/semantic-fonts.md
-    
+
       - name: Images
         href: learn/designers/images.md
-    
+
       - name: Page Templates
         href: learn/designers/page-templates.md
-    
+
       - name: Components
         topicHref: learn/designers/components.md
         items:
-    
+
         - name: Lists
           href: learn/designers/component-lists.md
-    
+
         - name: Items Repeater
           href: learn/designers/items-repeater.md
-    
+
         - name: Chips
           href: learn/designers/component-chips.md
-    
+
         - name: Navigation
           href: learn/designers/component-navigationbar.md
-    
+
         - name: Tabs
           href: learn/designers/component-tabs.md
-    
+
         - name: Type Scale Overrides
           href: learn/designers/type-scale-overrides.md
-    
+
       - name: Overrides
         href: learn/designers/instance-overrides.md
-    
+
       - name: Exporting Assets
         href: learn/designers/exporting-assets.md
-    
+
     - name: The Uno Figma Plugin
       items:
-    
+
       # ******************* Developer stuff *******************
-    
+
       - name: Properties Tab
         href: learn/developers/properties-tab.md
-    
+
       - name: Preview Tab
         href: learn/developers/preview-tab.md
-    
+
       - name: Export Tab
         href: learn/developers/export-tab.md
-    
+
       - name: DataContext Tab
         href: learn/developers/datacontext-tab.md
-    
+
       - name: Console Tab
         href: learn/developers/console-tab.md
-    
+
       - name: Settings Tab
         href: learn/developers/settings-tab.md
-    
+
       - name: Custom Colors
         href: learn/developers/custom-colors.md
-    
+
       - name: Custom Components
         href: learn/developers/custom-components.md
-    
+
       #  Are we adding this now?
       #  - name: Dev Tools
       #    href: learn/developers/devtools-tab.md
 
 - name: Reference
   items:
-  
+
     # ******************* Components information *******************
-  
+
   - name: Components
     topicHref: components/components-list.md
     items:
-  
+
     - name: Button
       href: components/button.md
-  
+
     - name: RadioButton
       href: components/radio-button.md
-  
+
     - name: ComboBox
       href: components/combo-box.md
-  
+
     - name: CheckBox
       href: components/check-box.md
-  
+
     - name: FAB
       href: components/fab.md
-  
+
     - name: IconToggleButton
       href: components/icon-toggle-button.md
-  
+
     - name: IconButton
       href: components/icon-button.md
-  
+
     - name: HyperlinkButton
       href: components/hyperlink-button.md
-  
+
     - name: Slider
       href: components/slider.md
-  
+
     - name: RatingControl
       href: components/rating-control.md
-  
+
     - name: ToggleSwitch
       href: components/toggle-switch.md
-  
+
     - name: Chip
       href: components/chip.md
-  
+
     - name: Card
       href: components/card.md
-  
+
     - name: Image
       href: components/image.md
-  
+
     - name: ListItem
       href: components/list-item.md
-  
+
     - name: SwipeControl
       href: components/swipe-control.md
-  
+
     - name: DatePicker
       href: components/date-picker.md
-  
+
     - name: Dialog
       href: components/dialog.md
-  
+
     - name: Navigation Bar
       href: components/navigation-bar.md
-  
+
     - name: Bottom Navigation Bar
       href: components/bottom-navigation-bar.md
-  
+
     - name: Bottom Bar
       href: components/bottom-bar.md
-  
+
     - name: Tab Bar
       href: components/tab-bar.md
-  
+
     - name: Divider
       href: components/divider.md
-  
+
     - name: MediaPlayer
       href: components/media-player.md
-  
+
     - name: PersonPicture
       href: components/person-picture.md
-  
+
     - name: PipsPager
       href: components/pips-pager.md
-  
+
     - name: Progress Ring
       href: components/progress-ring.md
-  
+
     - name: Progress Bar
       href: components/progress-bar.md
-  
+
     - name: Status Bar
       href: components/status-bar.md
-  
+
     - name: Keyboard
       href: components/keyboard.md
-  
+
     - name: PasswordBox
       href: components/password-box.md
-  
+
     - name: TextBox
       href: components/text-box.md
-  
+
     - name: Text Block
       href: components/text-block.md
