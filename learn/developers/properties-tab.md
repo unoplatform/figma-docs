@@ -2,7 +2,7 @@
 uid: Uno.Figma.Learn.Developers.Tabs.Properties
 ---
 
-# Mastering the Properties Tab in Uno Figma Plugin
+# Properties Tab in Uno Figma Plugin
 
 ## Overview
 

@@ -2,7 +2,7 @@
 uid: Uno.Figma.Learn.Developers.Tabs.Preview
 ---
 
-# Preview Tab in Uno Figma Plugin: A Comprehensive Guide
+# Preview Tab in Uno Figma Plugin
 
 ## Enhancing Design with the Preview Tab
 

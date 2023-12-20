@@ -39,6 +39,8 @@ dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromF
 10. Go in the _Features_ section and select _Toolkit_
 11. Click _Create_
 
+![Creating a new project in Visual Studio](assets/vs-create-project.gif)
+
 ---
 
 Following steps will use Visual Studio, but any other IDE should work as well with minimal changes.

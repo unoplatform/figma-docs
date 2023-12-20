@@ -9,6 +9,7 @@
   <ItemGroup>
     <Documentation Include="**/*.md" />
     <Documentation Include="**/*.png" />
+    <Documentation Include="**/*.gif" />
     <Documentation Include="**/*.svg" />
     <Documentation Include="toc.yml" />
   </ItemGroup>

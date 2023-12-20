@@ -12,7 +12,7 @@ Those steps will use the web version of Figma. The plugin is also available in t
 Let's start by making sure you have a working Figma environment.
 
 1. Navigate to [Figma web site](https://figma.com/)
-2. Sing-in or [create a new account](https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account) if you don't have one already
+2. Sign-in or [create a new account](https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account) if you don't have one already
 3. Navigate to the [Uno Figma Plugin page](https://aka.platform.uno/uno-figma-plugin)
 4. Click on the _Open in..._ button and pick `+ Playground file` option to create a new copy of the _Uno Material Toolkit_ document
 
