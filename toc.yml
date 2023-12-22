@@ -1,6 +1,8 @@
 - name: Get Started
-  topicHref: xref:Uno.Figma.GetStarted
   items:
+    - name: Intro
+      href: xref:Uno.Figma.GetStarted
+
     - name: Setup
       href: xref:Uno.Figma.GetStarted.Setup
 
