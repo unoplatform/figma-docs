@@ -45,5 +45,5 @@ The code generated in this section will be used in this next section.
 
 ## See also
 
-* [How it works](xref:Uno.Figma.Overview.HowItWorks) - This section explains how the plugin extracts the information from the Figma file and how this information is used to generate the code.
+<!--* [How it works](xref:Uno.Figma.Overview.HowItWorks) - This section explains how the plugin extracts the information from the Figma file and how this information is used to generate the code.-->
 * [Setup](setup.md) - This section explains how to setup your environment to use the plugin.
