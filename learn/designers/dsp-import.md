@@ -17,6 +17,12 @@ We recommend doing this at the start of the design phase, but you can apply a ne
 
 ![Before DSP Import](assets/before-dsp-import.png)
 
+
+
+> [!IMPORTANT]
+> Due to Figma restrictions, we can't import a DSP file in Figma Developer Mode. The feature will only be available when the plugin is runnning in Design Mode.
+
+
 ## How to Import the DSP File
 
 1) Generate your color theme from the [Material Theme Builder](https://aka.platform.uno/uno-material-themebuilder).
