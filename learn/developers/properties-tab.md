@@ -59,7 +59,7 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 
 1. **Select a Page or Component**: Choose the element for property assignment.
 2. **Open Uno Plugin**: From Figma's Plugins menu, select Uno Platform.
-3. **Access Properties Tab**: It's the first tab on the left.
+3. **Access Properties Tab**: Jus select the Properties Tab at the tab bar.
 4. **Enter Property Changes**: Modify the properties as needed.
 5. **Save Changes**: Click the Save button at the bottom of the tab.
 6. **Preview Changes**: Optionally, review the changes in Preview or Export tabs.

@@ -45,4 +45,4 @@ Next: [Build a Simple Login Page with the Uno Figma Plugin](../learn/designers/s
 10. An `Export` button at the bottom right of the plugin will copy the content into the clipboard, which can be used to send the code to the IDE of preference.
 
 ### Tips for Developers
-* It is possible to change namespaces in the first tab called `Properties`. By default, an Application Namespace will be created from the document's name. It is also possible to define sub namespaces for Style and View Layer. The same namespace collection is used for the entire Figma document.
+* It is possible to change namespaces in the tab called `Properties`. By default, an Application Namespace will be created from the document's name. It is also possible to define sub namespaces for Style and View Layer. The same namespace collection is used for the entire Figma document.
