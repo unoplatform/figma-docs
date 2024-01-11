@@ -16,11 +16,8 @@ Using the [Uno Platform Figma Plugin](../download.md), it is possible to visuali
 3. Open the _Theme_ page and **ensure that nothing is selected** in the document. On the right-hand side of Figma, there's the **Color Styles** section where it is possible to adjust colors for the styles of the application. When hovering the mouse over a specific color, an _Edit Style_ button appears. This button allows for picking another color for the chosen style.
 4. Open the _Example App_ page. You can rename it to fit your application name or even create new ones as needed.
 5. Creating a new page: Open the _Assets_ pane (at the top/left of the screen) and select `Templates`. Open the `Templates / Page Templates` section. Pick one of the templates and drag it onto the design surface.
-2. Open the document and go to the _Get started_ page. There's a lot of information there to adjust the colors, the typography, and how to start a new project.
-3. Open the _Theme_ page and **ensure that nothing is selected** in the document. On the right-hand side of Figma, there's the **Color Styles** section where it is possible to adjust colors for the styles of the application. When passing the mouse over a specific color, there's an _Edit style_ button that appears. This button allows for picking another color for the chosen style.
-4. Open the _Example app_ page. You can rename it to fit your application name or even create new ones as needed.
-5. Creating a new page: Open the _Assets_ pane (at the top/left of the screen) and select `Templates` open the `Templates / Page templates` section. Pick one of the templates and drag it on the design surface.
-6. Adding components to an existing page: Open the _Assets_ page (at the top/left of the screen) and open the `Components` section. Pick a desired component and drag it inside an existing page on the design surface.
+6. Open the document and go to the _Get started_ page. There's a lot of information there to adjust the colors, the typography, and how to start a new project.
+7. Adding components to an existing page: Open the _Assets_ page (at the top/left of the screen) and open the `Components` section. Pick a desired component and drag it inside an existing page on the design surface.
 
 ### Tips for Designers
 
