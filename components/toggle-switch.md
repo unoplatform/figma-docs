@@ -4,7 +4,7 @@ uid: Uno.Figma.Components.ToggleSwitch
 
 # Toggle Switch
 
-> **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *IsOn* property for this component.
+**Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *IsOn* property for this component.
 
 ![toggleswitch](./images/toggleswitch.png)
 
@@ -14,6 +14,6 @@ uid: Uno.Figma.Components.ToggleSwitch
 | Icons    | `Always, Selected Only, None`              | Defines how icons will be available accordingly to selection value |
 | State    | `Disabled, Enabled, Hover, Focus, Pressed` | Alters the current state of the component, although it doesn't affect the plugin |
 
-### Extra Customization
+## Extra Customization
 
-> To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
+To reach the extra customization features, you will need to work your way through the hierarchy of the component to find the specified sub-components.

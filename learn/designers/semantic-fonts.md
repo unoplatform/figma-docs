@@ -11,7 +11,7 @@ The Uno Toolkit comes pre-loaded with semantic font styles to ensure your projec
 - Each native platform uses a different default font. Make sure to download the appropriate fonts for your project from their respective providers:
   - Material: [Roboto](https://fonts.google.com/specimen/Roboto)
   - Cupertino: [SF-Pro](https://developer.apple.com/fonts/)
-  - Fluent: [SegoeUI-Variable and Static Fonts](https://docs.microsoft.com/en-us/windows/apps/design/downloads/#fonts)
+  - Fluent: [SegoeUI-Variable and Static Fonts](https://learn.microsoft.com/windows/apps/design/downloads/#fonts)
 
 Uno will apply the appropriate native fonts, sizings, and spacings based on the Toolkit's semantic text styles used in your design.
 

@@ -42,7 +42,7 @@ The foundation of the Uno Plugin's functionality lies in the **Auto Layout** fea
 | Justify              | `Stack, SpaceBetween`         | Determines the distribution of items within the layout.      |
 | PrimaryAxisAlignment | `Start, Center, End, Stretch` | Aligns items based on the selected orientation.              |
 | PrimaryAlignment     | `Auto, Stretch`               | Controls how much space an item occupies.                    |
-| CounterAlignement    | `Start, Center, End, Stretch` | Adjusts item alignment opposite to the primary axis.         |
+| CounterAlignment     | `Start, Center, End, Stretch` | Adjusts item alignment opposite to the primary axis.         |
 | PrimaryLength        | `<value>`                     | Sets the width or height of items, depending on orientation. |
 | CounterLength        | `<value>`                     | Sets the secondary dimension of items.                       |
 

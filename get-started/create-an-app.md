@@ -11,8 +11,7 @@ This section will guide you through the process of creating a new app using the 
 
 ## Development environment (Visual Studio or your favorite IDE)
 
-Creating a new project using the Uno Platform requires a developer environment to be setup. The following guides will help setting up a development environment:
-[Get Started with Uno Platform](xref:Uno.GetStarted)
+Creating a new project using the Uno Platform requires a developer environment to be setup. For more information about setting up your development environment, see [Get Started with Uno Platform](xref:Uno.GetStarted).
 
 ## Create a project
 
@@ -21,7 +20,8 @@ This simple tutorial will create a new project using the `unoapp` template. It's
 ### [dotnet new](#tab/dotnet-cli)
 
 Run the following command in a terminal to create a new project:
-```shell
+
+```dotnetcli
 dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromFigma
 ```
 
@@ -46,14 +46,16 @@ dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromF
 Following steps will use Visual Studio, but any other IDE should work as well with minimal changes.
 
 ## Step 1 - Open the solution, compile and run it
-1. Open the generated `MyFirstAppFromFigma.sln` solution in your favorite IDE
-2. In the top toolbar, select the platform you like as your startup project (following screenshots will use `MyFirstAppFromFigma.Windows`)
-3. Press F5 to run the app and ensure it builds correctly
-4. Locate the page `MainPage.xaml` in the `MyFirstAppFromFigma` library project
-5. Compile the project to ensure it builds correctly
-6. Switch to Figma (next section)
+
+1. Open the generated `MyFirstAppFromFigma.sln` solution in your favorite IDE.
+2. In the top toolbar, select the platform you like as your startup project (following screenshots will use `MyFirstAppFromFigma.Windows`).
+3. Press F5 to run the app and ensure it builds correctly.
+4. Locate the page `MainPage.xaml` in the `MyFirstAppFromFigma` library project.
+5. Compile the project to ensure it builds correctly.
+6. Switch to Figma (next section).
 
 ## Step 2 - Make Figma generates the right XAML
+
 1. Go back to Figma, in the document you created in the [Design to Code](xref:Uno.Figma.GetStarted.DesignToCode) section.
 2. Open the plugin (more details in the [Setup](xref:Uno.Figma.GetStarted.Setup) section)
 3. In Figma, select the _01. Login_ frame
@@ -66,6 +68,7 @@ Following steps will use Visual Studio, but any other IDE should work as well wi
 10. Now click on the _Copy_ button to copy the generated XAML to the clipboard
 
 ## Step 3 - Paste the generated XAML into app project
+
 1. Go back to your IDE (Visual Studio in this example)
 2. Replace the content of the `MainPage.xaml` file with the generated XAML, from the clipboard
 3. Press F5 to run the app

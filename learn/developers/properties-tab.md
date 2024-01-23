@@ -11,10 +11,12 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 ### Key Features of the Properties Tab
 
 #### Application
+
 - **Namespaces Configuration**: Set application, views, and styles sub-namespaces.
 - **Theme Customization**: Import and override theme packages. (See [DSP Import](../designers/dsp-import.md))
 
 #### Selection (current selection)
+
 - **Content**: Define bindings for the selected component instance.
 - **Mode**: Choose between Static and Reactive modes for data handling.
 - **Page Name**: Assign a custom name to the exported page.
@@ -70,4 +72,4 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 > [!NOTE]
 > For specific component properties, refer to the individual component documentation within the plugin.
 
-By leveraging the Properties tab effectively, developers can ensure that their Figma designs translate accurately into XAML code, maintaining design integrity and simplifying the development process.
+By leveraging the Properties tab effectively, developers can ensure that their Figma designs translate accurately into XAML code, maintaining design integrity, and simplifying the development process.

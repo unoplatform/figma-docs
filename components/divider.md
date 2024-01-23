@@ -9,4 +9,3 @@ uid: Uno.Figma.Components.Divider
 | Property | Options       | Description                      |
 | -------- | ------------- | -------------------------------- |
 | Length   | `Full, Short` | Changes the width of the divider |
-

@@ -4,7 +4,7 @@ uid: Uno.Figma.Components.Chip
 
 # Chip
 
-> **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
+**Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Content* property for this component.
 
 ![chip](./images/chip.png)
 
@@ -16,6 +16,6 @@ uid: Uno.Figma.Components.Chip
 | Text     | `Text field`                               | Changes the text content of the component           |
 | Trailing | `True, False`                              | Alters the visibility of the trailing icon of the component |
 
-### Extra Customization
+## Extra Customization
 
-> To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
+To reach the extra customization features, you will need to work your way through the hierarchy of the component to find the specified sub-components.

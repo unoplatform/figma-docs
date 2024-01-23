@@ -30,7 +30,7 @@ The Uno Figma Platform Material Toolkit (UFPMT) comes preloaded with a collectio
 
 > [!TIP]
 > Adjusting global colors at the start of your design process is recommended, though they can be altered at any stage.
-
+>
 > [!CAUTION]
 > Modifying colors with an element selected in Figma will only affect that specific element and not the entire document. Such changes will not carry over to the XAML export.
 

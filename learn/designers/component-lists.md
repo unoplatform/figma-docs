@@ -19,23 +19,23 @@ Lists consist of *ListItems*, which come in various forms like Leading Items, Co
 
 ![ListItem Variants](assets/lists-variants.png)
 
->[!NOTE]
->Lists do not inherently include space between items. Add padding to ListItems if spacing is required.
+> [!NOTE]
+> Lists do not inherently include space between items. Add padding to ListItems if spacing is required.
 
 ## Uno Plugin Settings for Lists
 
 Proper rendering of lists requires specific settings within the Uno Plugin:
 
 1. Select your *List Template* in the layout.
-2. Open the Uno Plugin.
-4. Refresh the preview to see the updated list.
+1. Open the Uno Plugin.
+1. Refresh the preview to see the updated list.
 
->[!CAUTION]
+> [!CAUTION]
 > *Bindings* mode must be enabled in the settings and a *DataContext* must be defined
 > for the feature to work.
-
->[!NOTE]
->The first item in the list is typically used to create the template in the generated XAML output.
+>
+> [!NOTE]
+> The first item in the list is typically used to create the template in the generated XAML output.
 
 ### Incorporating Swipeable Content in Lists
 

@@ -14,7 +14,7 @@ Navigation Bars are typical UI elements found at the top of the screen in most m
 
 * The `NavigationBar` component should be placed within the *Page* layer and outside of the *Content* layer in your Figma document.
 
-![Screenshot of the suggested layer structure described above.](images/clip_image002.png)
+    ![Screenshot of the suggested layer structure described above.](images/clip_image002.png)
 
 * `Background` fill colors may only be set to *Surface* or *Primary* colors at the moment. Use the corresponding styles found in the variants panel.
 

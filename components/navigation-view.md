@@ -2,7 +2,7 @@
 
 ![navigationview](./images/navigationview.png)
 
-# Component Properties
+## Component Properties
 
 | Property       | Options            | Description                                                  |
 | -------------- | ------------------ | ------------------------------------------------------------ |
@@ -11,20 +11,20 @@
 | Section #X     | `True/False`       | Shows / Hide the respective Navigation View Section                    |
 | Footer         | `True/False`       | Shows / Hide the Navigation View Footer                                |
 
-# Navigation Section Properties
+## Navigation Section Properties
 
-| Item #X        | `True/False`       | Shows / Hide the respective Navigatiom Item in the Section   |
+| Item #X        | `True/False`       | Shows / Hide the respective Navigation Item in the Section   |
 | Divider        | `True/False`       | Shows / Hide the divider at the ending of the Section        |
 
-# Navigation Item Properties
+## Navigation Item Properties
 
 | Property       | Options            | Description                                                  |
 | -------------- | ------------------ | ------------------------------------------------------------ |
 | Label text     | `True/False`       | Shows / Hide the Item Label                                  |
 
-### Extra Customization
+## Extra Customization
 
-> To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
+To reach the extra customization features, you will need to work your way through the hierarchy of the component to find the specified sub-components.
 
 - **Leading / Icon:** Allows you to change the vector of the **Navigation View Item's** icon.
 - **Content:** Allows you to change the text of the **Navigation View Item's** label.

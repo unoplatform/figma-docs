@@ -4,9 +4,10 @@ uid: Uno.Figma.Components.PasswordBox
 
 # PasswordBox
 
-> **Note:** The **TrailingIcon** of the PasswordBox will always be the "Visibility" icon whether or not it is changed in Figma.
+> [!NOTE]
+> The **TrailingIcon** of the PasswordBox will always be the "Visibility" icon whether or not it is changed in Figma.
 
-> **Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Password* property for this component.
+**Binding:** By default, Data set with the **Content** field in the **Properties** tab in the plugin will be applied to the *Password* property for this component.
 
 ![passwordbox](./images/passwordbox.png)
 
@@ -15,8 +16,7 @@ uid: Uno.Figma.Components.PasswordBox
 | Property     | Options                                          | Description                                                  |
 | ------------ | ------------------------------------------------ | ------------------------------------------------------------ |
 | Type         | `Filled, Outlined`                               | Changes the style of the control                             |
-| Leading      | `True/False`                                     | Adds an leading icon                                         | 
-
+| Leading      | `True/False`                                     | Adds a leading icon                                         |
 
 ## Content Template Properties
 
@@ -32,6 +32,6 @@ uid: Uno.Figma.Components.PasswordBox
 | Input Text   | `True/False`                             | Show or hide input text content                           |
 | Trailing     | `True/False`                             | Swap visibility of a clear icon. Doesn't affect Plugin    |
 
-### Extra Customization
+## Extra Customization
 
-> To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
+To reach the extra customization features, you will need to work your way through the hierarchy of the component to find the specified sub-components.

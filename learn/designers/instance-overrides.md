@@ -7,7 +7,6 @@ uid: Uno.Figma.Learn.Designers.Overrides
 ## Overview
 
 The Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://aka.platform.uno/uno-material-m3-colors). Designers using UFPMT should be intimately familiar with the Material color system before attempting to substitute color roles throughout components, or they may encounter issues in the XAML generated from their compositions. UFPMT's *Instance Overrides* feature provides more control and flexibility in areas like swapping color roles and managing component borders (strokes in Figma parlance). Overrides also allow for the redefinition of corner radius values in Uno Toolkit components.
-Uno Figma Platform Material Toolkit (UFPMT) includes a set of components designed and styled to closely follow [Material 3 color guidelines](https://aka.platform.uno/uno-material-m3-colors). Designers using UFPMT should be intimatly familiar with the Material color system before attempting to substitute color roles through out components or they run the risk of finding nasty surprises in the XAML generated from their compositions come integration time. At least that was the case before UFPMT introduced its new *Instance* *Overrides* feature. While we still recommend you get familiar with Material color management, overrides gives you more control and flexibility in the areas of: swapping color roles and managing component borders (strokes in figma parlance). Overrides also allow you to redefine corner radius values set in Uno Toolkit components.
 
 ## How It Works
 
@@ -20,6 +19,7 @@ Instance overrides work by detecting changes between a component's Editable Temp
 Foreground color usually refers to the content (in Material guidelines) of a component like text and icons, as well as state overlays. Background color is usually the fill color used to define the shape of the component. Border is synonymous with stroke (in Figma) and outline (in Material) and is a line defining the outer border of a component.
 
 ### [Button](../../components/button.md)
+
 | Property         | Currently supported instance overrides                       | Edit this Layer in Figma  |
 | ---------------- | ------------------------------------------------------------ | ------------------------- |
 | Background color | Swap Primary and Surface fill colors with other color roles from the toolkit. | Main (Top) frame               |
@@ -29,6 +29,7 @@ Foreground color usually refers to the content (in Material guidelines) of a com
 | Corner radius    | Define custom corner radius values. | Main (Top) frame  |
 
 ### [Card](../../components/card.md)
+
 | Property         | Currently supported instance overrides                       | Edit this layer in Figma   |
 | ---------------- | ------------------------------------------------------------ | ------------------------------- |
 | Background color | Swap fill colors with any other color roles from the toolkit. | Main (Top) frame               |

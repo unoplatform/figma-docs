@@ -9,25 +9,29 @@ uid: Uno.Figma.Learn.Developers.CustomComponents
 In many app development scenarios, third-party or custom controls not present in the WinUI control library are essential. The Uno Figma Plugin provides a feature to integrate these external custom components seamlessly into your design by reserving space in the exported layout.
 
 > [!IMPORTANT]
-> This feature is intended for **existing** external components and should not be confused with the _View Hierarchy_ feature in the [Export Tab](export-tab.md), which generates components from your design. It is specifically for using components not defined in your Figma document.
+> This feature is intended for **existing** external components and should not be confused with the *View Hierarchy* feature in the [Export Tab](export-tab.md), which generates components from your design. It is specifically for using components not defined in your Figma document.
 
 ### Steps to Implement Custom Components
 
 To effectively use this feature in Figma, you need to create and set up a Component. Once configured, every instance of this component will translate into corresponding generated code in the app development process.
 
 #### 1. **Create a Component Frame**
-   - Draw a frame in your Figma canvas.
-   - Transform this frame into a Component.
+
+- Draw a frame in your Figma canvas.
+- Transform this frame into a Component.
 
 #### 2. **Configure in Uno Plugin**
-   - Open the Uno Figma Plugin.
-   - Navigate to the *Properties Tab*.
+
+- Open the Uno Figma Plugin.
+- Navigate to the *Properties Tab*.
 
 #### 3. **Enable Custom Component**
-   - With your Component selected, activate the *Custom Component* toggle.
+
+- With your Component selected, activate the *Custom Component* toggle.
 
 #### 4. **Specify Control Details**
-   - Fill in the details as per your custom control's specifications. This ensures accurate space reservation and integration.
+
+- Fill in the details as per your custom control's specifications. This ensures accurate space reservation and integration.
 
    ![Setting Up Custom Component](assets/custom-component.png)
 

@@ -4,7 +4,8 @@ uid: Uno.Figma.Components.BottomBar
 
 # Bottom Bar
 
-> **Note:**  **Bottom Bar** is only ornamental, it will not affect the plugin at all.
+> [!NOTE]
+> **Bottom Bar** is only ornamental, it will not affect the plugin at all.
 
 ![bottombar](./images/bottombar.png)
 

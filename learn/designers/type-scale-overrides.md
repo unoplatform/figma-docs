@@ -3,7 +3,6 @@ uid: Uno.Figma.Learn.Designers.TypeScaleOverrides
 ---
 
 # How to Override Type Sizing
-**Advanced Feature**
 
 ## Overview
 
@@ -22,7 +21,7 @@ Modifying Type Styles can significantly impact your design, so it's crucial to p
 
 ![Type Style Overrides](assets/TypeStyleOverrides.png)
 
-> [!NOTE] 
+> [!NOTE]
 > Overrides for line height and character spacing are not currently supported when generating code from Figma.
 
 ## Components Without Support for Text Style Override

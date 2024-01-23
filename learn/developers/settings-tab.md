@@ -22,20 +22,20 @@ At the top of the Settings tab, you can find version details of different compon
 
 #### Preview Settings
 
-- **Auto Sync**: Automatically updates the Preview tab when a new selection is made in Figma. 
+- **Auto Sync**: Automatically updates the Preview tab when a new selection is made in Figma.
   > [!CAUTION]
   > This feature is resource-intensive.
-- **Extract Image**: Extract images from Figma to show in the preview. When disabled it will generate placeholders. Images are not in exported XAML. 
+- **Extract Image**: Extract images from Figma to show in the preview. When disabled it will generate placeholders. Images are not in exported XAML.
 
 #### General Settings
 
 - **Bindings**: Toggles the generation of bindings in the exported XAML.
 - **Localization**: Determines the inclusion of `x:Uid` in the exported XAML.
-- **Accessibility**: Decides whether _AutomationPeer_ properties appear in the exported XAML.
+- **Accessibility**: Decides whether *AutomationPeer* properties appear in the exported XAML.
 - **Layout Optimizer**: Activates the layout optimizer.
 
   > [!NOTE]
-  > Except for _Bindings_, these settings do not affect the preview-generated XAML but are applied in the exported version.
+  > Except for *Bindings*, these settings do not affect the preview-generated XAML but are applied in the exported version.
 
 #### Extensions Settings
 

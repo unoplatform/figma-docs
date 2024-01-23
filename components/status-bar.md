@@ -4,7 +4,8 @@ uid: Uno.Figma.Components.StatusBar
 
 # Status Bar
 
-> **Note:**  **Status Bar** is only ornamental, but it will generate metadata appearing when exporting the XAML. Only the background color can be modified  via the Selection colors option.
+> [!NOTE]
+> **Status Bar** is only ornamental, but it will generate metadata appearing when exporting the XAML. Only the background color can be modified via the Selection colors option.
 
 ![statusbar](./images/statusbar.png)
 

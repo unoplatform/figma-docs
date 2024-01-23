@@ -21,7 +21,7 @@ By the end of this guide, you will have a solid understanding of how to create a
 4. In the Properties section, select the desired color.
 5. Click "Create style" to save your Custom Color.
 
- ![](assets/custom-colors/unthemed-color.png)
+ ![unthemed custom color](assets/custom-colors/unthemed-color.png)
 
 ### Themed (Dark/Light) Custom Color
 
@@ -33,7 +33,7 @@ By the end of this guide, you will have a solid understanding of how to create a
 6. Click "Create style" to save your Custom Color.
 7. Repeat the process for the Dark theme.
 
- ![](assets/custom-colors/theme-color.png)
+ ![themed custom color](assets/custom-colors/theme-color.png)
 
 ### How to apply your color
 
@@ -41,7 +41,7 @@ By the end of this guide, you will have a solid understanding of how to create a
 2. After selecting the element, open the right panel and click on the currently selected color to reveal a list.
 3. Find your Custom Color and select it.
 
- ![](assets/custom-colors/apply-color.png)
+ ![apply custom color](assets/custom-colors/apply-color.png)
 
 ### Exporting the colors
 
@@ -50,10 +50,10 @@ By the end of this guide, you will have a solid understanding of how to create a
 3. Go to the Export tab and find the dropdown menu located in the top left corner.
 4. Select "Colors Override File".
 
- ![](assets/custom-colors/export-color.png)
+ ![export custom color](assets/custom-colors/export-color.png)
 
 > [!NOTE]
 > If you created an Unthemed Custom Color, your color will appear at the end of the file. If you created a Themed (Dark/Light) Custom Color, you will find them in the respective theme section.
-
+>
 > [!NOTE]
 > In order for the Custom Color to function correctly, a `SolidColorBrush` will also be generated at the end of the file. This brush serves as the reference for the custom color and allows it to be applied to the relevant UI elements. Therefore, it is essential to ensure that a SolidColorBrush is included in the file along with the Custom Color definition.

@@ -61,5 +61,4 @@ The plugin allows the choice between Xaml and C# Markup formats for the exported
 ![](assets/export.png)
 
 > [!WARNING]
->
 > The Export features are fully functional only if the document is created by duplicating the [Uno Toolkit](../designers/starting-new-design.md) document.

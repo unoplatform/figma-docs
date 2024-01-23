@@ -4,7 +4,8 @@ uid: Uno.Figma.Components.TextBox
 
 # TextBox
 
-> **Note:** The **TrailingIcon** of the TextBox will always be the "X" icon whether or not it is changed in Figma.
+> [!NOTE]
+> The **TrailingIcon** of the TextBox will always be the "X" icon whether or not it is changed in Figma.
 
 ![textbox](./images/textbox.png)
 
@@ -27,6 +28,6 @@ uid: Uno.Figma.Components.TextBox
 | Input Text         | `True/False`                             | Show or hide input text content                           |
 | Trailing           | `True/False`                             | Swap visibility of a clear icon. Doesn't affect Plugin    |
 
-### Extra Customization
+## Extra Customization
 
-> To reach the extra customization features you will need to work your way through the hierarchy of the component to find the specified sub-components.  
+To reach the extra customization features, you will need to work your way through the hierarchy of the component to find the specified sub-components.

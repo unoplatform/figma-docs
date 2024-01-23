@@ -7,14 +7,14 @@ uid: Uno.Figma.Learn.Developers.Tabs.DevTools
 ## Using the Dev Tools Tab
 
 > [!NOTE]
-> To access this tab the option `Development` in the Settings tab must be enabled;
+> To access this tab, the option `Development` in the Settings tab must be enabled;
 
 The Dev Tools tab allows you to edit and troubleshoot the design before handoff to developers.
 
-The left-top dropdown allows you to alternate among `Xaml Preview`, `Global Resources` and `Json File`. Contextual controls at the bottom of the tab allow you to: render changes and copy the Xaml code to the pasteboard (these control are only avaiable on the Xaml Preview selection);
+The left-top dropdown allows you to alternate among `Xaml Preview`, `Global Resources`, and `Json File`. Contextual controls at the bottom of the tab allow you to: render changes and copy the Xaml code to the pasteboard (these control are only available on the Xaml Preview selection);
 
 > [!NOTE]
-> Proper generation depends on usage of the proper templates and components, please read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
+> Proper generation depends on usage of the proper templates and components. Please, read the [New design guidelines](../designers/starting-new-design.md) before starting a new project;
 
 ### Steps to Use Export Tab
 

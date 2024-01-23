@@ -9,6 +9,7 @@ This section will guide you through the process of setting you up to use Figma a
 Those steps will use the web version of Figma. The plugin is also available in the desktop version of Figma and the steps are pretty similar.
 
 ## Figma Plugin
+
 Let's start by making sure you have a working Figma environment.
 
 1. Navigate to [Figma web site](https://figma.com/)
@@ -24,7 +25,8 @@ Let's start by making sure you have a working Figma environment.
 7. Your Figma is now ready to start generating code
 
 > [!NOTE]
-> There is many ways to launch the plugin. If the provided method doesn't work for you, you can also:
+> There are many ways to launch the plugin. If the provided method doesn't work for you, you can also:
+>
 > * Press <kbd>shift</kbd>+<kbd>d</kbd> to toggle between _developer mode_ and _design mode_
 > * In Design mode: use the _plugin_ menu in the toolbar and search for _Uno Platform_
 >

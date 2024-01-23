@@ -33,7 +33,7 @@ Item count: 1, 2, 3, 4, 5
 
 Scrollable or Fixed
 
-#### TabBarItem
+## TabBarItem
 
 Text: True or False
 Icon: Top, Only, Side, None
