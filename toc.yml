@@ -127,6 +127,9 @@
       #  - name: Dev Tools
       #    href: learn/developers/devtools-tab.md
 
+    - name: Subscription Plan
+      href: xref:Uno.Figma.Overview.Subscription
+
     - name: FAQ
       href: xref:Uno.Figma.Overview.FAQ
 
