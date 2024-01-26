@@ -1,16 +1,13 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
-  <PropertyGroup>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-  </PropertyGroup>
-  <ItemGroup>
-    <Documentation Include="**/*.md" />
-    <Documentation Include="**/*.png" />
-    <Documentation Include="**/*.gif" />
-    <Documentation Include="**/*.svg" />
-    <Documentation Include="toc.yml" />
-  </ItemGroup>
+    <PropertyGroup>
+        <FileUpgradeFlags />
+        <UpgradeBackupLocation />
+    </PropertyGroup>
+    <ItemGroup>
+        <Documentation Include="**/*.md" />
+        <Documentation Include="**/*.png" />
+        <Documentation Include="**/*.gif" />
+        <Documentation Include="**/*.svg" />
+        <Documentation Include="toc.yml" />
+    </ItemGroup>
 </Project>
