@@ -31,6 +31,8 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 #### Content Field and Binding
 
 - Format for binding: `{BindingExpression}`. Example: `{Name}` in a Text Element translates to `<TextBlock Text="{Binding Name}" />` in XAML.
+Binding Expressions will reference data located in [DataContext Tab](datacontext-tab.md). 
+Please, refer to [Bindings](bindings.md) to have more details about how Content Expressions work in the plugin.
 
 #### Mode Selection
 
