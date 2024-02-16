@@ -31,3 +31,7 @@ The settings will give more C# Markup generation options.
 Yes, it is possible to reference your own controls in the generated code. You will need to create [Custom Components](xref:Uno.Figma.Learn.Developers.CustomComponents) and you will be able to use and reuse them at will in your designs.
 
 The previewer won't be able to render them, but the generated code will be correct and will compile. A placeholder will be rendered in the previewer.
+
+## How the plugin handles data and privacity?
+
+Your Privacy Matters! Take a moment to explore plugin's [Data Policy](../overview/data-policy.md) for detailed information on how plugin safeguards and handles your data.

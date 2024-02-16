@@ -132,6 +132,9 @@
 
     - name: FAQ
       href: xref:Uno.Figma.Overview.FAQ
+    
+    - name: Data Policy
+      href: xref:Uno.Figma.Overview.DataPolicy
 
 - name: Reference
   items:
