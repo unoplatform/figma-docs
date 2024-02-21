@@ -32,6 +32,18 @@ Yes, it is possible to reference your own controls in the generated code. You wi
 
 The previewer won't be able to render them, but the generated code will be correct and will compile. A placeholder will be rendered in the previewer.
 
-## How the plugin handles data and privacity?
+## What is the difference between the free and paid (Pro) version of Uno Platform for Figma plugin?
+
+All features available at the Pro/paid license are available in the free license. Only the number of screen exports is capped at 15 per month for the free version. Once that threshold is hit, you have the option to upgrade to a Pro license, which unlocks an unlimited number of exports and updates. Alternatively, you can also wait for next month’s free allocation of 15 free screens to kick in as well if you are not ready to go for the paid version.
+
+In addition, Pro version subscribers get access to Premium support, accessible via "Settings" tab of the plugin. 
+
+## How do I get help with Uno Platform for Figma plugin?
+
+If you are using the free version you can access our community support at [DIscord](https://platform.uno/uno-discord)
+
+Pro version subscribers get access to Premium support via "Settings" tab of the plugin. 
+
+## How the plugin handles data and privacy?
 
 Your Privacy Matters! Take a moment to explore plugin's [Data Policy](../overview/data-policy.md) for detailed information on how plugin safeguards and handles your data.
