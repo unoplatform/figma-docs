@@ -47,3 +47,10 @@ Pro version subscribers get access to Premium support via "Settings" tab of the 
 ## How the plugin handles data and privacy?
 
 Your Privacy Matters! Take a moment to explore plugin's [Data Policy](../overview/data-policy.md) for detailed information on how plugin safeguards and handles your data.
+
+## I received two email confirmations for my Uno Platform for Figma plugin purchase. Am I billed twice?
+
+No. You have not been billed twice. The purchase process is currently faciliated via Figma marketplace and Stripe, so this process is outside of our control. 
+Stripe sends an invoice and a purchase receipt, and usually they send that email twice; this isn't an indicator of a double charge (hence why the receipt and invoices you get twice are the same id). You can double check your bank statement to confirm there is no double charge.
+
+
