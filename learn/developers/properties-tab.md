@@ -12,7 +12,8 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 
 #### Application
 
-- **Namespaces Configuration**: Set application, views, and styles sub-namespaces.
+- **Namespaces Configuration**: Set application, views, and styles sub-namespaces. You can prevent the reformatting to PascalCase by prefixing it with '@'.
+  Example: `myNamespace` will become `MyNamespace`, but `@myNamespace` will remain `myNamespace`.
 - **Theme Customization**: Import and override theme packages. (See [DSP Import](../designers/dsp-import.md))
 
 #### Selection (current selection)
@@ -31,7 +32,7 @@ The Properties tab in the Uno Figma Plugin is a crucial feature for developers, 
 #### Content Field and Binding
 
 - Format for binding: `{BindingExpression}`. Example: `{Name}` in a Text Element translates to `<TextBlock Text="{Binding Name}" />` in XAML.
-Binding Expressions will reference data located in [DataContext Tab](datacontext-tab.md). 
+Binding Expressions will reference data located in [DataContext Tab](datacontext-tab.md).
 Please, refer to [Bindings](bindings.md) to have more details about how Content Expressions work in the plugin.
 
 #### Mode Selection
