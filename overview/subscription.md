@@ -13,7 +13,7 @@ To better understand the distinctions between the free and paid versions, consid
 ### Free Version:
 
 - Access to all features of the plugin.
-- Code export limited to 15 times per month.
+- Code export limited to 10 times per month.
 - Community support
 
 ### Paid Version:
