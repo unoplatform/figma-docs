@@ -34,7 +34,7 @@ dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromF
 5. Fill the project name (name it `MyFirstAppFromFigma` to fit the rest of this tutorial)
 6. Click _Create_
 7. The _Uno Platform Template Wizard_ will open
-8. Select the _Blank_ template and click _Customize_
+8. Select the _Blank_ template preset
 9. Go in the _Theme_ section and select _Material_
 10. Go in the _Features_ section and select _Toolkit_
 11. Click _Create_
@@ -48,7 +48,9 @@ Following steps will use Visual Studio, but any other IDE should work as well wi
 ## Step 1 - Open the solution, compile and run it
 
 1. Open the generated `MyFirstAppFromFigma.sln` solution in your favorite IDE.
-2. In the top toolbar, select the platform you like as your startup project (following screenshots will use `MyFirstAppFromFigma.Windows`).
+2. In the **Debug toolbar**, select your preferred platform as the startup project. For more detailed instructions specific to each platform, refer to the [Debug the App](xref:Uno.GettingStarted.CreateAnApp.VS2022#debug-the-app) documentation.
+
+    ![selecting a startup platform](assets/select-platform.png)
 3. Press F5 to run the app and ensure it builds correctly.
 4. Locate the page `MainPage.xaml` in the `MyFirstAppFromFigma` library project.
 5. Compile the project to ensure it builds correctly.
@@ -72,6 +74,21 @@ Following steps will use Visual Studio, but any other IDE should work as well wi
 1. Go back to your IDE (Visual Studio in this example)
 2. Replace the content of the `MainPage.xaml` file with the generated XAML, from the clipboard
 3. Press F5 to run the app
+
+## Additional notes
+Here is another example in this video, demonstrating the use of Figma Plugin Generated C# Markup in an Uno Platform project:
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/rV4TClFB6iM?si=1NFaViFd7h4w6Tzh"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+For additional content, explore our [Uno Platform for Figma Plugin - Get Started Series] (https://www.youtube.com/playlist?list=PLl_OlDcUya9qcdp4SYlEdccD7tIYgb1re).
 
 ## Next steps
 
