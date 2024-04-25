@@ -13,12 +13,12 @@ Those steps will use the web version of Figma. The plugin is also available in t
 Let's start by making sure you have a working Figma environment.
 
 1. Navigate to [Figma web site](https://figma.com/)
-2. Sign-in or [create a new account](https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account) if you don't have one already
+2. Sign-in or [create a new account](https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account) if you don't have one already. A free account is all you need to get started.
 3. Navigate to the [Uno Figma Plugin page](https://aka.platform.uno/uno-figma-plugin)
 4. Click on the _Open in..._ button and pick `+ Playground file` option to create a new copy of the _Uno Material Toolkit_ document
 
    ![Creating a new document from the Plugin](assets/new-document-from-plugin.png)
-5. Figma should launch be default in _developer mode_ (see below if it doesn't)
+5. Figma is set to launch in _developer mode_ by default. This feature is not available with a free account. For more information, see the note on *Design mode* below.
 6. Click on the _Run_ button to launch the plugin
 
    ![Launching the plugin](assets/launch-plugin-devmode.png)

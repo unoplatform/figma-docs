@@ -19,7 +19,7 @@ This section will guide you through the process of generating UI code (XAML or C
 
    ![Launching the plugin by right-clicking on a frame](assets/launch-plugin-right-click.png)
 
-   ... the plugin should launch in the side panel.
+   ... the plugin should launch in the side panel or a module window.
    > [!NOTE]
    > This step assumes the plugin has been closed. If already opened, just select the _01. Login_ frame and continue to the next step.
 

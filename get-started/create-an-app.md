@@ -15,14 +15,14 @@ Creating a new project using the Uno Platform requires a developer environment t
 
 ## Create a project
 
-This simple tutorial will create a new project using the `unoapp` template. It's using the blank template augmented with Uno Material and Uno Toolkit using the XAML UI language.
+This simple tutorial will create a new project using the `unoapp` template. It uses the blank template augmented with Uno Material, Uno Toolkit, MVUX, and Navigation using the XAML UI language.
 
 ### [dotnet new](#tab/dotnet-cli)
 
 Run the following command in a terminal to create a new project:
 
 ```dotnetcli
-dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromFigma
+dotnet new unoapp -preset blank -theme "material" -presentation "mvux" -di -nav "regions" -toolkit true -o MyFirstAppFromFigma
 ```
 
 ### [Visual Studio](#tab/visual-studio)
@@ -35,9 +35,11 @@ dotnet new unoapp -preset blank -toolkit true -theme material -o MyFirstAppFromF
 6. Click _Create_
 7. The _Uno Platform Template Wizard_ will open
 8. Select the _Blank_ template preset
-9. Go in the _Theme_ section and select _Material_
-10. Go in the _Features_ section and select _Toolkit_
-11. Click _Create_
+9. Go in the _Presentation_ section and select _MVUX_
+10. Go in the _Theme_ section and select _Material_
+11. Go in the _Extensions_ section and select _Dependency Injection_ and _Regions_ under Navigation
+12. Go in the _Features_ section and select _Toolkit_
+13. Click _Create_
 
 ![Creating a new project in Visual Studio](assets/vs-create-project.gif)
 
@@ -52,7 +54,7 @@ Following steps will use Visual Studio, but any other IDE should work as well wi
 
     ![selecting a startup platform](assets/select-platform.png)
 3. Press F5 to run the app and ensure it builds correctly.
-4. Locate the page `MainPage.xaml` in the `MyFirstAppFromFigma` library project.
+4. Locate the page `MainPage.xaml` inside the `Presentation` folder in the `MyFirstAppFromFigma` library project.
 5. Compile the project to ensure it builds correctly.
 6. Switch to Figma (next section).
 
@@ -64,10 +66,11 @@ Following steps will use Visual Studio, but any other IDE should work as well wi
 4. In the plugin, navigate to the _Properties_ tab
 5. In the _Page Name_ field, write `MainPage`
 6. Navigate to the _Application_ subtab
-7. In the _Application Name_ field, write `MyFirstAppFromFigma`
-8. Go back to the _Export_ tab
-9. Click on the _Refresh_ button
-10. Now click on the _Copy_ button to copy the generated XAML to the clipboard
+7. In the _Application Namespace_ field, write `MyFirstAppFromFigma`
+8. In the _Views Sub Namespace_ field, write `Presentation`
+9. Go back to the _Export_ tab
+10. Click on the _Refresh_ button
+11. Now click on the _Copy_ button to copy the generated XAML to the clipboard
 
 ## Step 3 - Paste the generated XAML into app project
 
