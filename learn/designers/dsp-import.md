@@ -7,7 +7,7 @@ uid: Uno.Figma.Learn.Designers.Dsp
 Supports Uno DSP files from the web version of the Material Theme Builder.
 
 ## What is Uno DSP, and Why Use It?
-Uno DSP (Design System Package) is an "*open-format folder-structure created to help teams share design system information across tools.*"
+Uno DSP is an "*open-format created to help teams share design system information across tools.*"
 
 The Uno plugin for Figma allows you to import a DSP file generated from the online version of the [Material Theme Builder](https://aka.platform.uno/uno-material-themebuilder). This provides a shortcut to exploring and applying different color themes for your app design. Once imported into the Uno Figma Toolkit, all its components will update to follow your new color theme, saving you time and effort.
 
