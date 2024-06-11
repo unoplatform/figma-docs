@@ -8,6 +8,8 @@ uid: Uno.Figma.Learn.Designers.PageTemplates
 
 The Uno Toolkit provides useful templates with proper layer structures to generate XAML and preview designs through the Uno plugin.
 
+[!Video https://www.youtube-nocookie.com/embed/rp5XIYTZDx0]
+
 ### General Guidelines
 
 - Page instances **must always be detached** from their *Main Components*.
