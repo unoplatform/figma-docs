@@ -10,7 +10,7 @@ uid: Uno.Figma.GetStarted
 
 Designers can use the highly collaborative Figma environment to create and fine-tune the User Experience (UX) while putting in place building blocks of an application following the Material Design language provided as part of Uno Platform Material Toolkit. Then, by Using the [Uno Platform Figma Plugin](download.md), it is possible to visualize how the application will render, as well as to export actual XAML or C# Markup for use in IDEs such as Visual Studio or VS Code. The application built in this way is also ready for localization, ready for accessibility, and can make use of [Uno Extensions](https://aka.platform.uno/uno-extensions) (Reactive, Navigation, etc).
 
-[!Video https://www.youtube-nocookie.com/embed/v=jzYYQ3ERbSE]
+[!Video https://www.youtube-nocookie.com/embed/jzYYQ3ERbSE]
 
 ## Setup
 
