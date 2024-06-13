@@ -4,6 +4,8 @@ uid: Uno.Figma.Learn.Designers.Colors
 
 # Colors in Uno Figma Platform Material Toolkit (UFPMT)
 
+> [!Video https://www.youtube-nocookie.com/embed/MWI3lPD5M2k]
+
 ## Mastering Color Styles in UFPMT
 
 ### Introduction to Semantic Color Styles

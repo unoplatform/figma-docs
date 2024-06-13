@@ -4,6 +4,8 @@ uid: Uno.Figma.Learn.Designers.CustomColors
 
 # Using Custom Colors
 
+> [!Video https://www.youtube-nocookie.com/embed/2QqEG9A3dEs]
+
 ## What are Custom Color Styles, and Why Use Them?
 
 Custom colors allow you to add Color Styles to those already provided by the Uno Figma Material Toolkit. This added functionality can be used to:
